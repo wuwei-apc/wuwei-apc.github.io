@@ -45,8 +45,8 @@ global:
     # Chinese fonts
     chinese: 
       enable: true # Whether to enable custom chinese font
-      family:   sans-serif # Font family
-      url:  # Font URL to CSS file
+      family: Noto Sans SC # Font family
+      url: https://fonts.googleapis.com/css?family=Noto+Sans+SC # Font URL to CSS file
     # English fonts
     english: 
       enable: false # Whether to enable custom chinese font
@@ -310,11 +310,21 @@ comment:
     #   serverUrl: https://eir8cirh.lc-cn-e1-shared.com # Waline server URL. e.g. https://example.example.com
     #   lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
     # # Gitalk comment system. See https://github.com/gitalk/gitalk
+#    gitalk:
+#      clientID: 7351c9172e01a626f283 # GitHub Application Client ID
+#      clientSecret: d1517e0926833ab4d1ec7489ca4ea872fc692809 # GitHub Application Client Secret
+#      repo:  gitalk # GitHub repository
+#      owner: wuwei-apc # GitHub repository owner
     gitalk:
-      clientID: 10f95076503ba22ea1d7 # GitHub Application Client ID
-      clientSecret: 68902b862c2e050de56772f70df7ac7dd4a88a4c # GitHub Application Client Secret
-      repo:  gitalk # GitHub repository
+      clientID: efd586433242b73f7a82 # GitHub Application Client ID
+      clientSecret: 9301224df874ae5ee903a329fe7f3ad605dca187 # GitHub Application Client Secret
+      repo: gitalk # GitHub repository
       owner: wuwei-apc # GitHub repository owner
+#    gitalk:
+#      clientID: 10f95076503ba22ea1d7 # GitHub Application Client ID
+#      clientSecret: 68902b862c2e050de56772f70df7ac7dd4a88a4c # GitHub Application Client Secret
+#      repo:  gitalk # GitHub repository
+#      owner: wuwei-apc # GitHub repository owner
     # Twikoo comment system. See https://twikoo.js.org/
     # twikoo:
     #   version: 1.6.10 # Twikoo version, do not modify if you dont know what it is
@@ -328,16 +338,16 @@ footer:
   # Show website running time
   runtime: true # show website running time or not
   # Icon in footer, write fontawesome icon code here
-  icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
+  icon: '<i class="fa-solid fa-compact-disc fa-spin" style="--fa-animation-duration: 10s; --fa-animation-iteration-count: 1;"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2023/5/13 24:21:14
+  start: 2022/5/13 24:21:14
   # Footer message
-  customize:
+  customize:  你说的对，但是《原神》是由米哈游自主研发的一款全新开放世界冒险游戏。
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
-    enable: false # Whether to enable
-    number: # ICP record number
-    url: # ICP record url
+    enable: true # Whether to enable
+    number: 滇ICP备2022003705号-1 # ICP record number
+    url: https://beian.miit.gov.cn/#/Integrated/recordQuery # ICP record url
 # FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
