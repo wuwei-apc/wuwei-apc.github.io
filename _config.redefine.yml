@@ -320,6 +320,7 @@ comment:
       clientSecret: 9301224df874ae5ee903a329fe7f3ad605dca187 # GitHub Application Client Secret
       repo: gitalk # GitHub repository
       owner: wuwei-apc # GitHub repository owner
+
 #    gitalk:
 #      clientID: 10f95076503ba22ea1d7 # GitHub Application Client ID
 #      clientSecret: 68902b862c2e050de56772f70df7ac7dd4a88a4c # GitHub Application Client Secret
