@@ -102,7 +102,9 @@ theme: redefine
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@www.zpcnet.top:/root/mysite/repo/blog.git
+  branch: master'
 #公式配置
 mathjax:
   tags: none               # or 'ams' or 'all'
