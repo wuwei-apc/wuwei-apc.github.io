@@ -93,6 +93,30 @@
   </entry>
   <entry>
     <title></title>
+    <url>/2023/08/23/Git%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h1 id="Git使用"><a href="#Git使用" class="headerlink" title="Git使用"></a>Git使用</h1><blockquote>
+<p>Git 介绍： 分布式版本控制工具 VS 集中式版本控制工具</p>
+</blockquote>
+<blockquote>
+<p><a class="link"   href="https://git-scm.com/" >官网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>简介:</p>
+<p>Git 是一个免费的开源分布式版本控制系统，旨在快速高效地处理从小型到超大型项目的所有内容。</p>
+<p>Git 易于学习，占用空间很小，性能快如闪电。它超越了Subversion，CVS，Perforce和ClearCase等SCM工具，具有廉价的本地分支，方便的暂存区域和多个工作流程等功能。</p>
+</blockquote>
+<h2 id="1-Git工作机制"><a href="#1-Git工作机制" class="headerlink" title="1.Git工作机制"></a>1.Git工作机制</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="Git/Untitled.png"
+                      alt="Untitled"
+                ></p>
+<p><a class="link"   href="https://www.notion.so/Git-08980b18fd7f4907b3da10f0f2f907e0?pvs=21" >Git安装  <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://www.notion.so/Git-d4aada234b0840efb254c2cfcd73e658?pvs=21" >Git命令 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://www.notion.so/Git-6e7acfb163244aa99b75578de7918067?pvs=21" >Git分支 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://www.notion.so/Git-4596fdbffed944db99b7edf73d663e01?pvs=21" >Git在集成开发环境中的使用 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><strong>commit 信息分类标准<br>feat：新功能（feature）<br>fix：修补bug<br>docs：文档（documentation）<br>style： 格式（不影响代码运行的变动）<br>refactor：重构（即不是新增功能，也不是修改bug的代码变动）<br>test：增加测试<br>chore：构建过程或辅助工具的变动</strong></p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
     <url>/2023/08/23/test/</url>
     <content><![CDATA[<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"> * @Author: Zhu PengCai 2827985512@qq.com</span><br><span class="line"> * @Date: 2023-08-23 11:21:09</span><br><span class="line"> * @LastEditors: Zhu PengCai 2827985512@qq.com</span><br><span class="line"> * @LastEditTime: 2023-08-23 11:21:10</span><br><span class="line"> * @FilePath: \wuwei-apc.github.io\source\_posts\test.md</span><br><span class="line"> * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE</span><br><span class="line">--&gt;</span><br></pre></td></tr></table></figure></div>
 <h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2>]]></content>
