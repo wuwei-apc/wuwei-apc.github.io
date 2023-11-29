@@ -302,7 +302,7 @@ comment:
   # Whether to enable comment
   enable: true
   # Comment system
-  system: gitalk # waline, gitalk, twikoo
+  system:  waline # waline, gitalk, twikoo
   # System configuration
   config:
      waline:
