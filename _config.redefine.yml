@@ -351,7 +351,7 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-compact-disc fa-spin" style="--fa-animation-duration: 10s; --fa-animation-iteration-count: 1;"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2022/05/13 23:21:14
   # Footer message
   customize:  你说的对，但是《原神》是由米哈游自主研发的一款全新开放世界冒险游戏。
   # ICP record number. See https://beian.miit.gov.cn/
