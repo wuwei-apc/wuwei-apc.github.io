@@ -1,4 +1,4 @@
-                                       <center><h2>Vue3 Element-plus配置</h2></center>
+## Vue3 Element-plus配置                                   
 
 ### 一、npm 安装element-plus
 
