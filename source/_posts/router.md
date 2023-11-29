@@ -18,7 +18,7 @@ categories: vue-router
 
 ####      2.创建index.js输入以下代码基本配置
 
-~~~js
+```js
 
  import { createRouter, createWebHashHistory } from 'vue-router'
  
@@ -28,7 +28,7 @@ categories: vue-router
      //...
    ],
  })
-~~~
+```
 
 
 
