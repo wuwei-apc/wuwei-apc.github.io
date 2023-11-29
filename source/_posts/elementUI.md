@@ -1,4 +1,11 @@
-## Vue3 Element-plus配置                                   
+---
+title: Vue3 Element-plus配置    
+date: 2023-11-29
+tags: 前端
+categories: Element-plus
+---
+
+##                                
 
 ### 一、npm 安装element-plus
 

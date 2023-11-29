@@ -1,4 +1,9 @@
-<center><h2>vue3cli axios配置</h2></center>
+---
+title: vue3cli axios配置
+date: 2023-11-29 
+tags: 前端
+categories: axios
+---
 
 ### 一、npm 安装axios
 
