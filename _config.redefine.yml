@@ -331,11 +331,11 @@ comment:
 
 #####################################################
 # githubpage configuration
-   gitalk:
-     clientID: 10f95076503ba22ea1d7 # GitHub Application Client ID
-     clientSecret: 68902b862c2e050de56772f70df7ac7dd4a88a4c # GitHub Application Client Secret
-     repo:  gitalk # GitHub repository
-     owner: wuwei-apc # GitHub repository owner
+  #  gitalk:
+  #    clientID: 10f95076503ba22ea1d7 # GitHub Application Client ID
+  #    clientSecret: 68902b862c2e050de56772f70df7ac7dd4a88a4c # GitHub Application Client Secret
+  #    repo:  gitalk # GitHub repository
+  #    owner: wuwei-apc # GitHub repository owner
     # Twikoo comment system. See https://twikoo.js.org/
     # twikoo:
     #   version: 1.6.10 # Twikoo version, do not modify if you dont know what it is
