@@ -306,7 +306,7 @@ comment:
   # System configuration
   config:
      waline:
-      serverUrl: https://blogtalk.myzpcblog.eu.org/
+      serverUrl: https://blogtalk.myzpcblog.eu.org
     # Waline comment system. See https://waline.js.org/
     # waline:
     #   serverUrl: https://eir8cirh.lc-cn-e1-shared.com # Waline server URL. e.g. https://example.example.com
