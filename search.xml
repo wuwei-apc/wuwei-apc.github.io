@@ -14,7 +14,7 @@
 <h2 id="1-Git工作机制"><a href="#1-Git工作机制" class="headerlink" title="1.Git工作机制"></a>1.Git工作机制</h2><p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="Git/Untitled.png"
+                     data-src="/images/Untitled.png"
                       alt="Untitled"
                 ></p>
 <p><a class="link"   href="https://www.notion.so/Git-08980b18fd7f4907b3da10f0f2f907e0?pvs=21" >Git安装  <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
@@ -164,7 +164,7 @@
       </tags>
   </entry>
   <entry>
-    <title>文章标题</title>
+    <title>测试标题</title>
     <url>/2023/11/30/TestPassword/</url>
     <content><![CDATA[
 <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
