@@ -163,4 +163,21 @@
         <tag>部署</tag>
       </tags>
   </entry>
+  <entry>
+    <title>文章标题</title>
+    <url>/2023/11/30/TestPassword/</url>
+    <content><![CDATA[
+<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="fd7c5063d20112c13993edc5dca195e9492ec3e8666f2c178abd1b4f19a6304a">10d79030e8222445804370796b90fca1b3149e2c2a0f36d6b4ea04e548758c21cd7447833982faf0111264289de5b70bac870a12947906b3e29778f77233a1129c5f793b9c99f3b9e696a32c84188d8ba539891684bc128f5f9043d863de5d6df09799ac78c7ef7d21658e6b1a3173dded270d92d896ad43759431be6b65624420b78d89a61c00bacd004afa2f62ca4a</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-swup-reload-script src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
 </search>
