@@ -10,29 +10,29 @@
 # BASIC INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 info:
   # Site title
-  title: 学习交流网站
+  title: 学习博客网站
   # Author name
-  author: PENGCAI ZHU
+  author: PENGCAI ZHU(zpc)
   # Site URL
-  url: https://redefine.ohevan.com
+  url: https://zpcnet.top
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
 # IMAGE CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 defaults:
   # Favicon
-  favicon: /images/redefine-favicon.svg
+  favicon: /images/blog.png
   # Site logo
-  logo: 
+  logo: /images/blog.png
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: /images/bg.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
 # COLORS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 colors:
   #Primary color
-  primary: "#A31F34"
+  primary: "#4dabf7"
   # Secondary color (beta)
   secondary: 
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -46,20 +46,20 @@ global:
     chinese: 
       enable: true # Whether to enable custom chinese font
       family: Noto Sans SC # Font family
-      url: https://fonts.googleapis.com/css?family=Noto+Sans+SC # Font URL to CSS file
+      url: https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap # Font URL to CSS file
     # English fonts
-    english: 
-      enable: false # Whether to enable custom chinese font
-      family:  Georgia # Font family
-      url:  # Font URL to CSS file
+    # english: 
+    #   enable: false # Whether to enable custom chinese font
+    #   family:  Georgia # Font family
+    #   url:  # Font URL to CSS file
   # Content max width
-  content_max_width: 1000px
+  content_max_width: 1500px
   # Sidebar width
-  sidebar_width: 210px
+  sidebar_width: 280px
   # Effects on mouse hover
   hover:
     shadow: true # shadow effect
-    scale: false # scale effect
+    scale: true # scale effect
   # Scroll progress
   scroll_progress:
     bar: false # progress bar
@@ -103,9 +103,9 @@ home_banner:
   # Home banner image
   image: 
     light: /images/wallhaven-wqery6-light.webp # light mode
-    dark: /images/wallhaven-wqery6-dark.webp # dark mode
+    dark: /images/wallhaven-wqery6-light.webp # dark mode
   # Home banner title
-  title: 学习网站
+  title: 博客网站
   # Home banner subtitle
   subtitle:
     text: ["python","java","计算机知识"] # subtitle text, array
@@ -121,13 +121,13 @@ home_banner:
   # Color of home banner text
   text_color: 
     light: "#87CEFA" # light mode
-    dark: "#008B8B" # dark mode
+    dark: "#339af0" # dark mode
   # Specific style of the text
   text_style: 
     # Title font size
-    title_size: 4rem
+    title_size: 5rem
     # Subtitle font size
-    subtitle_size: 1.5rem
+    subtitle_size: 2.0rem
     # Line height between title and subtitle
     line_height: 1.3
   # Home banner custom font
@@ -135,9 +135,9 @@ home_banner:
     # Whether to enable custom font
     enable: false
     # Font family
-    family: 
+    family: Noto Sans SC
     # URL to font CSS file
-    url:
+    url: https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap
   # Home banner social links
   social_links:
     # Whether to enable
@@ -156,10 +156,6 @@ home_banner:
 # NAVIGATION BAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 navbar:
   # Whether to enable navbar
-  tags:
-    Tags: #取名随意
-        icon: fa-solid fa-tags #图标
-        path: /tags/ #链接
   # Auto hide navbar
   auto_hide: false
   # Navbar background color
@@ -218,28 +214,34 @@ home:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
     first_item: menu # First item in sidebar. menu, info
-    announcement: writting some this # Announcement text
+    announcement: 这是我的学习博客 # Announcement text
     links:
-      Archives: 
-        path: /archives 
-        icon: fa-regular fa-archive # can be empty
-      Tags: 
-        path: /tags 
-        icon: fa-regular fa-tags # can be empty
-      Categories: 
-        path: /categories 
-        icon: fa-regular fa-folder # can be empty
+      Tags: #取名随意
+        icon: fa-solid fa-tags #图标
+        path: /tags/ #链接
+      Categories: #取名随意
+        icon: fa-solid fa-folder #图标
+        path: /categories/ #链接
+      # Archives: 
+      #   path: /archives 
+      #   icon: fa-regular fa-archive # can be empty
+      # Tags: 
+      #   path: /tags 
+      #   icon: fa-regular fa-tags # can be empty
+      # Categories: 
+      #   path: /categories 
+      #   icon: fa-regular fa-folder # can be empty
       # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
   # Article categories visibility
   categories:
     enable: true  # Whether to enable
-    limit: 3 # Max number of categories to display
+    limit: 5 # Max number of categories to display
   # Article tags visibility
   tags:
     enable: true  # Whether to enable
-    limit: 3  # Max number of tags to display
+    limit: 5  # Max number of tags to display
 # HOME PAGE ARTICLE SETTINGS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -274,7 +276,7 @@ articles:
   # Table of contents settings
   toc:
     enable: true # Whether to enable TOC
-    max_depth: 3 # TOC depth
+    max_depth: 6 # TOC depth
     number: false # Whether to add number to TOC automatically
     expand: true # Whether to expand TOC
     init_open: true # Open toc by default

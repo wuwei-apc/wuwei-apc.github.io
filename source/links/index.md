@@ -1,5 +1,4 @@
 ---
-title: python learning site
-date: 2023-05-12 22:17:09
-type: links
+title: links
+date: 2023-11-30 00:05:32
 ---
