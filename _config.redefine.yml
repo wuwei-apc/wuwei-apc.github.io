@@ -304,11 +304,12 @@ comment:
   # Whether to enable comment
   enable: true
   # Comment system
-  system:  waline # waline, gitalk, twikoo
+  system: waline # waline, gitalk, twikoo
   # System configuration
   config:
-     waline:
+    waline:
       serverUrl: https://blogtalk.myzpcblog.eu.org
+      lang: zh-CN 
     # Waline comment system. See https://waline.js.org/
     # waline:
     #   serverUrl: https://eir8cirh.lc-cn-e1-shared.com # Waline server URL. e.g. https://example.example.com
@@ -317,11 +318,11 @@ comment:
 
 ############################################################
 # https://zpcnet.top configuration
-#    gitalk:
-#      clientID: 7351c9172e01a626f283 # GitHub Application Client ID
-#      clientSecret: d1517e0926833ab4d1ec7489ca4ea872fc692809 # GitHub Application Client Secret
-#      repo:  gitalk # GitHub repository
-#      owner: wuwei-apc # GitHub repository owner
+    # gitalk:
+    #     clientID: 7351c9172e01a626f283 # GitHub Application Client ID
+    #     clientSecret: d1517e0926833ab4d1ec7489ca4ea872fc692809 # GitHub Application Client Secret
+    #     repo:  gitalk # GitHub repository
+    #     owner: wuwei-apc # GitHub repository owner
 
 ##############################################################################
 # https://hexio.zpcnet.eu.org/ configuration

@@ -20,7 +20,7 @@ categories: Git
 
 ## 1.Git工作机制
 
-![Untitled](Git/Untitled.png)
+![Untitled](/images/Untitled.png)
 
 [Git安装 ](https://www.notion.so/Git-08980b18fd7f4907b3da10f0f2f907e0?pvs=21)
 
