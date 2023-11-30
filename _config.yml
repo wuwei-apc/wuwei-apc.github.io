@@ -13,8 +13,10 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-# 
+# github部署配置
 url: https://wuwei-apc.github.io/
+# 服务器配置
+# url: https://zpcnet.top/
 # 服务器配置目录
 # root: /test/
 permalink: :year/:month/:day/:title/
