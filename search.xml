@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Git使用</title>
+    <url>/test/2023/11/29/Git%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<blockquote>
+<p>Git 介绍： 分布式版本控制工具 VS 集中式版本控制工具</p>
+</blockquote>
+<blockquote>
+<p><a class="link"   href="https://git-scm.com/" >官网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>简介:</p>
+<p>Git 是一个免费的开源分布式版本控制系统，旨在快速高效地处理从小型到超大型项目的所有内容。</p>
+<p>Git 易于学习，占用空间很小，性能快如闪电。它超越了Subversion，CVS，Perforce和ClearCase等SCM工具，具有廉价的本地分支，方便的暂存区域和多个工作流程等功能。</p>
+</blockquote>
+<h2 id="1-Git工作机制"><a href="#1-Git工作机制" class="headerlink" title="1.Git工作机制"></a>1.Git工作机制</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Untitled.png"
+                      alt="Untitled"
+                ></p>
+<p><a class="link"   href="https://www.notion.so/Git-08980b18fd7f4907b3da10f0f2f907e0?pvs=21" >Git安装  <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://www.notion.so/Git-d4aada234b0840efb254c2cfcd73e658?pvs=21" >Git命令 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://www.notion.so/Git-6e7acfb163244aa99b75578de7918067?pvs=21" >Git分支 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://www.notion.so/Git-4596fdbffed944db99b7edf73d663e01?pvs=21" >Git在集成开发环境中的使用 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><strong>commit 信息分类标准<br>feat：新功能（feature）<br>fix：修补bug<br>docs：文档（documentation）<br>style： 格式（不影响代码运行的变动）<br>refactor：重构（即不是新增功能，也不是修改bug的代码变动）<br>test：增加测试<br>chore：构建过程或辅助工具的变动</strong></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试标题</title>
+    <url>/test/2023/11/30/TestPassword/</url>
+    <content><![CDATA[
+<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="d9268eb4adc819e2588c007998403c1de7e8449e3ae24645168cee7f564f5381">10d79030e8222445804370796b90fca1b3149e2c2a0f36d6b4ea04e548758c21cd7447833982faf0111264289de5b70bac870a12947906b3e29778f77233a1129c5f793b9c99f3b9e696a32c84188d8ba539891684bc128f5f9043d863de5d6df09799ac78c7ef7d21658e6b1a3173dded270d92d896ad43759431be6b6562445d4ed4e6c8b3a94614ad5e346efd901afc11677f1098ccbaccdb53340e510a3f3345530c8465f2af70460d6a3bdf00d51d32cd1408bacacb797d8317036227ee3fdc97472c91281a6f1bb71f0647981f0cd6ebb92582dc2cfb5dc409484d4da3f938c1eae115eb926044be5d1ffdae7ba942c173018009a17147b5e9342b8a29cd0cef792500c7ceccc59c5edb5fd95ee4d1fedf7e6d914e490349b1c319487b0a1da012fe928671195c4acf9fc02e818dc78272a0ac09f3e3a9df50560e96bf8ece5895fc8f20c77bf6d1121e0d86428a945c534140304a580527a3cc31b8d0b5b8645333900cf828a8874f0794857be815c8ba11854a280ff29f00cedfb6c183990baaed860a1e25e64eaf553a1cf64cad722c7b736991268645d843af6edb42aee1eea3b0496aa17bc53de467011b221a1ca83810fbf5af7c2e41c9a054b27680eb81b468a5ed7d3587e717b0ba89687bdf12c80f8bdc88ae27c87de6e5d93d78e2db82ea5bfff5b955c66ad508471829f38bdc58b334f648d126cc3e44e5c37fd665352435bf6b223d0561bad75c3846da2ca6a8ac4a690bb10dbb94ece2b6313790c6f922dce6a1fee8060ef5322c69d1407877c1f608d0f8c8887eec1337bcb1bad30b05d018906ec7877220633344ade4f0f0627783a36ea0c020823886078e84a8e02ba50c127160b62ca5d1c63af2acaaa8b1bb5cbaf8d8b02702bc063739bfca9f5fda3248e4b7c37ec832344f35d09901cba32e7784f043e2c50e55fc8b6dcc1509e3870842150f6415797e95cc2151490e982a598e4cb3d7ad55df6261e6aeb40bef76e7e242909b2c0d0c3b50baaf9e026e868a11c0cef0eb8b8f9faaf8118ae90027a5f9ad5fcd6bd0</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-swup-reload-script src="/test/lib/hbe.js"></script><link href="/test/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
+    <title>vue3cli axios配置</title>
+    <url>/test/2023/11/29/axios/</url>
+    <content><![CDATA[<h3 id="一、npm-安装axios"><a href="#一、npm-安装axios" class="headerlink" title="一、npm 安装axios"></a>一、npm 安装axios</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install axios</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="二、在main-js中引入"><a href="#二、在main-js中引入" class="headerlink" title="二、在main.js中引入"></a>二、在main.js中引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在main.<span class="property">js</span>中写入一下代码</span><br><span class="line"><span class="keyword">import</span> axios <span class="keyword">from</span> <span class="string">&#x27;axios&#x27;</span>;</span><br><span class="line"> </span><br><span class="line">axios.<span class="property">defaults</span>.<span class="property">baseURL</span>=<span class="string">&#x27;接口的http前缀&#x27;</span></span><br><span class="line"><span class="title class_">Vue</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">$axios</span> = axios</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="三、配置跨域"><a href="#三、配置跨域" class="headerlink" title="三、配置跨域"></a>三、配置跨域</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在vue.<span class="property">config</span>.<span class="property">js</span>中输入以下代码</span><br><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">    <span class="comment">/* 部署生产环境和开发环境下的URL：可对当前环境进行区分，baseUrl 从 Vue CLI 3.3 起已弃用，要使用publicPath */</span></span><br><span class="line">    <span class="attr">publicPath</span>: process.<span class="property">env</span>.<span class="property">NODE_ENV</span> === <span class="string">&#x27;production&#x27;</span> ? <span class="string">&#x27;./&#x27;</span> : <span class="string">&#x27;/&#x27;</span>,</span><br><span class="line">    <span class="comment">/* 输出文件目录：在npm run build时，生成文件的目录名称 */</span></span><br><span class="line">    <span class="attr">outputDir</span>: <span class="string">&#x27;dist&#x27;</span>,</span><br><span class="line">    <span class="comment">/* 放置生成的静态资源 (js、css、img、fonts) 的 (相对于 outputDir 的) 目录 */</span></span><br><span class="line">    <span class="attr">assetsDir</span>: <span class="string">&quot;assets&quot;</span>,</span><br><span class="line">    <span class="comment">/* 是否在构建生产包时生成 sourceMap 文件，false将提高构建速度 */</span></span><br><span class="line">    <span class="attr">productionSourceMap</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="comment">/* 默认情况下，生成的静态资源在它们的文件名中包含了 hash 以便更好的控制缓存，你可以通过将这个选项设为 false 来关闭文件名哈希。(false的时候就是让原来的文件名不改变) */</span></span><br><span class="line">    <span class="attr">filenameHashing</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="comment">/* 代码保存时进行eslint检测 */</span></span><br><span class="line">    <span class="attr">lintOnSave</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="comment">/* webpack-dev-server 相关配置 */</span></span><br><span class="line">    <span class="attr">devServer</span>: &#123;</span><br><span class="line">      <span class="comment">/* 自动打开浏览器 */</span></span><br><span class="line">      <span class="attr">open</span>: <span class="literal">false</span>,</span><br><span class="line">      <span class="attr">port</span>: <span class="number">8080</span>, <span class="comment">//本地端口号</span></span><br><span class="line">      <span class="attr">https</span>: <span class="literal">false</span>,</span><br><span class="line">      <span class="attr">hotOnly</span>: <span class="literal">false</span>,</span><br><span class="line">      <span class="comment">/* 使用代理 */</span></span><br><span class="line">      <span class="attr">proxy</span>: &#123;</span><br><span class="line">        <span class="string">&#x27;/api&#x27;</span>: &#123;</span><br><span class="line">        <span class="attr">target</span>: <span class="string">&#x27;http://47.106.241.182:8082&#x27;</span>,<span class="comment">//服务器协议、ip和端口号</span></span><br><span class="line">        <span class="attr">secure</span>: <span class="literal">false</span>,  <span class="comment">// 如果是https接口，需要配置这个参数</span></span><br><span class="line">        <span class="attr">ws</span>: <span class="literal">true</span>,<span class="comment">//是否代理websockets</span></span><br><span class="line">        <span class="attr">changeOrigin</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">pathRewrite</span>:&#123;</span><br><span class="line">          <span class="string">&#x27;^/api&#x27;</span>:<span class="string">&#x27;&#x27;</span></span><br><span class="line">      	&#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">或者在vite.<span class="property">config</span>.<span class="property">js</span>中加入以下代码</span><br><span class="line"> <span class="attr">server</span>: &#123;</span><br><span class="line">    <span class="attr">port</span>: <span class="string">&#x27;3000&#x27;</span>,</span><br><span class="line">    <span class="attr">proxy</span>: &#123;</span><br><span class="line">      <span class="string">&#x27;/api&#x27;</span>: &#123;</span><br><span class="line">        <span class="attr">target</span>: <span class="string">&#x27;http://localhost:8080/&#x27;</span>,</span><br><span class="line">        <span class="attr">changeOrigin</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">rewrite</span>: <span class="function">(<span class="params">path</span>) =&gt;</span> path.<span class="title function_">replace</span>(<span class="regexp">/^\/api/</span>, <span class="string">&#x27;&#x27;</span>) <span class="comment">// 不可以省略rewrite</span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="四、统一配置token"><a href="#四、统一配置token" class="headerlink" title="四、统一配置token"></a>四、统一配置token</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在main.<span class="property">js</span> 中加入以下代码</span><br><span class="line">axios.<span class="property">interceptors</span>.<span class="property">request</span>.<span class="title function_">use</span>(<span class="function"><span class="params">config</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="comment">// 在发送请求之前做些什么</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 判断是否存在token,如果存在将每个页面header添加token</span></span><br><span class="line">    <span class="keyword">if</span> (<span class="variable language_">sessionStorage</span>.<span class="title function_">getItem</span>(<span class="string">&quot;token&quot;</span>)) &#123;</span><br><span class="line">        <span class="comment">//  ↓↓↓注意此处要与后端设置的变量名相统一</span></span><br><span class="line">        config.<span class="property">headers</span>.<span class="property">token</span> = <span class="variable language_">sessionStorage</span>.<span class="title function_">getItem</span>(<span class="string">&quot;token&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> config</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>axios</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>部署Blog(Hexo)</title>
+    <url>/test/2023/11/29/deploy/</url>
+    <content><![CDATA[<blockquote>
+<p><a class="link"   href="https://redefine-docs.ohevan.com/footer#%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4" >配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<h3 id="1-一键部署"><a href="#1-一键部署" class="headerlink" title="1.一键部署"></a>1.一键部署</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>部署</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vue3 Element-plus配置</title>
+    <url>/test/2023/11/29/elementUI/</url>
+    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>Element-plus</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/test/2023/11/29/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/test/2023/05/13/index/</url>
+    <content><![CDATA[<h1 id="MathJax"><a href="#MathJax" class="headerlink" title="MathJax"></a>MathJax</h1><blockquote>
+<p><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -0.439ex;" xmlns="http://www.w3.org/2000/svg" width="4.865ex" height="2.034ex" role="img" focusable="false" viewBox="0 -705 2150.4 899"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D6FC" d="M34 156Q34 270 120 356T309 442Q379 442 421 402T478 304Q484 275 485 237V208Q534 282 560 374Q564 388 566 390T582 393Q603 393 603 385Q603 376 594 346T558 261T497 161L486 147L487 123Q489 67 495 47T514 26Q528 28 540 37T557 60Q559 67 562 68T577 70Q597 70 597 62Q597 56 591 43Q579 19 556 5T512 -10H505Q438 -10 414 62L411 69L400 61Q390 53 370 41T325 18T267 -2T203 -11Q124 -11 79 39T34 156ZM208 26Q257 26 306 47T379 90L403 112Q401 255 396 290Q382 405 304 405Q235 405 183 332Q156 292 139 224T121 120Q121 71 146 49T208 26Z"></path></g><g data-mml-node="mo" transform="translate(862.2,0)"><path data-c="2217" d="M229 286Q216 420 216 436Q216 454 240 464Q241 464 245 464T251 465Q263 464 273 456T283 436Q283 419 277 356T270 286L328 328Q384 369 389 372T399 375Q412 375 423 365T435 338Q435 325 425 315Q420 312 357 282T289 250L355 219L425 184Q434 175 434 161Q434 146 425 136T401 125Q393 125 383 131T328 171L270 213Q283 79 283 63Q283 53 276 44T250 35Q231 35 224 44T216 63Q216 80 222 143T229 213L171 171Q115 130 110 127Q106 124 100 124Q87 124 76 134T64 161Q64 166 64 169T67 175T72 181T81 188T94 195T113 204T138 215T170 230T210 250L74 315Q65 324 65 338Q65 353 74 363T98 374Q106 374 116 368T171 328L229 286Z"></path></g><g data-mml-node="mi" transform="translate(1584.4,0)"><path data-c="1D6FD" d="M29 -194Q23 -188 23 -186Q23 -183 102 134T186 465Q208 533 243 584T309 658Q365 705 429 705H431Q493 705 533 667T573 570Q573 465 469 396L482 383Q533 332 533 252Q533 139 448 65T257 -10Q227 -10 203 -2T165 17T143 40T131 59T126 65L62 -188Q60 -194 42 -194H29ZM353 431Q392 431 427 419L432 422Q436 426 439 429T449 439T461 453T472 471T484 495T493 524T501 560Q503 569 503 593Q503 611 502 616Q487 667 426 667Q384 667 347 643T286 582T247 514T224 455Q219 439 186 308T152 168Q151 163 151 147Q151 99 173 68Q204 26 260 26Q302 26 349 51T425 137Q441 171 449 214T457 279Q457 337 422 372Q380 358 347 358H337Q258 358 258 389Q258 396 261 403Q275 431 353 431Z"></path></g></g></g></svg></mjx-container></p>
+</blockquote>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">"hello world"</span>)</span><br><span class="line"><span class="comment">#哈哈哈</span></span><br></pre></td></tr></table></figure></div>]]></content>
+      <categories>
+        <category>MathJax</category>
+      </categories>
+      <tags>
+        <tag>mathJAX</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python基础学习</title>
+    <url>/test/2023/05/12/python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>自定义标题</p>
+
+    </div>
+    <div class="notel-content">
+      <p>换行测试<br>换行测试<br>换行测试</p>
+
+    </div>
+  </div>
+
+
+
+]]></content>
+  </entry>
+  <entry>
+    <title>npm 设置淘宝镜像</title>
+    <url>/test/2023/11/29/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
+    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>npm configuration</category>
+      </categories>
+      <tags>
+        <tag>npm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue-router 配置</title>
+    <url>/test/2023/11/29/router/</url>
+    <content><![CDATA[<h3 id="一、npm安装vue-router插件"><a href="#一、npm安装vue-router插件" class="headerlink" title="一、npm安装vue-router插件"></a>一、npm安装vue-router插件</h3><pre><code>     <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在项目文件夹下的命令行输入以下命令:</span><br><span class="line">  npm install vue-router</span><br></pre></td></tr></table></figure></div>
+</code></pre>
+<h3 id="二、在vue3cli项目下的src文件夹中创建router包并配置"><a href="#二、在vue3cli项目下的src文件夹中创建router包并配置" class="headerlink" title="二、在vue3cli项目下的src文件夹中创建router包并配置"></a>二、在vue3cli项目下的src文件夹中创建router包并配置</h3><h4 id="1-创建router包"><a href="#1-创建router包" class="headerlink" title="1.创建router包"></a>1.创建router包</h4><h4 id="2-创建index-js输入以下代码基本配置"><a href="#2-创建index-js输入以下代码基本配置" class="headerlink" title="2.创建index.js输入以下代码基本配置"></a>2.创建index.js输入以下代码基本配置</h4><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> &#123; createRouter, createWebHashHistory &#125; <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> router = <span class="title function_">createRouter</span>(&#123;</span><br><span class="line">  <span class="attr">history</span>: <span class="title function_">createWebHashHistory</span>(),</span><br><span class="line">  <span class="attr">routes</span>: [</span><br><span class="line">    <span class="comment">//...</span></span><br><span class="line">  ],</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="三、main-js中引入router包中的index-js"><a href="#三、main-js中引入router包中的index-js" class="headerlink" title="三、main.js中引入router包中的index.js"></a>三、main.js中引入router包中的index.js</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">配置如下：</span><br><span class="line"><span class="keyword">import</span> &#123; createApp &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="title class_">App</span> <span class="keyword">from</span> <span class="string">&#x27;./App.vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> router <span class="keyword">from</span> <span class="string">&#x27;./route&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> app = <span class="title function_">createApp</span>(<span class="title class_">App</span>)</span><br><span class="line">app.<span class="title function_">use</span>(router)</span><br><span class="line">app.<span class="title function_">mount</span>(<span class="string">&#x27;#app&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>vue-router</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+</search>
