@@ -3,7 +3,7 @@ title:  Git安装
 date: 2023-11-30
 tags: git教程
 cover: /images/bg1.png
-categories:  Git安装
+categories:  [Git, Git安装]
 ---
 > Git 安装教程
 > 

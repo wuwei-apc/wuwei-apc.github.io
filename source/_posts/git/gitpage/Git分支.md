@@ -2,7 +2,7 @@
 title:  Git分支
 date: 2023-11-30
 tags: git教程
-categories:  Git分支
+categories:  [Git, Git分支]
 cover: /images/bg1.png
 ---
 
