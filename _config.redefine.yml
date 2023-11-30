@@ -14,7 +14,10 @@ info:
   # Author name
   author: PENGCAI ZHU(zpc)
   # Site URL
-  url: /
+  # github部署配置
+  url: https://wuwei-apc.github.io/
+  # 服务器配置
+  # url: https://zpcnet.top/
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
