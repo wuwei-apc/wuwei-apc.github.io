@@ -177,12 +177,9 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>Git命令</title>
     <url>/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h1 id="Git命令"><a href="#Git命令" class="headerlink" title="Git命令"></a>Git命令</h1><ul>
-<li><strong>目录</strong></li>
-</ul>
-<h3 id="1-基本命令"><a href="#1-基本命令" class="headerlink" title="1.基本命令"></a>1.基本命令</h3><p><img  
+    <content><![CDATA[<h3 id="1-基本命令"><a href="#1-基本命令" class="headerlink" title="1.基本命令"></a>1.基本命令</h3><p><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled.png"
@@ -253,16 +250,28 @@
                       alt="Untitled"
                 ></p>
 ]]></content>
+      <categories>
+        <category>Git命令</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>Git在集成开发环境中的使用</title>
     <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<h1 id="Git在集成开发环境中的使用"><a href="#Git在集成开发环境中的使用" class="headerlink" title="Git在集成开发环境中的使用"></a>Git在集成开发环境中的使用</h1>]]></content>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Git命令</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>Git安装</title>
     <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<h1 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h1><blockquote>
+    <content><![CDATA[<blockquote>
 <p>Git 安装教程</p>
 </blockquote>
 <p><a class="link"   href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" >安装链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
@@ -273,14 +282,17 @@
                       alt="Untitled"
                 ></p>
 ]]></content>
+      <categories>
+        <category>Git命令</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>Git分支</title>
     <url>/2023/11/30/git/gitpage/Git%E5%88%86%E6%94%AF/</url>
-    <content><![CDATA[<h1 id="Git分支"><a href="#Git分支" class="headerlink" title="Git分支"></a>Git分支</h1><ul>
-<li><strong>目录</strong></li>
-</ul>
-<h3 id="1-查看分支"><a href="#1-查看分支" class="headerlink" title="1.查看分支"></a>1.查看分支</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git branch -v</span><br></pre></td></tr></table></figure></div>
+    <content><![CDATA[<h3 id="1-查看分支"><a href="#1-查看分支" class="headerlink" title="1.查看分支"></a>1.查看分支</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git branch -v</span><br></pre></td></tr></table></figure></div>
 
 <p><img  
                      lazyload
@@ -409,5 +421,11 @@
                       alt="Untitled"
                 ></p>
 ]]></content>
+      <categories>
+        <category>Git分支</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
   </entry>
 </search>
