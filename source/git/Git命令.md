@@ -4,7 +4,7 @@
 
 ### 1.基本命令
 
-![Untitled](Git命令/Untitled.png)
+![Untitled](/images/Git命令/Untitled.png)
 
 ### 2.初始化本地库
 
@@ -13,7 +13,7 @@
 git init
 ```
 
-![Untitled](Git命令/Untitled%201.png)
+![Untitled](/images/Git命令/Untitled%201.png)
 
 ### 3.查看本地库状态
 
@@ -21,7 +21,7 @@ git init
 git status
 ```
 
-![Untitled](Git命令/Untitled%202.png)
+![Untitled](/images/Git命令/Untitled%202.png)
 
 ### 4.添加到暂存区
 
@@ -30,14 +30,14 @@ git status
 git add .
 ```
 
-![Untitled](Git命令/Untitled%203.png)
+![Untitled](/images/Git命令/Untitled%203.png)
 
 ```bash
 #查看当前状态,修改的文件都变为绿色代表添加到暂存区成功
 git status 
 ```
 
-![Untitled](Git命令/Untitled%204.png)
+![Untitled](/images/Git命令/Untitled%204.png)
 
 ```bash
 # 删除工作区文件
@@ -50,7 +50,7 @@ git rm --cached <file>
 git commit -m "日志信息" 文件名
 ```
 
-![Untitled](Git命令/Untitled%205.png)
+![Untitled](/images/Git命令/Untitled%205.png)
 
 ### 6.查看日志信息
 
@@ -60,9 +60,9 @@ git reflog
 git log
 ```
 
-![Untitled](Git命令/Untitled%206.png)
+![Untitled](/images/Git命令/Untitled%206.png)
 
-![Untitled](Git命令/Untitled%207.png)
+![Untitled](/images/Git命令/Untitled%207.png)
 
 ### 7.历史版本切换
 
@@ -70,4 +70,4 @@ git log
 git reset --hard <版本号>
 ```
 
-![Untitled](Git命令/Untitled%208.png)
+![Untitled](/images/Git命令/Untitled%208.png)

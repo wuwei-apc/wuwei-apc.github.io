@@ -14,13 +14,13 @@
 
 ## 1.Git工作机制
 
-![Untitled](Git使用/Untitled.png)
+![Untitled](/images/Git使用/Untitled.png)
 
-[Git安装](Git使用/Git安装.md)
+[Git安装](/git/Git安装.md)
 
-[Git命令](Git使用/Git命令.md)
+[Git命令](/git/Git命令.md)
 
-[Git分支](Git使用/Git分支.md)
+[Git分支](/git/Git分支.md)
 
 [Git在集成开发环境中的使用](Git使用/Git在集成开发环境中的使用.md)
 

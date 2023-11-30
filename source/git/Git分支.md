@@ -8,7 +8,7 @@
 git branch -v
 ```
 
-![Untitled](Git分支/Untitled.png)
+![Untitled](/images/Git分支/Untitled.png)
 
 ### 2.创建分支
 
@@ -16,7 +16,7 @@ git branch -v
 git branch 分支名
 ```
 
-![Untitled](Git分支/Untitled%201.png)
+![Untitled](/images/Git分支/Untitled%201.png)
 
 ### 3.切换分支
 
@@ -24,7 +24,7 @@ git branch 分支名
 git checkout 分支名
 ```
 
-![Untitled](Git分支/Untitled%202.png)
+![Untitled](/images/Git分支/Untitled%202.png)
 
 ### 4.合并分支
 
@@ -32,17 +32,17 @@ git checkout 分支名
 git merge 欲合并分支
 ```
 
-![Untitled](Git分支/Untitled%203.png)
+![Untitled](/images/Git分支/Untitled%203.png)
 
 ### 5.合并（冲突）分支
 
-![Untitled](Git分支/Untitled%204.png)
+![Untitled](/images/Git分支/Untitled%204.png)
 
-![Untitled](Git分支/Untitled%205.png)
+![Untitled](/images/Git分支/Untitled%205.png)
 
 **手动打开冲突文件修改冲突**
 
-![Untitled](Git分支/Untitled%206.png)
+![Untitled](/images/Git分支/Untitled%206.png)
 
 ```bash
 #修改好冲突文件后加入暂存区
@@ -50,7 +50,7 @@ git add 冲突文件
 git commit -m "<日志>"
 ```
 
-![Untitled](Git分支/Untitled%207.png)
+![Untitled](/images/Git分支/Untitled%207.png)
 
 ## 6.本地分支同步到github
 
@@ -71,7 +71,7 @@ git fetch origin # 同步远程分支
 git checkout -b 本地分支 origin/远程分支名 # 关联远程分支
 ```
 
-![Untitled](Git分支/Untitled%208.png)
+![Untitled](/images/Git分支/Untitled%208.png)
 
 ### 2.****本地先开好分支然后推送到远程****
 
@@ -80,9 +80,9 @@ git checkout -b 分支名
 git push origin 新建分支名:同步到远程的分支名
 ```
 
-![Untitled](Git分支/Untitled%209.png)
+![Untitled](/images/Git分支/Untitled%209.png)
 
-![Untitled](Git分支/Untitled%2010.png)
+![Untitled](/images/Git分支/Untitled%2010.png)
 
 ### 3.****git pull拉取远程分支到本地****
 
@@ -90,7 +90,7 @@ git push origin 新建分支名:同步到远程的分支名
 git pull <远程主机名> <远程分支名>:<本地分支名>
 ```
 
-![Untitled](Git分支/Untitled%2011.png)
+![Untitled](/images/Git分支/Untitled%2011.png)
 
 ## 7.删除远程分支
 
@@ -98,9 +98,9 @@ git pull <远程主机名> <远程分支名>:<本地分支名>
 git push origin --delete Chapater6 可以删除远程分支Chapater6 （好像也可以用 git push origin -D Chapater6）
 ```
 
-![Untitled](Git分支/Untitled%2012.png)
+![Untitled](/images/Git分支/Untitled%2012.png)
 
-![Untitled](Git分支/Untitled%2013.png)
+![Untitled](/images/Git分支/Untitled%2013.png)
 
 ## 8.****查看远程分支****
 
@@ -108,7 +108,7 @@ git push origin --delete Chapater6 可以删除远程分支Chapater6 （好像�
 git branch -a
 ```
 
-![Untitled](Git分支/Untitled%2014.png)
+![Untitled](/images/Git分支/Untitled%2014.png)
 
 ## 9.删除本地分支
 
@@ -116,4 +116,4 @@ git branch -a
 git branch -d 分支名
 ```
 
-![Untitled](Git分支/Untitled%2015.png)
+![Untitled](/images/Git分支/Untitled%2015.png)
