@@ -434,4 +434,91 @@
         <tag>git教程</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Java-Annotation-learn</title>
+    <url>/2023/11/30/launguage/java/Java-Annotation-learn/</url>
+    <content><![CDATA[<blockquote>
+<p>Java注解学习笔记 </p>
+</blockquote>
+<h2 id="1-注解基础"><a href="#1-注解基础" class="headerlink" title="1. 注解基础:"></a>1. 注解基础:</h2><h3 id="1-1-概念-说明程序给计算机看的"><a href="#1-1-概念-说明程序给计算机看的" class="headerlink" title="1.1 概念: 说明程序给计算机看的"></a>1.1 概念: 说明程序给计算机看的</h3><h3 id="1-2-注释-文字描述程序-给程序员看"><a href="#1-2-注释-文字描述程序-给程序员看" class="headerlink" title="1.2 注释: 文字描述程序,给程序员看"></a>1.2 注释: 文字描述程序,给程序员看</h3><h3 id="1-3-定义："><a href="#1-3-定义：" class="headerlink" title="1.3 定义："></a>1.3 定义：</h3><p>  注解（Annotation），也叫<a class="link"   href="https://baike.baidu.com/item/%E5%85%83%E6%95%B0%E6%8D%AE/1946090?fromModule=lemma_inlink" >元数据 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。一种代码级别的说明。它是JDK1.5及以后版本引入的一个特性，与类、接口、枚举是在同一个层次。它可以声明在包、类、字段、方法、<a class="link"   href="https://baike.baidu.com/item/%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F/9844788?fromModule=lemma_inlink" >局部变量 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>、方法参数等的前面，用来对这些元素进行说明，注释。</p>
+<h4 id="1-3-1-作用分类："><a href="#1-3-1-作用分类：" class="headerlink" title="1.3.1 作用分类："></a>1.3.1 作用分类：</h4><ol>
+<li><p>编写文档：通过代码里标识的元数据生成文档【生成文档<a class="link"   href="https://baike.baidu.com/item/doc/364715?fromModule=lemma_inlink" >doc <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>文档】</p>
+</li>
+<li><p>代码分析：通过代码里标识的元数据对代码进行分析【使用反射】</p>
+</li>
+<li><p>编译检查：通过代码里标识的元数据让<a class="link"   href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%99%A8/8853067?fromModule=lemma_inlink" >编译器 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>能够实现基本的编译检查</p>
+</li>
+</ol>
+<h4 id="1-3-2-JDK中预定义的注解"><a href="#1-3-2-JDK中预定义的注解" class="headerlink" title="1.3.2 JDK中预定义的注解"></a>1.3.2 JDK中预定义的注解</h4><ul>
+<li>@Override: 检测被该注解标注的方法是否是继承自父类（接口）的</li>
+<li>@Deprecated：该注解标注内容是否已过时</li>
+<li>@SuppressWarnings： 压制警告<ul>
+<li>一般传参all  <code>@SuppressWarnings(&quot;all&quot;)</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="1-3-3-自定义注释"><a href="#1-3-3-自定义注释" class="headerlink" title="1.3.3 自定义注释"></a>1.3.3 自定义注释</h4><h5 id="1、格式："><a href="#1、格式：" class="headerlink" title="1、格式："></a>1、格式：</h5><p>元注解：<code>public @interface 注解名称 </code></p>
+<h5 id="2、本质"><a href="#2、本质" class="headerlink" title="2、本质:"></a>2、本质:</h5><blockquote>
+<p>注解本质是一个接口，该接口默认继承Annotation接口</p>
+</blockquote>
+<p>  <code>public interface MyAnnotation extends java.lang.annotation.Annotation &#123;   &#125;</code></p>
+<h5 id="3-、属性"><a href="#3-、属性" class="headerlink" title="3 、属性:"></a>3 、属性:</h5><blockquote>
+<p>注解中可以定义的抽象（成员）方法</p>
+</blockquote>
+<h5 id="4、要求"><a href="#4、要求" class="headerlink" title="4、要求"></a>4、要求</h5><ol>
+<li>返回值类型:<ul>
+<li>基本数据类型</li>
+<li>String </li>
+<li>枚举</li>
+<li>注解</li>
+<li>以上类型数组</li>
+</ul>
+</li>
+<li>定义了属性，使用时需要给属性赋值<ol>
+<li>如果定义属性时，使用default关键字默认初始化值，则不需要传值</li>
+<li>如果只有一个属性需要赋值，属性名为value,则直接定义值</li>
+<li>数组赋值时,值使用{}包裹，如果数组只有一个值则直接写值</li>
+</ol>
+</li>
+</ol>
+<h5 id="5、元注解"><a href="#5、元注解" class="headerlink" title="5、元注解:"></a>5、元注解:</h5><blockquote>
+<p>用于描述注解的注解  </p>
+</blockquote>
+<ul>
+<li>@Target: 描述注解能够作用的位置<ul>
+<li>ElementType取值:<ul>
+<li>TYPE: 可以作用于类上</li>
+<li>METHOD:  可以作用于方法上</li>
+<li>FIELD:  可以作用于成员变量上</li>
+</ul>
+</li>
+<li>@Retention: 描述注解被保留的阶段<ul>
+<li>@Retention(RetentionPolicy.RUNTIME)： 当前被描述的注解，会保留到class 字节码文件中，并被JVM读取到</li>
+</ul>
+</li>
+<li>@Documented： 描述注解是否被抽取到API文档中</li>
+<li>@Inherited: 描述注解是否被子类继承</li>
+</ul>
+</li>
+</ul>
+<h5 id="6、-在程序中使用解析注解：-获取注解中定义的属性值"><a href="#6、-在程序中使用解析注解：-获取注解中定义的属性值" class="headerlink" title="6、 在程序中使用解析注解： 获取注解中定义的属性值"></a>6、 在程序中使用解析注解： 获取注解中定义的属性值</h5><ol>
+<li><p>获取注解定义位置的对象(Class Method Field)</p>
+</li>
+<li><p>获取指定的注解</p>
+<ul>
+<li>getAnnotation(Class)</li>
+<li>其实就是在内存中生成一个该注释接口的子类实现对象 <div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> propertiesImpl implments   Properties</span><br><span class="line">      &#123;</span><br><span class="line">        <span class="keyword">public</span> String <span class="title function_">className</span><span class="params">()</span>&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;com.zpc.demo2&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">public</span> String <span class="title function_">methodName</span><span class="params">()</span>&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;show&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure></div></li>
+</ul>
+</li>
+<li><p>调用注解中的抽象方法获取配置文件的属性值</p>
+</li>
+</ol>
+<h2 id="2-注解实战"><a href="#2-注解实战" class="headerlink" title="2. 注解实战"></a>2. 注解实战</h2>]]></content>
+      <categories>
+        <category>Java-Annotation-learn Java-Base</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
 </search>
