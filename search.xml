@@ -51,6 +51,7 @@
 </blockquote>
 ]]></content>
       <categories>
+        <category>Git</category>
         <category>Git使用</category>
       </categories>
       <tags>
@@ -243,6 +244,7 @@
                 ></p>
 ]]></content>
       <categories>
+        <category>Git</category>
         <category>Git分支</category>
       </categories>
       <tags>
@@ -324,6 +326,7 @@
                 ></p>
 ]]></content>
       <categories>
+        <category>Git</category>
         <category>Git命令</category>
       </categories>
       <tags>
@@ -335,7 +338,30 @@
     <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[]]></content>
       <categories>
+        <category>Git</category>
         <category>Git集成开发环境中的使用</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git安装</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<blockquote>
+<p>Git 安装教程</p>
+</blockquote>
+<p><a class="link"   href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" >安装链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%AE%89%E8%A3%85/Untitled.png"
+                      alt="Untitled"
+                ></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git安装</category>
       </categories>
       <tags>
         <tag>git教程</tag>
@@ -422,38 +448,23 @@
 </ol>
 <h2 id="2-注解实战"><a href="#2-注解实战" class="headerlink" title="2. 注解实战"></a>2. 注解实战</h2>]]></content>
       <categories>
-        <category>Java-Annotation-learn</category>
         <category>Java-Base</category>
+        <category>Java-Annotation-learn</category>
       </categories>
       <tags>
         <tag>Java</tag>
       </tags>
   </entry>
   <entry>
-    <title>Git安装</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<blockquote>
-<p>Git 安装教程</p>
-</blockquote>
-<p><a class="link"   href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" >安装链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%AE%89%E8%A3%85/Untitled.png"
-                      alt="Untitled"
-                ></p>
-]]></content>
-      <categories>
-        <category>Git安装</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Java基础</title>
     <url>/2023/11/30/launguage/java/javabase/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>Java-Base</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
   </entry>
   <entry>
     <title>python基础学习</title>
