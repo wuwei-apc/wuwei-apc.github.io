@@ -17,9 +17,9 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>Git使用</title>
     <url>/2023/11/30/git/Git%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<h1 id="Git使用"><a href="#Git使用" class="headerlink" title="Git使用"></a>Git使用</h1><blockquote>
+    <content><![CDATA[<blockquote>
 <p>Git 介绍： 分布式版本控制工具 VS 集中式版本控制工具</p>
 </blockquote>
 <blockquote>
@@ -36,7 +36,7 @@
 <p><a href="/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/">Git安装</a></p>
 <p><a href="/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/">Git命令</a></p>
 <p><a href="/2023/11/30/git/gitpage/Git%E5%88%86%E6%94%AF/">Git分支</a></p>
-<p><a href="/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/">Git在集成开发环境中的使用</a></p>
+<p><a href="/2023/11/30//gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/">Git在集成开发环境中的使用</a></p>
 <blockquote>
 <p><strong>commit 信息分类标准：</strong></p>
 <ul>
@@ -50,6 +50,12 @@
 </ul>
 </blockquote>
 ]]></content>
+      <categories>
+        <category>Git命令</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
   </entry>
   <entry>
     <title>npm 设置淘宝镜像</title>
