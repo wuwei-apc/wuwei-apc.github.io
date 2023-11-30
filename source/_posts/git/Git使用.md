@@ -16,13 +16,13 @@
 
 ![Untitled](/images/Untitled.png)
 
-[Git安装](/git/gitpage/Git安装/)
+[Git安装](./git/gitpage/Git安装/)
 
-[Git命令](/git/gitpage/Git命令/)
+[Git命令](./git/gitpage/Git命令/)
 
-[Git分支](/git/gitpage/Git分支/)
+[Git分支](./git/gitpage/Git分支/)
 
-[Git在集成开发环境中的使用](/git/gitpage/Git在集成开发环境中的使用/)
+[Git在集成开发环境中的使用](./git/gitpage/Git在集成开发环境中的使用/)
 > **commit 信息分类标准：**
 > 
 >    - ***feat***：新功能（feature）
