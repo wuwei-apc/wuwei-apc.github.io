@@ -14,7 +14,7 @@ info:
   # Author name
   author: PENGCAI ZHU(zpc)
   # Site URL
-  url: https://zpcnet.top
+  url: https://zpcnet.top/test
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -25,7 +25,7 @@ defaults:
   # Site logo
   logo: /images/blog.png
   # Site avatar
-  avatar: /images/bg.png
+  avatar: /images/bg1.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -103,9 +103,9 @@ home_banner:
   # Home banner image
   image: 
     light: /images/wallhaven-wqery6-light.webp # light mode
-    dark: /images/wallhaven-wqery6-light.webp # dark mode
+    dark: /images/bg1.png # dark mode
   # Home banner title
-  title: 博客网站
+  title: 我的博客网站
   # Home banner subtitle
   subtitle:
     text: ["python","java","计算机知识"] # subtitle text, array
@@ -120,8 +120,8 @@ home_banner:
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
   text_color: 
-    light: "#87CEFA" # light mode
-    dark: "#339af0" # dark mode
+    light: "#fff5f5" # light mode
+    dark: "#f8f9fa" # dark mode
   # Specific style of the text
   text_style: 
     # Title font size
@@ -162,7 +162,7 @@ navbar:
   color:
     left: "#f78736" #left side 
     right: "#367df7"  #right side
-    transparency: 35 #percent (10-99)
+    transparency: 40 #percent (10-99)
   # Navbar links
   links:
     Home: 
@@ -305,10 +305,11 @@ comment:
   enable: true
   # Comment system
   system: waline # waline, gitalk, twikoo
+  # system: gitalk
   # System configuration
   config:
     waline:
-      serverUrl: https://blogtalk.myzpcblog.eu.org
+      serverUrl: https://my-talk-six.vercel.app/
       lang: zh-CN 
     # Waline comment system. See https://waline.js.org/
     # waline:
@@ -321,7 +322,7 @@ comment:
     # gitalk:
     #     clientID: 7351c9172e01a626f283 # GitHub Application Client ID
     #     clientSecret: d1517e0926833ab4d1ec7489ca4ea872fc692809 # GitHub Application Client Secret
-    #     repo:  gitalk # GitHub repository
+    #     repo:  zpcnet-talk # GitHub repository
     #     owner: wuwei-apc # GitHub repository owner
 
 ##############################################################################
@@ -420,5 +421,5 @@ cdn:
   # Whether to enable CDN
   enable: true
   # CDN Provider
-  provider: aliyun # aliyun, jsdelivr, unpkg, personal
+  provider: jsdelivr # aliyun, jsdelivr, unpkg, personal
 # CDN <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
