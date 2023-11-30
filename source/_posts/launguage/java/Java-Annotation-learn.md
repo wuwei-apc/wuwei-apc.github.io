@@ -1,8 +1,10 @@
 ---
 title: Java-Annotation-learn
 date: 2023-11-30 16:10:19
-tags: Java
-categories: Java-Annotation-learn Java-Base
+tags: [Java]
+categories: [Java-Annotation-learn,Java-Base]
+excerpt: "注解（Annotation），也叫[元数据](https://baike.baidu.com/item/元数据/1946090?fromModule=lemma_inlink)。一种代码级别的说明。它是JDK1.5及以后版本引入的一个特性，与类、接口、枚举是在同一个层次。它可以声明在包、类、字段、方法、[局部变量](https://baike.baidu.com/item/局部变量/9844788?fromModule=lemma_inlink)、方法参数等的前面，用来对这些元素进行说明，注释。"
+cover: "/images/bg1.png"
 ---
 
 > Java注解学习笔记 
