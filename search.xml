@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>部署Blog(Hexo)</title>
-    <url>/test/2023/11/29/deploy/</url>
+    <url>/2023/11/29/deploy/</url>
     <content><![CDATA[<blockquote>
 <p><a class="link"   href="https://redefine-docs.ohevan.com/footer#%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4" >配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </blockquote>
@@ -18,7 +18,7 @@
   </entry>
   <entry>
     <title></title>
-    <url>/test/2023/11/30/git/Git%E4%BD%BF%E7%94%A8/</url>
+    <url>/2023/11/30/git/Git%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<h1 id="Git使用"><a href="#Git使用" class="headerlink" title="Git使用"></a>Git使用</h1><blockquote>
 <p>Git 介绍： 分布式版本控制工具 VS 集中式版本控制工具</p>
 </blockquote>
@@ -33,10 +33,10 @@
                      data-src="/images/Untitled.png"
                       alt="Untitled"
                 ></p>
-<p><a href="/test/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/">Git安装</a></p>
-<p><a href="/test/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/">Git命令</a></p>
-<p><a href="/test/2023/11/30/git/gitpage/Git%E5%88%86%E6%94%AF/">Git分支</a></p>
-<p><a href="/test/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/">Git在集成开发环境中的使用</a></p>
+<p><a href="/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/">Git安装</a></p>
+<p><a href="/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/">Git命令</a></p>
+<p><a href="/2023/11/30/git/gitpage/Git%E5%88%86%E6%94%AF/">Git分支</a></p>
+<p><a href="/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/">Git在集成开发环境中的使用</a></p>
 <blockquote>
 <p><strong>commit 信息分类标准：</strong></p>
 <ul>
@@ -53,7 +53,7 @@
   </entry>
   <entry>
     <title>npm 设置淘宝镜像</title>
-    <url>/test/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
+    <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
     <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></div>
 
 ]]></content>
@@ -66,7 +66,7 @@
   </entry>
   <entry>
     <title>Vim Motion</title>
-    <url>/test/2023/11/30/vim/vim-Motion/</url>
+    <url>/2023/11/30/vim/vim-Motion/</url>
     <content><![CDATA[<blockquote>
 <p><a class="link"   href="https://www.bilibili.com/video/BV1z541177Jy?p=8&spm_id_from=pageDriver&vd_source=838d5ab6a9faca2cc25d06770d32013c" >B站视频教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </blockquote>
@@ -106,8 +106,8 @@
   </entry>
   <entry>
     <title>python基础学习</title>
-    <url>/test/2023/05/12/launguage/python/python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[
+    <url>/2023/05/12/launguage/python/python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h2 id="1-python类型介绍"><a href="#1-python类型介绍" class="headerlink" title="1. python类型介绍"></a>1. python类型介绍</h2>
   <div class="note-large red">
     <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
       <p>python基本数据类型</p>
@@ -125,7 +125,7 @@
   </entry>
   <entry>
     <title>Vue3 Element-plus配置</title>
-    <url>/test/2023/11/29/vue/UI/elementUI/</url>
+    <url>/2023/11/29/vue/UI/elementUI/</url>
     <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
 
 <h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
@@ -140,7 +140,7 @@
   </entry>
   <entry>
     <title>vue-router 配置</title>
-    <url>/test/2023/11/29/vue/plugins/router/</url>
+    <url>/2023/11/29/vue/plugins/router/</url>
     <content><![CDATA[<h3 id="一、npm安装vue-router插件"><a href="#一、npm安装vue-router插件" class="headerlink" title="一、npm安装vue-router插件"></a>一、npm安装vue-router插件</h3><pre><code>     <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在项目文件夹下的命令行输入以下命令:</span><br><span class="line">  npm install vue-router</span><br></pre></td></tr></table></figure></div>
 </code></pre>
 <h3 id="二、在vue3cli项目下的src文件夹中创建router包并配置"><a href="#二、在vue3cli项目下的src文件夹中创建router包并配置" class="headerlink" title="二、在vue3cli项目下的src文件夹中创建router包并配置"></a>二、在vue3cli项目下的src文件夹中创建router包并配置</h3><h4 id="1-创建router包"><a href="#1-创建router包" class="headerlink" title="1.创建router包"></a>1.创建router包</h4><h4 id="2-创建index-js输入以下代码基本配置"><a href="#2-创建index-js输入以下代码基本配置" class="headerlink" title="2.创建index.js输入以下代码基本配置"></a>2.创建index.js输入以下代码基本配置</h4><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> &#123; createRouter, createWebHashHistory &#125; <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> router = <span class="title function_">createRouter</span>(&#123;</span><br><span class="line">  <span class="attr">history</span>: <span class="title function_">createWebHashHistory</span>(),</span><br><span class="line">  <span class="attr">routes</span>: [</span><br><span class="line">    <span class="comment">//...</span></span><br><span class="line">  ],</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></div>
@@ -159,7 +159,7 @@
   </entry>
   <entry>
     <title>vue3cli axios配置</title>
-    <url>/test/2023/11/29/vue/plugins/axios/</url>
+    <url>/2023/11/29/vue/plugins/axios/</url>
     <content><![CDATA[<h3 id="一、npm-安装axios"><a href="#一、npm-安装axios" class="headerlink" title="一、npm 安装axios"></a>一、npm 安装axios</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install axios</span><br></pre></td></tr></table></figure></div>
 
 <h3 id="二、在main-js中引入"><a href="#二、在main-js中引入" class="headerlink" title="二、在main.js中引入"></a>二、在main.js中引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在main.<span class="property">js</span>中写入一下代码</span><br><span class="line"><span class="keyword">import</span> axios <span class="keyword">from</span> <span class="string">&#x27;axios&#x27;</span>;</span><br><span class="line"> </span><br><span class="line">axios.<span class="property">defaults</span>.<span class="property">baseURL</span>=<span class="string">&#x27;接口的http前缀&#x27;</span></span><br><span class="line"><span class="title class_">Vue</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">$axios</span> = axios</span><br></pre></td></tr></table></figure></div>
@@ -178,7 +178,7 @@
   </entry>
   <entry>
     <title></title>
-    <url>/test/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/</url>
+    <url>/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h1 id="Git命令"><a href="#Git命令" class="headerlink" title="Git命令"></a>Git命令</h1><ul>
 <li><strong>目录</strong></li>
 </ul>
@@ -256,12 +256,12 @@
   </entry>
   <entry>
     <title></title>
-    <url>/test/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<h1 id="Git在集成开发环境中的使用"><a href="#Git在集成开发环境中的使用" class="headerlink" title="Git在集成开发环境中的使用"></a>Git在集成开发环境中的使用</h1>]]></content>
   </entry>
   <entry>
     <title></title>
-    <url>/test/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
+    <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<h1 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h1><blockquote>
 <p>Git 安装教程</p>
 </blockquote>
@@ -276,7 +276,7 @@
   </entry>
   <entry>
     <title></title>
-    <url>/test/2023/11/30/git/gitpage/Git%E5%88%86%E6%94%AF/</url>
+    <url>/2023/11/30/git/gitpage/Git%E5%88%86%E6%94%AF/</url>
     <content><![CDATA[<h1 id="Git分支"><a href="#Git分支" class="headerlink" title="Git分支"></a>Git分支</h1><ul>
 <li><strong>目录</strong></li>
 </ul>
