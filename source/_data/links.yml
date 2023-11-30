@@ -1,20 +1,20 @@
-- links_category: Elites
+- links_category: python
   has_thumbnail: true
   list: 
-    - name: EvanNotFound's Blog
-      link: https://ohevan.com
-      description: 用香港记者的速度更新文章
-      avatar: https://evan.beee.top/avatar.png
-      thumbnail: https://img1.imgtp.com/2023/06/19/Jegvz84P.png # has_thumbnail 为 true 时才需要
+    - name: python官网
+      link: https://www.python.org/
+      description: python官网
+      avatar: https://www.python.org/static/img/python-logo@2x.png
+      thumbnail: https://www.python.org/static/img/python-logo@2x.png # has_thumbnail 为 true 时才需要
  
-- links_category: Normal
+- links_category: Java
   has_thumbnail: false
   list: 
-    - name: Example Site
-      link: https://example.com
-      description: Example Site Description
-      avatar: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-    - name: Example Site 2
-      link: https://example.com
-      description: Example Site Description
-      avatar: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+    - name: Java官网
+      link: https://www.java.com/
+      description: Java官网
+      avatar: https://ts2.cn.mm.bing.net/th?id=ODLS.f8701c0e-08d1-4088-9d12-62a1b6912ddf&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2
+    - name: Spring官网
+      link: https://spring.io/
+      description: Spring官网
+      avatar: https://ts3.cn.mm.bing.net/th?id=ODLS.54b6b6fa-876c-4f89-8f16-a66b4a52532c&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2
