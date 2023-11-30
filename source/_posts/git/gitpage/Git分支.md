@@ -3,6 +3,7 @@ title:  Git分支
 date: 2023-11-30
 tags: git教程
 categories:  Git分支
+cover: /images/bg1.png
 ---
 
 ### 1.查看分支

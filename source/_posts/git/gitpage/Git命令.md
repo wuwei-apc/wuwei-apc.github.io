@@ -3,6 +3,7 @@ title:  Git命令
 date: 2023-11-30
 tags: git教程
 categories:  Git命令
+cover: /images/bg1.png
 ---
 
 ### 1.基本命令

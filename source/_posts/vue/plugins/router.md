@@ -3,6 +3,7 @@ title: vue-router 配置
 date: 2023-11-29 
 tags: 前端
 categories: vue-router
+cover: /images/bg1.png
 ---
 
 ### 一、npm安装vue-router插件

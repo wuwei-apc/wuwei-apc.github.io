@@ -3,6 +3,7 @@ title: Vue3 Element-plus配置
 date: 2023-11-29
 tags: 前端
 categories: Element-plus
+cover: /images/bg1.png
 ---
 
 ##                                

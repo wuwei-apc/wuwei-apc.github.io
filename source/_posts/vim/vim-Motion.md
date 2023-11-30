@@ -3,6 +3,7 @@ title: Vim Motion
 date: 2023-11-30 13:41:58
 tags: vim
 categories: vim cursor Motion
+cover: /images/bg1.png
 ---
 > [B站视频教程](https://www.bilibili.com/video/BV1z541177Jy?p=8&spm_id_from=pageDriver&vd_source=838d5ab6a9faca2cc25d06770d32013c)
 

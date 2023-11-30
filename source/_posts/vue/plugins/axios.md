@@ -3,6 +3,7 @@ title: vue3cli axios配置
 date: 2023-11-29 
 tags: 前端
 categories: axios
+cover: /images/bg1.png
 ---
 
 ### 一、npm 安装axios
