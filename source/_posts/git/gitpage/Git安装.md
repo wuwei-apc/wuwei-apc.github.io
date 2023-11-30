@@ -1,7 +1,7 @@
 ---
 title:  Git安装
 date: 2023-11-30
-tags: git
+tags: git教程
 categories:  Git安装
 ---
 > Git 安装教程
