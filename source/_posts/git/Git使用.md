@@ -1,10 +1,4 @@
----
-title: Git使用  
-date: 2023-11-29
-tags: Git
-categories: Git
----
-
+# Git使用
 
 > Git 介绍： 分布式版本控制工具 VS 集中式版本控制工具
 > 
@@ -20,15 +14,15 @@ categories: Git
 
 ## 1.Git工作机制
 
-![Untitled](/images/Untitled.png)
+![Untitled](Git使用/Untitled.png)
 
-[Git安装 ](https://www.notion.so/Git-08980b18fd7f4907b3da10f0f2f907e0?pvs=21)
+[Git安装](Git使用/Git安装.md)
 
-[Git命令](https://www.notion.so/Git-d4aada234b0840efb254c2cfcd73e658?pvs=21)
+[Git命令](Git使用/Git命令.md)
 
-[Git分支](https://www.notion.so/Git-6e7acfb163244aa99b75578de7918067?pvs=21)
+[Git分支](Git使用/Git分支.md)
 
-[Git在集成开发环境中的使用](https://www.notion.so/Git-4596fdbffed944db99b7edf73d663e01?pvs=21)
+[Git在集成开发环境中的使用](Git使用/Git在集成开发环境中的使用.md)
 
 **commit 信息分类标准
 feat：新功能（feature）
