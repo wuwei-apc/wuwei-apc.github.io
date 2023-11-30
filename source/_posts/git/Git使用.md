@@ -11,10 +11,15 @@
 > 
 > Git 易于学习，占用空间很小，性能快如闪电。它超越了Subversion，CVS，Perforce和ClearCase等SCM工具，具有廉价的本地分支，方便的暂存区域和多个工作流程等功能。
 > 
+---
+title: Git基础
+date: 2023-11-30
+tags: git
+categories: git基础
+---
 
-## 1.Git工作机制
 
-![Untitled](/images/Untitled.png)
+> ![Untitled](/images/Untitled.png)
 
 [Git安装](/2023/11/30/git/gitpage/Git安装/)
 
