@@ -14,21 +14,21 @@
 
 ## 1.Git工作机制
 
-![Untitled](/images/Git使用/Untitled.png)
+![Untitled](/images/Untitled.png)
 
-[Git安装](/git/Git安装.md)
+[Git安装](/Git安装/)
 
-[Git命令](/git/Git命令.md)
+[Git命令](/Git命令/)
 
-[Git分支](/git/Git分支.md)
+[Git分支](/Git分支/)
 
-[Git在集成开发环境中的使用](Git使用/Git在集成开发环境中的使用.md)
-
-**commit 信息分类标准
-feat：新功能（feature）
-fix：修补bug
-docs：文档（documentation）
-style： 格式（不影响代码运行的变动）
-refactor：重构（即不是新增功能，也不是修改bug的代码变动）
-test：增加测试
-chore：构建过程或辅助工具的变动**
+[Git在集成开发环境中的使用](/Git在集成开发环境中的使用/)
+> **commit 信息分类标准：**
+> 
+>    - ***feat***：新功能（feature）
+>    - ***fix***：修补bug
+>    - ***docs***：文档（documentation）
+>    - ***style***： 格式（不影响代码运行的变动）
+>    - ***refactor***：重构（即不是新增功能，也不是修改bug的代码变>    动）
+>    - ***test***：增加测试
+>    - ***chore***：构建过程或辅助工具的变动**
