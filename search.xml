@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Git使用</title>
-    <url>/test/2023/11/29/Git%E4%BD%BF%E7%94%A8/</url>
+    <title>部署Blog(Hexo)</title>
+    <url>/test/2023/11/29/deploy/</url>
     <content><![CDATA[<blockquote>
+<p><a class="link"   href="https://redefine-docs.ohevan.com/footer#%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4" >配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<h3 id="1-一键部署"><a href="#1-一键部署" class="headerlink" title="1.一键部署"></a>1.一键部署</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>部署</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/test/2023/11/30/git/Git%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h1 id="Git使用"><a href="#Git使用" class="headerlink" title="Git使用"></a>Git使用</h1><blockquote>
 <p>Git 介绍： 分布式版本控制工具 VS 集中式版本控制工具</p>
 </blockquote>
 <blockquote>
@@ -17,39 +33,133 @@
                      data-src="/images/Untitled.png"
                       alt="Untitled"
                 ></p>
-<p><a class="link"   href="https://www.notion.so/Git-08980b18fd7f4907b3da10f0f2f907e0?pvs=21" >Git安装  <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://www.notion.so/Git-d4aada234b0840efb254c2cfcd73e658?pvs=21" >Git命令 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://www.notion.so/Git-6e7acfb163244aa99b75578de7918067?pvs=21" >Git分支 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://www.notion.so/Git-4596fdbffed944db99b7edf73d663e01?pvs=21" >Git在集成开发环境中的使用 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><strong>commit 信息分类标准<br>feat：新功能（feature）<br>fix：修补bug<br>docs：文档（documentation）<br>style： 格式（不影响代码运行的变动）<br>refactor：重构（即不是新增功能，也不是修改bug的代码变动）<br>test：增加测试<br>chore：构建过程或辅助工具的变动</strong></p>
+<p><a href="/git/gitpage/Git%E5%AE%89%E8%A3%85/">Git安装</a></p>
+<p><a href="/git/gitpage/Git%E5%91%BD%E4%BB%A4/">Git命令</a></p>
+<p><a href="/git/gitpage/Git%E5%88%86%E6%94%AF/">Git分支</a></p>
+<p><a href="/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/">Git在集成开发环境中的使用</a></p>
+<blockquote>
+<p><strong>commit 信息分类标准：</strong></p>
+<ul>
+<li><em><strong>feat</strong></em>：新功能（feature）</li>
+<li><em><strong>fix</strong></em>：修补bug</li>
+<li><em><strong>docs</strong></em>：文档（documentation）</li>
+<li><em><strong>style</strong></em>： 格式（不影响代码运行的变动）</li>
+<li><em><strong>refactor</strong></em>：重构（即不是新增功能，也不是修改bug的代码变&gt;    动）</li>
+<li><em><strong>test</strong></em>：增加测试</li>
+<li><em><strong>chore</strong></em>：构建过程或辅助工具的变动**</li>
+</ul>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>npm 设置淘宝镜像</title>
+    <url>/test/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
+    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></div>
+
 ]]></content>
       <categories>
-        <category>Git</category>
+        <category>npm configuration</category>
       </categories>
       <tags>
-        <tag>Git</tag>
+        <tag>npm</tag>
       </tags>
   </entry>
   <entry>
-    <title>测试标题</title>
-    <url>/test/2023/11/30/TestPassword/</url>
+    <title>Vim Motion</title>
+    <url>/test/2023/11/30/vim/vim-Motion/</url>
+    <content><![CDATA[<blockquote>
+<p><a class="link"   href="https://www.bilibili.com/video/BV1z541177Jy?p=8&spm_id_from=pageDriver&vd_source=838d5ab6a9faca2cc25d06770d32013c" >B站视频教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<h3 id="1-i-inner-and-a-around-的区别"><a href="#1-i-inner-and-a-around-的区别" class="headerlink" title="1. i(inner) and a(around)的区别"></a>1. i(inner) and a(around)的区别</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/vim/image-20230623132750445.png"
+                      alt="image-20230623132750445"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/vim/image-20230623133005272.png"
+                      alt="image-20230623133005272"
+                ></p>
+<h3 id="2-操作符和动作"><a href="#2-操作符和动作" class="headerlink" title="2. 操作符和动作"></a>2. 操作符和动作</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/vim/image-20230623133101848.png"
+                      alt="image-20230623133101848"
+                ></p>
+<h3 id="3-切换带大小写"><a href="#3-切换带大小写" class="headerlink" title="3.切换带大小写"></a>3.切换带大小写</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/vim/image-20230623134612445.png"
+                      alt="image-20230623134612445"
+                ></p>
+<h3 id="4-跳转标签页"><a href="#4-跳转标签页" class="headerlink" title="4.跳转标签页"></a>4.跳转标签页</h3><p>gt切换窗口</p>
+<p>space+space sw </p>
+]]></content>
+      <categories>
+        <category>vim cursor Motion</category>
+      </categories>
+      <tags>
+        <tag>vim</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python基础学习</title>
+    <url>/test/2023/05/12/launguage/python/python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[
-<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="d9268eb4adc819e2588c007998403c1de7e8449e3ae24645168cee7f564f5381">10d79030e8222445804370796b90fca1b3149e2c2a0f36d6b4ea04e548758c21cd7447833982faf0111264289de5b70bac870a12947906b3e29778f77233a1129c5f793b9c99f3b9e696a32c84188d8ba539891684bc128f5f9043d863de5d6df09799ac78c7ef7d21658e6b1a3173dded270d92d896ad43759431be6b6562445d4ed4e6c8b3a94614ad5e346efd901afc11677f1098ccbaccdb53340e510a3f3345530c8465f2af70460d6a3bdf00d51d32cd1408bacacb797d8317036227ee3fdc97472c91281a6f1bb71f0647981f0cd6ebb92582dc2cfb5dc409484d4da3f938c1eae115eb926044be5d1ffdae7ba942c173018009a17147b5e9342b8a29cd0cef792500c7ceccc59c5edb5fd95ee4d1fedf7e6d914e490349b1c319487b0a1da012fe928671195c4acf9fc02e818dc78272a0ac09f3e3a9df50560e96bf8ece5895fc8f20c77bf6d1121e0d86428a945c534140304a580527a3cc31b8d0b5b8645333900cf828a8874f0794857be815c8ba11854a280ff29f00cedfb6c183990baaed860a1e25e64eaf553a1cf64cad722c7b736991268645d843af6edb42aee1eea3b0496aa17bc53de467011b221a1ca83810fbf5af7c2e41c9a054b27680eb81b468a5ed7d3587e717b0ba89687bdf12c80f8bdc88ae27c87de6e5d93d78e2db82ea5bfff5b955c66ad508471829f38bdc58b334f648d126cc3e44e5c37fd665352435bf6b223d0561bad75c3846da2ca6a8ac4a690bb10dbb94ece2b6313790c6f922dce6a1fee8060ef5322c69d1407877c1f608d0f8c8887eec1337bcb1bad30b05d018906ec7877220633344ade4f0f0627783a36ea0c020823886078e84a8e02ba50c127160b62ca5d1c63af2acaaa8b1bb5cbaf8d8b02702bc063739bfca9f5fda3248e4b7c37ec832344f35d09901cba32e7784f043e2c50e55fc8b6dcc1509e3870842150f6415797e95cc2151490e982a598e4cb3d7ad55df6261e6aeb40bef76e7e242909b2c0d0c3b50baaf9e026e868a11c0cef0eb8b8f9faaf8118ae90027a5f9ad5fcd6bd0</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>python基本数据类型</p>
+
+    </div>
+    <div class="notel-content">
+      <p>int<br>str<br>double</p>
+
     </div>
   </div>
-</div>
-<script data-swup-reload-script src="/test/lib/hbe.js"></script><link href="/test/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+
+
+
+]]></content>
+  </entry>
+  <entry>
+    <title>Vue3 Element-plus配置</title>
+    <url>/test/2023/11/29/vue/UI/elementUI/</url>
+    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>Element-plus</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue-router 配置</title>
+    <url>/test/2023/11/29/vue/plugins/router/</url>
+    <content><![CDATA[<h3 id="一、npm安装vue-router插件"><a href="#一、npm安装vue-router插件" class="headerlink" title="一、npm安装vue-router插件"></a>一、npm安装vue-router插件</h3><pre><code>     <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在项目文件夹下的命令行输入以下命令:</span><br><span class="line">  npm install vue-router</span><br></pre></td></tr></table></figure></div>
+</code></pre>
+<h3 id="二、在vue3cli项目下的src文件夹中创建router包并配置"><a href="#二、在vue3cli项目下的src文件夹中创建router包并配置" class="headerlink" title="二、在vue3cli项目下的src文件夹中创建router包并配置"></a>二、在vue3cli项目下的src文件夹中创建router包并配置</h3><h4 id="1-创建router包"><a href="#1-创建router包" class="headerlink" title="1.创建router包"></a>1.创建router包</h4><h4 id="2-创建index-js输入以下代码基本配置"><a href="#2-创建index-js输入以下代码基本配置" class="headerlink" title="2.创建index.js输入以下代码基本配置"></a>2.创建index.js输入以下代码基本配置</h4><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> &#123; createRouter, createWebHashHistory &#125; <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> router = <span class="title function_">createRouter</span>(&#123;</span><br><span class="line">  <span class="attr">history</span>: <span class="title function_">createWebHashHistory</span>(),</span><br><span class="line">  <span class="attr">routes</span>: [</span><br><span class="line">    <span class="comment">//...</span></span><br><span class="line">  ],</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="三、main-js中引入router包中的index-js"><a href="#三、main-js中引入router包中的index-js" class="headerlink" title="三、main.js中引入router包中的index.js"></a>三、main.js中引入router包中的index.js</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">配置如下：</span><br><span class="line"><span class="keyword">import</span> &#123; createApp &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="title class_">App</span> <span class="keyword">from</span> <span class="string">&#x27;./App.vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> router <span class="keyword">from</span> <span class="string">&#x27;./route&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> app = <span class="title function_">createApp</span>(<span class="title class_">App</span>)</span><br><span class="line">app.<span class="title function_">use</span>(router)</span><br><span class="line">app.<span class="title function_">mount</span>(<span class="string">&#x27;#app&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>vue-router</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
   </entry>
   <entry>
     <title>vue3cli axios配置</title>
-    <url>/test/2023/11/29/axios/</url>
+    <url>/test/2023/11/29/vue/plugins/axios/</url>
     <content><![CDATA[<h3 id="一、npm-安装axios"><a href="#一、npm-安装axios" class="headerlink" title="一、npm 安装axios"></a>一、npm 安装axios</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install axios</span><br></pre></td></tr></table></figure></div>
 
 <h3 id="二、在main-js中引入"><a href="#二、在main-js中引入" class="headerlink" title="二、在main.js中引入"></a>二、在main.js中引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在main.<span class="property">js</span>中写入一下代码</span><br><span class="line"><span class="keyword">import</span> axios <span class="keyword">from</span> <span class="string">&#x27;axios&#x27;</span>;</span><br><span class="line"> </span><br><span class="line">axios.<span class="property">defaults</span>.<span class="property">baseURL</span>=<span class="string">&#x27;接口的http前缀&#x27;</span></span><br><span class="line"><span class="title class_">Vue</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">$axios</span> = axios</span><br></pre></td></tr></table></figure></div>
@@ -67,117 +177,237 @@
       </tags>
   </entry>
   <entry>
-    <title>部署Blog(Hexo)</title>
-    <url>/test/2023/11/29/deploy/</url>
-    <content><![CDATA[<blockquote>
-<p><a class="link"   href="https://redefine-docs.ohevan.com/footer#%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4" >配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+    <title></title>
+    <url>/test/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="Git命令"><a href="#Git命令" class="headerlink" title="Git命令"></a>Git命令</h1><ul>
+<li><strong>目录</strong></li>
+</ul>
+<h3 id="1-基本命令"><a href="#1-基本命令" class="headerlink" title="1.基本命令"></a>1.基本命令</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="2-初始化本地库"><a href="#2-初始化本地库" class="headerlink" title="2.初始化本地库"></a>2.初始化本地库</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 在项目目录下执行此命令</span></span><br><span class="line">git init</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%201.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="3-查看本地库状态"><a href="#3-查看本地库状态" class="headerlink" title="3.查看本地库状态"></a>3.查看本地库状态</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%202.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="4-添加到暂存区"><a href="#4-添加到暂存区" class="headerlink" title="4.添加到暂存区"></a>4.添加到暂存区</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># . 代表把所有修改文件添加到暂存区域</span></span><br><span class="line">git add .</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%203.png"
+                      alt="Untitled"
+                ></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#查看当前状态,修改的文件都变为绿色代表添加到暂存区成功</span></span><br><span class="line">git status </span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%204.png"
+                      alt="Untitled"
+                ></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 删除工作区文件</span></span><br><span class="line">git <span class="built_in">rm</span> --cached &lt;file&gt;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="5-提交本地库"><a href="#5-提交本地库" class="headerlink" title="5.提交本地库"></a>5.提交本地库</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit -m <span class="string">&quot;日志信息&quot;</span> 文件名</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%205.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="6-查看日志信息"><a href="#6-查看日志信息" class="headerlink" title="6.查看日志信息"></a>6.查看日志信息</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git reflog</span><br><span class="line"><span class="comment"># 或者</span></span><br><span class="line">git <span class="built_in">log</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%206.png"
+                      alt="Untitled"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%207.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="7-历史版本切换"><a href="#7-历史版本切换" class="headerlink" title="7.历史版本切换"></a>7.历史版本切换</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git reset --hard &lt;版本号&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%208.png"
+                      alt="Untitled"
+                ></p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/test/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h1 id="Git在集成开发环境中的使用"><a href="#Git在集成开发环境中的使用" class="headerlink" title="Git在集成开发环境中的使用"></a>Git在集成开发环境中的使用</h1>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/test/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<h1 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h1><blockquote>
+<p>Git 安装教程</p>
 </blockquote>
-<h3 id="1-一键部署"><a href="#1-一键部署" class="headerlink" title="1.一键部署"></a>1.一键部署</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>部署</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Vue3 Element-plus配置</title>
-    <url>/test/2023/11/29/elementUI/</url>
-    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>Element-plus</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/test/2023/11/29/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" >安装链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%AE%89%E8%A3%85/Untitled.png"
+                      alt="Untitled"
+                ></p>
 ]]></content>
   </entry>
   <entry>
-    <title>test</title>
-    <url>/test/2023/05/13/index/</url>
-    <content><![CDATA[<h1 id="MathJax"><a href="#MathJax" class="headerlink" title="MathJax"></a>MathJax</h1><blockquote>
-<p><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -0.439ex;" xmlns="http://www.w3.org/2000/svg" width="4.865ex" height="2.034ex" role="img" focusable="false" viewBox="0 -705 2150.4 899"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D6FC" d="M34 156Q34 270 120 356T309 442Q379 442 421 402T478 304Q484 275 485 237V208Q534 282 560 374Q564 388 566 390T582 393Q603 393 603 385Q603 376 594 346T558 261T497 161L486 147L487 123Q489 67 495 47T514 26Q528 28 540 37T557 60Q559 67 562 68T577 70Q597 70 597 62Q597 56 591 43Q579 19 556 5T512 -10H505Q438 -10 414 62L411 69L400 61Q390 53 370 41T325 18T267 -2T203 -11Q124 -11 79 39T34 156ZM208 26Q257 26 306 47T379 90L403 112Q401 255 396 290Q382 405 304 405Q235 405 183 332Q156 292 139 224T121 120Q121 71 146 49T208 26Z"></path></g><g data-mml-node="mo" transform="translate(862.2,0)"><path data-c="2217" d="M229 286Q216 420 216 436Q216 454 240 464Q241 464 245 464T251 465Q263 464 273 456T283 436Q283 419 277 356T270 286L328 328Q384 369 389 372T399 375Q412 375 423 365T435 338Q435 325 425 315Q420 312 357 282T289 250L355 219L425 184Q434 175 434 161Q434 146 425 136T401 125Q393 125 383 131T328 171L270 213Q283 79 283 63Q283 53 276 44T250 35Q231 35 224 44T216 63Q216 80 222 143T229 213L171 171Q115 130 110 127Q106 124 100 124Q87 124 76 134T64 161Q64 166 64 169T67 175T72 181T81 188T94 195T113 204T138 215T170 230T210 250L74 315Q65 324 65 338Q65 353 74 363T98 374Q106 374 116 368T171 328L229 286Z"></path></g><g data-mml-node="mi" transform="translate(1584.4,0)"><path data-c="1D6FD" d="M29 -194Q23 -188 23 -186Q23 -183 102 134T186 465Q208 533 243 584T309 658Q365 705 429 705H431Q493 705 533 667T573 570Q573 465 469 396L482 383Q533 332 533 252Q533 139 448 65T257 -10Q227 -10 203 -2T165 17T143 40T131 59T126 65L62 -188Q60 -194 42 -194H29ZM353 431Q392 431 427 419L432 422Q436 426 439 429T449 439T461 453T472 471T484 495T493 524T501 560Q503 569 503 593Q503 611 502 616Q487 667 426 667Q384 667 347 643T286 582T247 514T224 455Q219 439 186 308T152 168Q151 163 151 147Q151 99 173 68Q204 26 260 26Q302 26 349 51T425 137Q441 171 449 214T457 279Q457 337 422 372Q380 358 347 358H337Q258 358 258 389Q258 396 261 403Q275 431 353 431Z"></path></g></g></g></svg></mjx-container></p>
+    <title></title>
+    <url>/test/2023/11/30/git/gitpage/Git%E5%88%86%E6%94%AF/</url>
+    <content><![CDATA[<h1 id="Git分支"><a href="#Git分支" class="headerlink" title="Git分支"></a>Git分支</h1><ul>
+<li><strong>目录</strong></li>
+</ul>
+<h3 id="1-查看分支"><a href="#1-查看分支" class="headerlink" title="1.查看分支"></a>1.查看分支</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git branch -v</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="2-创建分支"><a href="#2-创建分支" class="headerlink" title="2.创建分支"></a>2.创建分支</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git branch 分支名</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%201.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="3-切换分支"><a href="#3-切换分支" class="headerlink" title="3.切换分支"></a>3.切换分支</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git checkout 分支名</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%202.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="4-合并分支"><a href="#4-合并分支" class="headerlink" title="4.合并分支"></a>4.合并分支</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git merge 欲合并分支</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%203.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="5-合并（冲突）分支"><a href="#5-合并（冲突）分支" class="headerlink" title="5.合并（冲突）分支"></a>5.合并（冲突）分支</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%204.png"
+                      alt="Untitled"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%205.png"
+                      alt="Untitled"
+                ></p>
+<p><strong>手动打开冲突文件修改冲突</strong></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%206.png"
+                      alt="Untitled"
+                ></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#修改好冲突文件后加入暂存区</span></span><br><span class="line">git add 冲突文件</span><br><span class="line">git commit -m <span class="string">&quot;&lt;日志&gt;&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%207.png"
+                      alt="Untitled"
+                ></p>
+<h2 id="6-本地分支同步到github"><a href="#6-本地分支同步到github" class="headerlink" title="6.本地分支同步到github"></a>6.本地分支同步到github</h2><blockquote>
+<p><strong>场景</strong>:</p>
+<p>有时候我们开发需要开一个分支,这样可以有效的并行开发.</p>
+<p>开分支有两种方式:</p>
+<ul>
+<li>一种是在远程开好分支,本地直接拉下来;</li>
+<li>一种是本地开好分支,推送到远程.</li>
+</ul>
 </blockquote>
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">"hello world"</span>)</span><br><span class="line"><span class="comment">#哈哈哈</span></span><br></pre></td></tr></table></figure></div>]]></content>
-      <categories>
-        <category>MathJax</category>
-      </categories>
-      <tags>
-        <tag>mathJAX</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python基础学习</title>
-    <url>/test/2023/05/12/python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>自定义标题</p>
+<h3 id="1-远程先开好分支然后拉到本地"><a href="#1-远程先开好分支然后拉到本地" class="headerlink" title="1.远程先开好分支然后拉到本地"></a>1.<strong><strong>远程先开好分支然后拉到本地</strong></strong></h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git fetch origin <span class="comment"># 同步远程分支</span></span><br><span class="line">git checkout -b 本地分支 origin/远程分支名 <span class="comment"># 关联远程分支</span></span><br></pre></td></tr></table></figure></div>
 
-    </div>
-    <div class="notel-content">
-      <p>换行测试<br>换行测试<br>换行测试</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%208.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="2-本地先开好分支然后推送到远程"><a href="#2-本地先开好分支然后推送到远程" class="headerlink" title="2.本地先开好分支然后推送到远程"></a>2.<strong><strong>本地先开好分支然后推送到远程</strong></strong></h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git checkout -b 分支名</span><br><span class="line">git push origin 新建分支名:同步到远程的分支名</span><br></pre></td></tr></table></figure></div>
 
-    </div>
-  </div>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%209.png"
+                      alt="Untitled"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2010.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="3-git-pull拉取远程分支到本地"><a href="#3-git-pull拉取远程分支到本地" class="headerlink" title="3.git pull拉取远程分支到本地"></a>3.<strong><strong>git pull拉取远程分支到本地</strong></strong></h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git pull &lt;远程主机名&gt; &lt;远程分支名&gt;:&lt;本地分支名&gt;</span><br></pre></td></tr></table></figure></div>
 
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2011.png"
+                      alt="Untitled"
+                ></p>
+<h2 id="7-删除远程分支"><a href="#7-删除远程分支" class="headerlink" title="7.删除远程分支"></a>7.删除远程分支</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin --delete Chapater6 可以删除远程分支Chapater6 （好像也可以用 git push origin -D Chapater6）</span><br></pre></td></tr></table></figure></div>
 
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2012.png"
+                      alt="Untitled"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2013.png"
+                      alt="Untitled"
+                ></p>
+<h2 id="8-查看远程分支"><a href="#8-查看远程分支" class="headerlink" title="8.查看远程分支"></a>8.<strong><strong>查看远程分支</strong></strong></h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git branch -a</span><br></pre></td></tr></table></figure></div>
 
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2014.png"
+                      alt="Untitled"
+                ></p>
+<h2 id="9-删除本地分支"><a href="#9-删除本地分支" class="headerlink" title="9.删除本地分支"></a>9.删除本地分支</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git branch -d 分支名</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2015.png"
+                      alt="Untitled"
+                ></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>npm 设置淘宝镜像</title>
-    <url>/test/2023/11/29/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
-    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>npm configuration</category>
-      </categories>
-      <tags>
-        <tag>npm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue-router 配置</title>
-    <url>/test/2023/11/29/router/</url>
-    <content><![CDATA[<h3 id="一、npm安装vue-router插件"><a href="#一、npm安装vue-router插件" class="headerlink" title="一、npm安装vue-router插件"></a>一、npm安装vue-router插件</h3><pre><code>     <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在项目文件夹下的命令行输入以下命令:</span><br><span class="line">  npm install vue-router</span><br></pre></td></tr></table></figure></div>
-</code></pre>
-<h3 id="二、在vue3cli项目下的src文件夹中创建router包并配置"><a href="#二、在vue3cli项目下的src文件夹中创建router包并配置" class="headerlink" title="二、在vue3cli项目下的src文件夹中创建router包并配置"></a>二、在vue3cli项目下的src文件夹中创建router包并配置</h3><h4 id="1-创建router包"><a href="#1-创建router包" class="headerlink" title="1.创建router包"></a>1.创建router包</h4><h4 id="2-创建index-js输入以下代码基本配置"><a href="#2-创建index-js输入以下代码基本配置" class="headerlink" title="2.创建index.js输入以下代码基本配置"></a>2.创建index.js输入以下代码基本配置</h4><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> &#123; createRouter, createWebHashHistory &#125; <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> router = <span class="title function_">createRouter</span>(&#123;</span><br><span class="line">  <span class="attr">history</span>: <span class="title function_">createWebHashHistory</span>(),</span><br><span class="line">  <span class="attr">routes</span>: [</span><br><span class="line">    <span class="comment">//...</span></span><br><span class="line">  ],</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></div>
-
-
-
-<h3 id="三、main-js中引入router包中的index-js"><a href="#三、main-js中引入router包中的index-js" class="headerlink" title="三、main.js中引入router包中的index.js"></a>三、main.js中引入router包中的index.js</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">配置如下：</span><br><span class="line"><span class="keyword">import</span> &#123; createApp &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="title class_">App</span> <span class="keyword">from</span> <span class="string">&#x27;./App.vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> router <span class="keyword">from</span> <span class="string">&#x27;./route&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> app = <span class="title function_">createApp</span>(<span class="title class_">App</span>)</span><br><span class="line">app.<span class="title function_">use</span>(router)</span><br><span class="line">app.<span class="title function_">mount</span>(<span class="string">&#x27;#app&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>vue-router</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-      </tags>
   </entry>
 </search>
