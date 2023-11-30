@@ -2,7 +2,7 @@
 title:  Git使用
 date: 2023-11-30
 tags: git
-categories:  Git命令
+categories:  Git使用
 ---
 
 > Git 介绍： 分布式版本控制工具 VS 集中式版本控制工具
