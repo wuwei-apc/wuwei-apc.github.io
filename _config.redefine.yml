@@ -15,9 +15,9 @@ info:
   author: PENGCAI ZHU(zpc)
   # Site URL
   # github部署配置
-  url: https://wuwei-apc.github.io/
+  # url: https://wuwei-apc.github.io/
   # 服务器配置
-  # url: https://zpcnet.top/
+  url: https://zpcnet.top/test
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -312,7 +312,9 @@ comment:
   # System configuration
   config:
     waline:
-      serverUrl: https://my-talk-six.vercel.app/
+      serverUrl: https://blogtalk.myzpcblog.eu.org/
+      # 备用连接
+      # serverUrl: https://my-talk-six.vercel.app/
       lang: zh-CN 
     # Waline comment system. See https://waline.js.org/
     # waline:
