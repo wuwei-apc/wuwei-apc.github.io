@@ -16,7 +16,7 @@
 
 ![Untitled](/images/Untitled.png)
 
-[Git安装](/Git安装/)
+[Git安装](/git/Git安装/)
 
 [Git命令](/Git命令/)
 
