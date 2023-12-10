@@ -541,10 +541,10 @@
   <entry>
     <title>安装脚手架并创建项目</title>
     <url>/2023/11/30/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
-    <content><![CDATA[<h3 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h3><blockquote>
+    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
 <p>安装</p>
 </blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
 
 <blockquote>
 <p>检查版本号</p>
