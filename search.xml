@@ -281,6 +281,18 @@
       </tags>
   </entry>
   <entry>
+    <title>Git在集成开发环境中的使用</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git集成开发环境中的使用</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Git命令</title>
     <url>/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h3 id="1-基本命令"><a href="#1-基本命令" class="headerlink" title="1.基本命令"></a>1.基本命令</h3><p><img  
@@ -363,18 +375,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Git在集成开发环境中的使用</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git集成开发环境中的使用</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Git安装</title>
     <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<blockquote>
@@ -394,6 +394,17 @@
       </categories>
       <tags>
         <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java基础</title>
+    <url>/2023/11/30/launguage/java/javabase/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Java-Base</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -479,17 +490,6 @@
       <categories>
         <category>Java-Base</category>
         <category>Java-Annotation-learn</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java基础</title>
-    <url>/2023/11/30/launguage/java/javabase/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Java-Base</category>
       </categories>
       <tags>
         <tag>Java</tag>
