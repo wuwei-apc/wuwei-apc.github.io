@@ -21,4 +21,5 @@ categories: [Java-Base]
 6.  平台独立与可移植性
 7.  多线程
 8.  动态性等特点
->
+
+> ![image-20240902031121135](https://jsd.cdn.zzko.cn/gh/mycodeoen/MyPicture@main/blog/202409020311179.png)
