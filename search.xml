@@ -428,10 +428,16 @@
 <li> 安全性</li>
 <li> 平台独立与可移植性</li>
 <li> 多线程</li>
-<li> 动态性等特点<blockquote>
-</blockquote>
-</li>
+<li> 动态性等特点</li>
 </ol>
+<blockquote>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://jsd.cdn.zzko.cn/gh/mycodeoen/MyPicture@main/blog/202409020311179.png"
+                      alt="image-20240902031121135"
+                ></p>
+</blockquote>
 ]]></content>
       <categories>
         <category>Java-Base</category>
