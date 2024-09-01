@@ -10,4 +10,3 @@ cover: /images/bg1.png
 ```shell
 npm config set registry https://registry.npm.taobao.org
 ```
-

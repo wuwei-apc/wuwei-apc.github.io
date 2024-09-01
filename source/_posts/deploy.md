@@ -10,6 +10,15 @@ cover: /images/bg1.png
 
 ### 1.一键部署
 
+#### （1）在_config.yml中配置github仓库和分支
+```yml
+deploy:
+  type: git
+  repository:  # 仓库地址
+  branch:  # 分支
+  # 测试
+```
+#### （2）执行部署命令
 ```bash
 hexo g -d
 ```
