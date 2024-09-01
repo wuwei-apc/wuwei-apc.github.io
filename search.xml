@@ -6,7 +6,8 @@
     <content><![CDATA[<blockquote>
 <p><a class="link"   href="https://redefine-docs.ohevan.com/footer#%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4" >配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </blockquote>
-<h3 id="1-一键部署"><a href="#1-一键部署" class="headerlink" title="1.一键部署"></a>1.一键部署</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure></div>
+<h3 id="1-一键部署"><a href="#1-一键部署" class="headerlink" title="1.一键部署"></a>1.一键部署</h3><h4 id="（1）在-config-yml中配置github仓库和分支"><a href="#（1）在-config-yml中配置github仓库和分支" class="headerlink" title="（1）在_config.yml中配置github仓库和分支"></a>（1）在_config.yml中配置github仓库和分支</h4><div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="comment"># repository: git@www.zpcnet.top:/root/mysite/repo/my-hexo-blog.git</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">git@github.com:wuwei-apc/wuwei-apc.github.io.git</span> <span class="comment"># 仓库地址</span></span><br><span class="line">  <span class="comment"># branch: master</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">gh-pages</span> <span class="comment"># 分支</span></span><br></pre></td></tr></table></figure></div>
+<h4 id="（2）执行部署命令"><a href="#（2）执行部署命令" class="headerlink" title="（2）执行部署命令"></a>（2）执行部署命令</h4><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure></div>
 
 ]]></content>
       <categories>
@@ -62,7 +63,6 @@
     <title>npm 设置淘宝镜像</title>
     <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
     <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></div>
-
 ]]></content>
       <categories>
         <category>npm configuration</category>
