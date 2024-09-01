@@ -26,13 +26,13 @@ defaults:
   # Site logo
   logo: /images/blog.png
   # Site avatar
-  avatar: /images/bg1.png
+  avatar: /images/bg.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # COLORS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 colors:
   #Primary color
-  primary: "#4dabf7"
+  primary: "#212529"
   # Secondary color (beta)
   secondary:
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -99,8 +99,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image:
-    light: /images/bg1.png # light mode
-    dark: /images/bg1.png # dark mode
+    light: /images/bg.png # light mode
+    dark: /images/bg.png # dark mode
   # Home banner title
   title: 我的博客网站
   # Home banner subtitle
@@ -117,8 +117,8 @@ home_banner:
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
   text_color:
-    light: "#fff5f5" # light mode
-    dark: "#f8f9fa" # dark mode
+    light: "#c5f6fa" # light mode
+    dark: "#38d9a9" # dark mode
   # Specific style of the text
   text_style:
     # Title font size
