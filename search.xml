@@ -1,45 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Git使用</title>
-    <url>/2023/11/30/git/Git%E4%BD%BF%E7%94%A8/</url>
+    <title>部署Blog(Hexo)</title>
+    <url>/2023/11/29/deploy/</url>
     <content><![CDATA[<blockquote>
-<p>Git 介绍： 分布式版本控制工具 VS 集中式版本控制工具</p>
+<p><a class="link"   href="https://redefine-docs.ohevan.com/footer#%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4" >配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </blockquote>
-<blockquote>
-<p><a class="link"   href="https://git-scm.com/" >官网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>简介:</p>
-<p>Git 是一个免费的开源分布式版本控制系统，旨在快速高效地处理从小型到超大型项目的所有内容。</p>
-<p>Git 易于学习，占用空间很小，性能快如闪电。它超越了Subversion，CVS，Perforce和ClearCase等SCM工具，具有廉价的本地分支，方便的暂存区域和多个工作流程等功能。</p>
+<h3 id="1-一键部署"><a href="#1-一键部署" class="headerlink" title="1.一键部署"></a>1.一键部署</h3><h4 id="（1）在-config-yml中配置github仓库和分支"><a href="#（1）在-config-yml中配置github仓库和分支" class="headerlink" title="（1）在_config.yml中配置github仓库和分支"></a>（1）在_config.yml中配置github仓库和分支</h4><div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span>  <span class="comment"># 仓库地址</span></span><br><span class="line">  <span class="attr">branch:</span>  <span class="comment"># 分支</span></span><br><span class="line">  <span class="comment"># 测试</span></span><br></pre></td></tr></table></figure></div>
+<h4 id="（2）执行部署命令"><a href="#（2）执行部署命令" class="headerlink" title="（2）执行部署命令"></a>（2）执行部署命令</h4><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>部署</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安装脚手架并创建项目</title>
+    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
+    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
+<p>安装</p>
 </blockquote>
-<h2 id="1-Git工作机制"><a href="#1-Git工作机制" class="headerlink" title="1.Git工作机制"></a>1.Git工作机制</h2><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Untitled.png"
-                      alt="Untitled"
-                ></p>
-<p><a href="/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/">Git安装</a></p>
-<p><a href="/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/">Git命令</a></p>
-<p><a href="/2023/11/30/git/gitpage/Git%E5%88%86%E6%94%AF/">Git分支</a></p>
-<p><a href="/2023/11/30//gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/">Git在集成开发环境中的使用</a></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
+
 <blockquote>
-<p><strong>commit 信息分类标准：</strong></p>
-<ul>
-<li><em><strong>feat</strong></em>：新功能（feature）</li>
-<li><em><strong>fix</strong></em>：修补bug</li>
-<li><em><strong>docs</strong></em>：文档（documentation）</li>
-<li><em><strong>style</strong></em>： 格式（不影响代码运行的变动）</li>
-<li><em><strong>refactor</strong></em>：重构（即不是新增功能，也不是修改bug的代码变&gt;    动）</li>
-<li><em><strong>test</strong></em>：增加测试</li>
-<li><em><strong>chore</strong></em>：构建过程或辅助工具的变动**</li>
-</ul>
+<p>检查版本号</p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
+<p>创建项目</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
+
+
 </blockquote>
 ]]></content>
       <categories>
-        <category>Git</category>
-        <category>Git使用</category>
+        <category>React</category>
       </categories>
       <tags>
-        <tag>git教程</tag>
+        <tag>react教程</tag>
       </tags>
   </entry>
   <entry>
@@ -80,225 +84,6 @@
       </categories>
       <tags>
         <tag>vim</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python基础学习</title>
-    <url>/2023/05/12/launguage/python/python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<h2 id="1-python类型介绍"><a href="#1-python类型介绍" class="headerlink" title="1. python类型介绍"></a>1. python类型介绍</h2>
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>python基本数据类型</p>
-
-    </div>
-    <div class="notel-content">
-      <p>int<br>str<br>double</p>
-
-    </div>
-  </div>
-
-
-
-]]></content>
-  </entry>
-  <entry>
-    <title>安装脚手架并创建项目</title>
-    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
-    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
-<p>安装</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
-
-<blockquote>
-<p>检查版本号</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
-
-
-
-<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
-<p>创建项目</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
-
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>React</category>
-      </categories>
-      <tags>
-        <tag>react教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java基础</title>
-    <url>/2023/11/30/launguage/java/javabase/</url>
-    <content><![CDATA[<blockquote>
-<p>Java是一门面向对象编程语言，不仅吸收了C语言的各种优点，还摒弃了C里难以理解的多继承、指针等概念，因此Java语言具有功能强大和简单易用两个特征。Java语言作为静态面向对象编程语言的代表，极好地实现了面向对象理论，允许程序员以优雅的思维方式进行复杂的编程 。</p>
-</blockquote>
-<blockquote>
-<p>Java可以编写桌面应用程序、Web应用程序、分布式系统和嵌入式系统应用程序等。</p>
-</blockquote>
-<blockquote>
-<p>Java具有特性:</p>
-</blockquote>
-<ol>
-<li> 简单性</li>
-<li> 面向对象</li>
-<li> 分布式</li>
-<li> 健壮性</li>
-<li> 安全性</li>
-<li> 平台独立与可移植性</li>
-<li> 多线程</li>
-<li> 动态性等特点<blockquote>
-</blockquote>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Java-Base</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>npm 设置淘宝镜像</title>
-    <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
-    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>npm configuration</category>
-      </categories>
-      <tags>
-        <tag>npm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>部署Blog(Hexo)</title>
-    <url>/2023/11/29/deploy/</url>
-    <content><![CDATA[<blockquote>
-<p><a class="link"   href="https://redefine-docs.ohevan.com/footer#%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4" >配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</blockquote>
-<h3 id="1-一键部署"><a href="#1-一键部署" class="headerlink" title="1.一键部署"></a>1.一键部署</h3><h4 id="（1）在-config-yml中配置github仓库和分支"><a href="#（1）在-config-yml中配置github仓库和分支" class="headerlink" title="（1）在_config.yml中配置github仓库和分支"></a>（1）在_config.yml中配置github仓库和分支</h4><div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span>  <span class="comment"># 仓库地址</span></span><br><span class="line">  <span class="attr">branch:</span>  <span class="comment"># 分支</span></span><br><span class="line">  <span class="comment"># 测试</span></span><br></pre></td></tr></table></figure></div>
-<h4 id="（2）执行部署命令"><a href="#（2）执行部署命令" class="headerlink" title="（2）执行部署命令"></a>（2）执行部署命令</h4><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>部署</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java-Annotation-learn</title>
-    <url>/2023/11/30/launguage/java/Java-Annotation-learn/</url>
-    <content><![CDATA[<blockquote>
-<p>Java注解学习笔记 </p>
-</blockquote>
-<h2 id="1-注解基础"><a href="#1-注解基础" class="headerlink" title="1. 注解基础:"></a>1. 注解基础:</h2><h3 id="1-1-概念-说明程序给计算机看的"><a href="#1-1-概念-说明程序给计算机看的" class="headerlink" title="1.1 概念: 说明程序给计算机看的"></a>1.1 概念: 说明程序给计算机看的</h3><h3 id="1-2-注释-文字描述程序-给程序员看"><a href="#1-2-注释-文字描述程序-给程序员看" class="headerlink" title="1.2 注释: 文字描述程序,给程序员看"></a>1.2 注释: 文字描述程序,给程序员看</h3><h3 id="1-3-定义："><a href="#1-3-定义：" class="headerlink" title="1.3 定义："></a>1.3 定义：</h3><p>  注解（Annotation），也叫<a class="link"   href="https://baike.baidu.com/item/%E5%85%83%E6%95%B0%E6%8D%AE/1946090?fromModule=lemma_inlink" >元数据 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。一种代码级别的说明。它是JDK1.5及以后版本引入的一个特性，与类、接口、枚举是在同一个层次。它可以声明在包、类、字段、方法、<a class="link"   href="https://baike.baidu.com/item/%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F/9844788?fromModule=lemma_inlink" >局部变量 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>、方法参数等的前面，用来对这些元素进行说明，注释。</p>
-<h4 id="1-3-1-作用分类："><a href="#1-3-1-作用分类：" class="headerlink" title="1.3.1 作用分类："></a>1.3.1 作用分类：</h4><ol>
-<li><p>编写文档：通过代码里标识的元数据生成文档【生成文档<a class="link"   href="https://baike.baidu.com/item/doc/364715?fromModule=lemma_inlink" >doc <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>文档】</p>
-</li>
-<li><p>代码分析：通过代码里标识的元数据对代码进行分析【使用反射】</p>
-</li>
-<li><p>编译检查：通过代码里标识的元数据让<a class="link"   href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%99%A8/8853067?fromModule=lemma_inlink" >编译器 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>能够实现基本的编译检查</p>
-</li>
-</ol>
-<h4 id="1-3-2-JDK中预定义的注解"><a href="#1-3-2-JDK中预定义的注解" class="headerlink" title="1.3.2 JDK中预定义的注解"></a>1.3.2 JDK中预定义的注解</h4><ul>
-<li>@Override: 检测被该注解标注的方法是否是继承自父类（接口）的</li>
-<li>@Deprecated：该注解标注内容是否已过时</li>
-<li>@SuppressWarnings： 压制警告<ul>
-<li>一般传参all  <code>@SuppressWarnings(&quot;all&quot;)</code></li>
-</ul>
-</li>
-</ul>
-<h4 id="1-3-3-自定义注释"><a href="#1-3-3-自定义注释" class="headerlink" title="1.3.3 自定义注释"></a>1.3.3 自定义注释</h4><h5 id="1、格式："><a href="#1、格式：" class="headerlink" title="1、格式："></a>1、格式：</h5><p>元注解：<code>public @interface 注解名称 </code></p>
-<h5 id="2、本质"><a href="#2、本质" class="headerlink" title="2、本质:"></a>2、本质:</h5><blockquote>
-<p>注解本质是一个接口，该接口默认继承Annotation接口</p>
-</blockquote>
-<p>  <code>public interface MyAnnotation extends java.lang.annotation.Annotation &#123;   &#125;</code></p>
-<h5 id="3-、属性"><a href="#3-、属性" class="headerlink" title="3 、属性:"></a>3 、属性:</h5><blockquote>
-<p>注解中可以定义的抽象（成员）方法</p>
-</blockquote>
-<h5 id="4、要求"><a href="#4、要求" class="headerlink" title="4、要求"></a>4、要求</h5><ol>
-<li>返回值类型:<ul>
-<li>基本数据类型</li>
-<li>String </li>
-<li>枚举</li>
-<li>注解</li>
-<li>以上类型数组</li>
-</ul>
-</li>
-<li>定义了属性，使用时需要给属性赋值<ol>
-<li>如果定义属性时，使用default关键字默认初始化值，则不需要传值</li>
-<li>如果只有一个属性需要赋值，属性名为value,则直接定义值</li>
-<li>数组赋值时,值使用{}包裹，如果数组只有一个值则直接写值</li>
-</ol>
-</li>
-</ol>
-<h5 id="5、元注解"><a href="#5、元注解" class="headerlink" title="5、元注解:"></a>5、元注解:</h5><blockquote>
-<p>用于描述注解的注解  </p>
-</blockquote>
-<ul>
-<li>@Target: 描述注解能够作用的位置<ul>
-<li>ElementType取值:<ul>
-<li>TYPE: 可以作用于类上</li>
-<li>METHOD:  可以作用于方法上</li>
-<li>FIELD:  可以作用于成员变量上</li>
-</ul>
-</li>
-<li>@Retention: 描述注解被保留的阶段<ul>
-<li>@Retention(RetentionPolicy.RUNTIME)： 当前被描述的注解，会保留到class 字节码文件中，并被JVM读取到</li>
-</ul>
-</li>
-<li>@Documented： 描述注解是否被抽取到API文档中</li>
-<li>@Inherited: 描述注解是否被子类继承</li>
-</ul>
-</li>
-</ul>
-<h5 id="6、-在程序中使用解析注解：-获取注解中定义的属性值"><a href="#6、-在程序中使用解析注解：-获取注解中定义的属性值" class="headerlink" title="6、 在程序中使用解析注解： 获取注解中定义的属性值"></a>6、 在程序中使用解析注解： 获取注解中定义的属性值</h5><ol>
-<li><p>获取注解定义位置的对象(Class Method Field)</p>
-</li>
-<li><p>获取指定的注解</p>
-<ul>
-<li>getAnnotation(Class)</li>
-<li>其实就是在内存中生成一个该注释接口的子类实现对象 <div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> propertiesImpl implments   Properties</span><br><span class="line">      &#123;</span><br><span class="line">        <span class="keyword">public</span> String <span class="title function_">className</span><span class="params">()</span>&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;com.zpc.demo2&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">public</span> String <span class="title function_">methodName</span><span class="params">()</span>&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;show&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure></div></li>
-</ul>
-</li>
-<li><p>调用注解中的抽象方法获取配置文件的属性值</p>
-</li>
-</ol>
-<h2 id="2-注解实战"><a href="#2-注解实战" class="headerlink" title="2. 注解实战"></a>2. 注解实战</h2>]]></content>
-      <categories>
-        <category>Java-Base</category>
-        <category>Java-Annotation-learn</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git安装</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<blockquote>
-<p>Git 安装教程</p>
-</blockquote>
-<p><a class="link"   href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" >安装链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%AE%89%E8%A3%85/Untitled.png"
-                      alt="Untitled"
-                ></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git安装</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
       </tags>
   </entry>
   <entry>
@@ -442,18 +227,45 @@
       </tags>
   </entry>
   <entry>
-    <title>Vue3 Element-plus配置</title>
-    <url>/2023/11/29/vue/UI/elementUI/</url>
-    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
-
+    <title>Git使用</title>
+    <url>/2023/11/30/git/Git%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<blockquote>
+<p>Git 介绍： 分布式版本控制工具 VS 集中式版本控制工具</p>
+</blockquote>
+<blockquote>
+<p><a class="link"   href="https://git-scm.com/" >官网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>简介:</p>
+<p>Git 是一个免费的开源分布式版本控制系统，旨在快速高效地处理从小型到超大型项目的所有内容。</p>
+<p>Git 易于学习，占用空间很小，性能快如闪电。它超越了Subversion，CVS，Perforce和ClearCase等SCM工具，具有廉价的本地分支，方便的暂存区域和多个工作流程等功能。</p>
+</blockquote>
+<h2 id="1-Git工作机制"><a href="#1-Git工作机制" class="headerlink" title="1.Git工作机制"></a>1.Git工作机制</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Untitled.png"
+                      alt="Untitled"
+                ></p>
+<p><a href="/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/">Git安装</a></p>
+<p><a href="/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/">Git命令</a></p>
+<p><a href="/2023/11/30/git/gitpage/Git%E5%88%86%E6%94%AF/">Git分支</a></p>
+<p><a href="/2023/11/30//gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/">Git在集成开发环境中的使用</a></p>
+<blockquote>
+<p><strong>commit 信息分类标准：</strong></p>
+<ul>
+<li><em><strong>feat</strong></em>：新功能（feature）</li>
+<li><em><strong>fix</strong></em>：修补bug</li>
+<li><em><strong>docs</strong></em>：文档（documentation）</li>
+<li><em><strong>style</strong></em>： 格式（不影响代码运行的变动）</li>
+<li><em><strong>refactor</strong></em>：重构（即不是新增功能，也不是修改bug的代码变&gt;    动）</li>
+<li><em><strong>test</strong></em>：增加测试</li>
+<li><em><strong>chore</strong></em>：构建过程或辅助工具的变动**</li>
+</ul>
+</blockquote>
 ]]></content>
       <categories>
-        <category>Element-plus</category>
+        <category>Git</category>
+        <category>Git使用</category>
       </categories>
       <tags>
-        <tag>前端</tag>
+        <tag>git教程</tag>
       </tags>
   </entry>
   <entry>
@@ -539,6 +351,191 @@
       </tags>
   </entry>
   <entry>
+    <title>npm 设置淘宝镜像</title>
+    <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
+    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>npm configuration</category>
+      </categories>
+      <tags>
+        <tag>npm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git安装</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<blockquote>
+<p>Git 安装教程</p>
+</blockquote>
+<p><a class="link"   href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" >安装链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%AE%89%E8%A3%85/Untitled.png"
+                      alt="Untitled"
+                ></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git安装</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python基础学习</title>
+    <url>/2023/05/12/launguage/python/python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h2 id="1-python类型介绍"><a href="#1-python类型介绍" class="headerlink" title="1. python类型介绍"></a>1. python类型介绍</h2>
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>python基本数据类型</p>
+
+    </div>
+    <div class="notel-content">
+      <p>int<br>str<br>double</p>
+
+    </div>
+  </div>
+
+
+
+]]></content>
+  </entry>
+  <entry>
+    <title>Git在集成开发环境中的使用</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git集成开发环境中的使用</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java-Annotation-learn</title>
+    <url>/2023/11/30/launguage/java/Java-Annotation-learn/</url>
+    <content><![CDATA[<blockquote>
+<p>Java注解学习笔记 </p>
+</blockquote>
+<h2 id="1-注解基础"><a href="#1-注解基础" class="headerlink" title="1. 注解基础:"></a>1. 注解基础:</h2><h3 id="1-1-概念-说明程序给计算机看的"><a href="#1-1-概念-说明程序给计算机看的" class="headerlink" title="1.1 概念: 说明程序给计算机看的"></a>1.1 概念: 说明程序给计算机看的</h3><h3 id="1-2-注释-文字描述程序-给程序员看"><a href="#1-2-注释-文字描述程序-给程序员看" class="headerlink" title="1.2 注释: 文字描述程序,给程序员看"></a>1.2 注释: 文字描述程序,给程序员看</h3><h3 id="1-3-定义："><a href="#1-3-定义：" class="headerlink" title="1.3 定义："></a>1.3 定义：</h3><p>  注解（Annotation），也叫<a class="link"   href="https://baike.baidu.com/item/%E5%85%83%E6%95%B0%E6%8D%AE/1946090?fromModule=lemma_inlink" >元数据 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。一种代码级别的说明。它是JDK1.5及以后版本引入的一个特性，与类、接口、枚举是在同一个层次。它可以声明在包、类、字段、方法、<a class="link"   href="https://baike.baidu.com/item/%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F/9844788?fromModule=lemma_inlink" >局部变量 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>、方法参数等的前面，用来对这些元素进行说明，注释。</p>
+<h4 id="1-3-1-作用分类："><a href="#1-3-1-作用分类：" class="headerlink" title="1.3.1 作用分类："></a>1.3.1 作用分类：</h4><ol>
+<li><p>编写文档：通过代码里标识的元数据生成文档【生成文档<a class="link"   href="https://baike.baidu.com/item/doc/364715?fromModule=lemma_inlink" >doc <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>文档】</p>
+</li>
+<li><p>代码分析：通过代码里标识的元数据对代码进行分析【使用反射】</p>
+</li>
+<li><p>编译检查：通过代码里标识的元数据让<a class="link"   href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%99%A8/8853067?fromModule=lemma_inlink" >编译器 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>能够实现基本的编译检查</p>
+</li>
+</ol>
+<h4 id="1-3-2-JDK中预定义的注解"><a href="#1-3-2-JDK中预定义的注解" class="headerlink" title="1.3.2 JDK中预定义的注解"></a>1.3.2 JDK中预定义的注解</h4><ul>
+<li>@Override: 检测被该注解标注的方法是否是继承自父类（接口）的</li>
+<li>@Deprecated：该注解标注内容是否已过时</li>
+<li>@SuppressWarnings： 压制警告<ul>
+<li>一般传参all  <code>@SuppressWarnings(&quot;all&quot;)</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="1-3-3-自定义注释"><a href="#1-3-3-自定义注释" class="headerlink" title="1.3.3 自定义注释"></a>1.3.3 自定义注释</h4><h5 id="1、格式："><a href="#1、格式：" class="headerlink" title="1、格式："></a>1、格式：</h5><p>元注解：<code>public @interface 注解名称 </code></p>
+<h5 id="2、本质"><a href="#2、本质" class="headerlink" title="2、本质:"></a>2、本质:</h5><blockquote>
+<p>注解本质是一个接口，该接口默认继承Annotation接口</p>
+</blockquote>
+<p>  <code>public interface MyAnnotation extends java.lang.annotation.Annotation &#123;   &#125;</code></p>
+<h5 id="3-、属性"><a href="#3-、属性" class="headerlink" title="3 、属性:"></a>3 、属性:</h5><blockquote>
+<p>注解中可以定义的抽象（成员）方法</p>
+</blockquote>
+<h5 id="4、要求"><a href="#4、要求" class="headerlink" title="4、要求"></a>4、要求</h5><ol>
+<li>返回值类型:<ul>
+<li>基本数据类型</li>
+<li>String </li>
+<li>枚举</li>
+<li>注解</li>
+<li>以上类型数组</li>
+</ul>
+</li>
+<li>定义了属性，使用时需要给属性赋值<ol>
+<li>如果定义属性时，使用default关键字默认初始化值，则不需要传值</li>
+<li>如果只有一个属性需要赋值，属性名为value,则直接定义值</li>
+<li>数组赋值时,值使用{}包裹，如果数组只有一个值则直接写值</li>
+</ol>
+</li>
+</ol>
+<h5 id="5、元注解"><a href="#5、元注解" class="headerlink" title="5、元注解:"></a>5、元注解:</h5><blockquote>
+<p>用于描述注解的注解  </p>
+</blockquote>
+<ul>
+<li>@Target: 描述注解能够作用的位置<ul>
+<li>ElementType取值:<ul>
+<li>TYPE: 可以作用于类上</li>
+<li>METHOD:  可以作用于方法上</li>
+<li>FIELD:  可以作用于成员变量上</li>
+</ul>
+</li>
+<li>@Retention: 描述注解被保留的阶段<ul>
+<li>@Retention(RetentionPolicy.RUNTIME)： 当前被描述的注解，会保留到class 字节码文件中，并被JVM读取到</li>
+</ul>
+</li>
+<li>@Documented： 描述注解是否被抽取到API文档中</li>
+<li>@Inherited: 描述注解是否被子类继承</li>
+</ul>
+</li>
+</ul>
+<h5 id="6、-在程序中使用解析注解：-获取注解中定义的属性值"><a href="#6、-在程序中使用解析注解：-获取注解中定义的属性值" class="headerlink" title="6、 在程序中使用解析注解： 获取注解中定义的属性值"></a>6、 在程序中使用解析注解： 获取注解中定义的属性值</h5><ol>
+<li><p>获取注解定义位置的对象(Class Method Field)</p>
+</li>
+<li><p>获取指定的注解</p>
+<ul>
+<li>getAnnotation(Class)</li>
+<li>其实就是在内存中生成一个该注释接口的子类实现对象 <div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> propertiesImpl implments   Properties</span><br><span class="line">      &#123;</span><br><span class="line">        <span class="keyword">public</span> String <span class="title function_">className</span><span class="params">()</span>&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;com.zpc.demo2&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">public</span> String <span class="title function_">methodName</span><span class="params">()</span>&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;show&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure></div></li>
+</ul>
+</li>
+<li><p>调用注解中的抽象方法获取配置文件的属性值</p>
+</li>
+</ol>
+<h2 id="2-注解实战"><a href="#2-注解实战" class="headerlink" title="2. 注解实战"></a>2. 注解实战</h2>]]></content>
+      <categories>
+        <category>Java-Base</category>
+        <category>Java-Annotation-learn</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java基础</title>
+    <url>/2023/11/30/launguage/java/javabase/</url>
+    <content><![CDATA[<blockquote>
+<p>Java是一门面向对象编程语言，不仅吸收了C语言的各种优点，还摒弃了C里难以理解的多继承、指针等概念，因此Java语言具有功能强大和简单易用两个特征。Java语言作为静态面向对象编程语言的代表，极好地实现了面向对象理论，允许程序员以优雅的思维方式进行复杂的编程 。</p>
+</blockquote>
+<blockquote>
+<p>Java可以编写桌面应用程序、Web应用程序、分布式系统和嵌入式系统应用程序等。</p>
+</blockquote>
+<blockquote>
+<p>Java具有特性:</p>
+</blockquote>
+<ol>
+<li> 简单性</li>
+<li> 面向对象</li>
+<li> 分布式</li>
+<li> 健壮性</li>
+<li> 安全性</li>
+<li> 平台独立与可移植性</li>
+<li> 多线程</li>
+<li> 动态性等特点<blockquote>
+</blockquote>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Java-Base</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>vue3cli axios配置</title>
     <url>/2023/11/29/vue/plugins/axios/</url>
     <content><![CDATA[<h3 id="一、npm-安装axios"><a href="#一、npm-安装axios" class="headerlink" title="一、npm 安装axios"></a>一、npm 安装axios</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install axios</span><br></pre></td></tr></table></figure></div>
@@ -577,15 +574,18 @@
       </tags>
   </entry>
   <entry>
-    <title>Git在集成开发环境中的使用</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[]]></content>
+    <title>Vue3 Element-plus配置</title>
+    <url>/2023/11/29/vue/UI/elementUI/</url>
+    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
       <categories>
-        <category>Git</category>
-        <category>Git集成开发环境中的使用</category>
+        <category>Element-plus</category>
       </categories>
       <tags>
-        <tag>git教程</tag>
+        <tag>前端</tag>
       </tags>
   </entry>
 </search>
