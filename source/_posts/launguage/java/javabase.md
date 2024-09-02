@@ -22,4 +22,4 @@ categories: [Java-Base]
 7.  多线程
 8.  动态性等特点
 
-> ![image-20240902031121135](https://jsd.cdn.zzko.cn/gh/mycodeoen/MyPicture@main/blog/202409020311179.png)
+> ![image-20240902121426436](https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409021214489.png)
