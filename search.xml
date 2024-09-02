@@ -29,12 +29,81 @@
                      data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409022247671.png"
                       alt="image-20240902224734605"
                 ></p>
-<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2>]]></content>
+]]></content>
       <categories>
         <category>hexo</category>
       </categories>
       <tags>
         <tag>部署</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vim Motion</title>
+    <url>/2023/11/30/vim/vim-Motion/</url>
+    <content><![CDATA[<blockquote>
+<p><a class="link"   href="https://www.bilibili.com/video/BV1z541177Jy?p=8&spm_id_from=pageDriver&vd_source=838d5ab6a9faca2cc25d06770d32013c" >B站视频教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<h3 id="1-i-inner-and-a-around-的区别"><a href="#1-i-inner-and-a-around-的区别" class="headerlink" title="1. i(inner) and a(around)的区别"></a>1. i(inner) and a(around)的区别</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/vim/image-20230623132750445.png"
+                      alt="image-20230623132750445"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/vim/image-20230623133005272.png"
+                      alt="image-20230623133005272"
+                ></p>
+<h3 id="2-操作符和动作"><a href="#2-操作符和动作" class="headerlink" title="2. 操作符和动作"></a>2. 操作符和动作</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409020309086.png"
+                      alt="image-20230623133101848"
+                ></p>
+<h3 id="3-切换带大小写"><a href="#3-切换带大小写" class="headerlink" title="3.切换带大小写"></a>3.切换带大小写</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/vim/image-20230623134612445.png"
+                      alt="image-20230623134612445"
+                ></p>
+<h3 id="4-跳转标签页"><a href="#4-跳转标签页" class="headerlink" title="4.跳转标签页"></a>4.跳转标签页</h3><p>gt切换窗口</p>
+<p>space+space sw </p>
+]]></content>
+      <categories>
+        <category>vim cursor Motion</category>
+      </categories>
+      <tags>
+        <tag>vim</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安装脚手架并创建项目</title>
+    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
+    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
+<p>安装</p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>检查版本号</p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
+<p>创建项目</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
+
+
+</blockquote>
+]]></content>
+      <categories>
+        <category>React</category>
+      </categories>
+      <tags>
+        <tag>react教程</tag>
       </tags>
   </entry>
   <entry>
@@ -77,75 +146,6 @@
       </categories>
       <tags>
         <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>安装脚手架并创建项目</title>
-    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
-    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
-<p>安装</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
-
-<blockquote>
-<p>检查版本号</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
-
-
-
-<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
-<p>创建项目</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
-
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>React</category>
-      </categories>
-      <tags>
-        <tag>react教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Vim Motion</title>
-    <url>/2023/11/30/vim/vim-Motion/</url>
-    <content><![CDATA[<blockquote>
-<p><a class="link"   href="https://www.bilibili.com/video/BV1z541177Jy?p=8&spm_id_from=pageDriver&vd_source=838d5ab6a9faca2cc25d06770d32013c" >B站视频教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</blockquote>
-<h3 id="1-i-inner-and-a-around-的区别"><a href="#1-i-inner-and-a-around-的区别" class="headerlink" title="1. i(inner) and a(around)的区别"></a>1. i(inner) and a(around)的区别</h3><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/vim/image-20230623132750445.png"
-                      alt="image-20230623132750445"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/vim/image-20230623133005272.png"
-                      alt="image-20230623133005272"
-                ></p>
-<h3 id="2-操作符和动作"><a href="#2-操作符和动作" class="headerlink" title="2. 操作符和动作"></a>2. 操作符和动作</h3><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409020309086.png"
-                      alt="image-20230623133101848"
-                ></p>
-<h3 id="3-切换带大小写"><a href="#3-切换带大小写" class="headerlink" title="3.切换带大小写"></a>3.切换带大小写</h3><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/vim/image-20230623134612445.png"
-                      alt="image-20230623134612445"
-                ></p>
-<h3 id="4-跳转标签页"><a href="#4-跳转标签页" class="headerlink" title="4.跳转标签页"></a>4.跳转标签页</h3><p>gt切换窗口</p>
-<p>space+space sw </p>
-]]></content>
-      <categories>
-        <category>vim cursor Motion</category>
-      </categories>
-      <tags>
-        <tag>vim</tag>
       </tags>
   </entry>
   <entry>
@@ -383,18 +383,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Git在集成开发环境中的使用</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git集成开发环境中的使用</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Git安装</title>
     <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<blockquote>
@@ -411,6 +399,18 @@
       <categories>
         <category>Git</category>
         <category>Git安装</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git在集成开发环境中的使用</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git集成开发环境中的使用</category>
       </categories>
       <tags>
         <tag>git教程</tag>
@@ -543,21 +543,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Vue3 Element-plus配置</title>
-    <url>/2023/11/29/vue/UI/elementUI/</url>
-    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>Element-plus</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>python基础学习</title>
     <url>/2023/05/12/launguage/python/python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<h2 id="1-python类型介绍"><a href="#1-python类型介绍" class="headerlink" title="1. python类型介绍"></a>1. python类型介绍</h2>
@@ -609,6 +594,21 @@
 ]]></content>
       <categories>
         <category>vue-router</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vue3 Element-plus配置</title>
+    <url>/2023/11/29/vue/UI/elementUI/</url>
+    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>Element-plus</category>
       </categories>
       <tags>
         <tag>前端</tag>
