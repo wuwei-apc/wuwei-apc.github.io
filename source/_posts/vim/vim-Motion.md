@@ -15,7 +15,7 @@ cover: /images/bg1.png
 
 ### 2. 操作符和动作
 
-![image-20230623133101848](https://jsd.cdn.zzko.cn/gh/mycodeoen/MyPicture@main/blog/202409020309086.png)
+![image-20230623133101848](https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409020309086.png)
 
 ### 3.切换带大小写
 
