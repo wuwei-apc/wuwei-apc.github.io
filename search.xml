@@ -38,35 +38,6 @@
       </tags>
   </entry>
   <entry>
-    <title>安装脚手架并创建项目</title>
-    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
-    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
-<p>安装</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
-
-<blockquote>
-<p>检查版本号</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
-
-
-
-<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
-<p>创建项目</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
-
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>React</category>
-      </categories>
-      <tags>
-        <tag>react教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Git使用</title>
     <url>/2023/11/30/git/Git%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<blockquote>
@@ -109,6 +80,18 @@
       </tags>
   </entry>
   <entry>
+    <title>npm 设置淘宝镜像</title>
+    <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
+    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>npm configuration</category>
+      </categories>
+      <tags>
+        <tag>npm</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Vim Motion</title>
     <url>/2023/11/30/vim/vim-Motion/</url>
     <content><![CDATA[<blockquote>
@@ -146,18 +129,6 @@
       </categories>
       <tags>
         <tag>vim</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>npm 设置淘宝镜像</title>
-    <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
-    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>npm configuration</category>
-      </categories>
-      <tags>
-        <tag>npm</tag>
       </tags>
   </entry>
   <entry>
@@ -301,6 +272,47 @@
       </tags>
   </entry>
   <entry>
+    <title>安装脚手架并创建项目</title>
+    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
+    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
+<p>安装</p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>检查版本号</p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
+<p>创建项目</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
+
+
+</blockquote>
+]]></content>
+      <categories>
+        <category>React</category>
+      </categories>
+      <tags>
+        <tag>react教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git在集成开发环境中的使用</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git集成开发环境中的使用</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Git命令</title>
     <url>/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h3 id="1-基本命令"><a href="#1-基本命令" class="headerlink" title="1.基本命令"></a>1.基本命令</h3><p><img  
@@ -377,40 +389,6 @@
       <categories>
         <category>Git</category>
         <category>Git命令</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git安装</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<blockquote>
-<p>Git 安装教程</p>
-</blockquote>
-<p><a class="link"   href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" >安装链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%AE%89%E8%A3%85/Untitled.png"
-                      alt="Untitled"
-                ></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git安装</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git在集成开发环境中的使用</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git集成开发环境中的使用</category>
       </categories>
       <tags>
         <tag>git教程</tag>
@@ -505,6 +483,28 @@
       </tags>
   </entry>
   <entry>
+    <title>Git安装</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<blockquote>
+<p>Git 安装教程</p>
+</blockquote>
+<p><a class="link"   href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" >安装链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%AE%89%E8%A3%85/Untitled.png"
+                      alt="Untitled"
+                ></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git安装</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Java基础</title>
     <url>/2023/11/30/launguage/java/javabase/</url>
     <content><![CDATA[<blockquote>
@@ -581,6 +581,21 @@
       </tags>
   </entry>
   <entry>
+    <title>Vue3 Element-plus配置</title>
+    <url>/2023/11/29/vue/UI/elementUI/</url>
+    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>Element-plus</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>vue-router 配置</title>
     <url>/2023/11/29/vue/plugins/router/</url>
     <content><![CDATA[<h3 id="一、npm安装vue-router插件"><a href="#一、npm安装vue-router插件" class="headerlink" title="一、npm安装vue-router插件"></a>一、npm安装vue-router插件</h3><pre><code>     <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在项目文件夹下的命令行输入以下命令:</span><br><span class="line">  npm install vue-router</span><br></pre></td></tr></table></figure></div>
@@ -594,21 +609,6 @@
 ]]></content>
       <categories>
         <category>vue-router</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Vue3 Element-plus配置</title>
-    <url>/2023/11/29/vue/UI/elementUI/</url>
-    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>Element-plus</category>
       </categories>
       <tags>
         <tag>前端</tag>
