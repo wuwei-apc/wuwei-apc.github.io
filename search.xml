@@ -80,6 +80,47 @@
       </tags>
   </entry>
   <entry>
+    <title>npm 设置淘宝镜像</title>
+    <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
+    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>npm configuration</category>
+      </categories>
+      <tags>
+        <tag>npm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安装脚手架并创建项目</title>
+    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
+    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
+<p>安装</p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>检查版本号</p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
+<p>创建项目</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
+
+
+</blockquote>
+]]></content>
+      <categories>
+        <category>React</category>
+      </categories>
+      <tags>
+        <tag>react教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Vim Motion</title>
     <url>/2023/11/30/vim/vim-Motion/</url>
     <content><![CDATA[<blockquote>
@@ -120,44 +161,160 @@
       </tags>
   </entry>
   <entry>
-    <title>安装脚手架并创建项目</title>
-    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
-    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
-<p>安装</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
+    <title>Vue3 Element-plus配置</title>
+    <url>/2023/11/29/vue/UI/elementUI/</url>
+    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
 
-<blockquote>
-<p>检查版本号</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
+<h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
 
-
-
-<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
-<p>创建项目</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
-
-
-</blockquote>
 ]]></content>
       <categories>
-        <category>React</category>
+        <category>Element-plus</category>
       </categories>
       <tags>
-        <tag>react教程</tag>
+        <tag>前端</tag>
       </tags>
   </entry>
   <entry>
-    <title>npm 设置淘宝镜像</title>
-    <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
-    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></div>
+    <title>Git命令</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h3 id="1-基本命令"><a href="#1-基本命令" class="headerlink" title="1.基本命令"></a>1.基本命令</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="2-初始化本地库"><a href="#2-初始化本地库" class="headerlink" title="2.初始化本地库"></a>2.初始化本地库</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 在项目目录下执行此命令</span></span><br><span class="line">git init</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%201.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="3-查看本地库状态"><a href="#3-查看本地库状态" class="headerlink" title="3.查看本地库状态"></a>3.查看本地库状态</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%202.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="4-添加到暂存区"><a href="#4-添加到暂存区" class="headerlink" title="4.添加到暂存区"></a>4.添加到暂存区</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># . 代表把所有修改文件添加到暂存区域</span></span><br><span class="line">git add .</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%203.png"
+                      alt="Untitled"
+                ></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#查看当前状态,修改的文件都变为绿色代表添加到暂存区成功</span></span><br><span class="line">git status </span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%204.png"
+                      alt="Untitled"
+                ></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 删除工作区文件</span></span><br><span class="line">git <span class="built_in">rm</span> --cached &lt;file&gt;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="5-提交本地库"><a href="#5-提交本地库" class="headerlink" title="5.提交本地库"></a>5.提交本地库</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit -m <span class="string">&quot;日志信息&quot;</span> 文件名</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%205.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="6-查看日志信息"><a href="#6-查看日志信息" class="headerlink" title="6.查看日志信息"></a>6.查看日志信息</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git reflog</span><br><span class="line"><span class="comment"># 或者</span></span><br><span class="line">git <span class="built_in">log</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%206.png"
+                      alt="Untitled"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%207.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="7-历史版本切换"><a href="#7-历史版本切换" class="headerlink" title="7.历史版本切换"></a>7.历史版本切换</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git reset --hard &lt;版本号&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%208.png"
+                      alt="Untitled"
+                ></p>
 ]]></content>
       <categories>
-        <category>npm configuration</category>
+        <category>Git</category>
+        <category>Git命令</category>
       </categories>
       <tags>
-        <tag>npm</tag>
+        <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue3cli axios配置</title>
+    <url>/2023/11/29/vue/plugins/axios/</url>
+    <content><![CDATA[<h3 id="一、npm-安装axios"><a href="#一、npm-安装axios" class="headerlink" title="一、npm 安装axios"></a>一、npm 安装axios</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install axios</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="二、在main-js中引入"><a href="#二、在main-js中引入" class="headerlink" title="二、在main.js中引入"></a>二、在main.js中引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在main.<span class="property">js</span>中写入一下代码</span><br><span class="line"><span class="keyword">import</span> axios <span class="keyword">from</span> <span class="string">&#x27;axios&#x27;</span>;</span><br><span class="line"> </span><br><span class="line">axios.<span class="property">defaults</span>.<span class="property">baseURL</span>=<span class="string">&#x27;接口的http前缀&#x27;</span></span><br><span class="line"><span class="title class_">Vue</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">$axios</span> = axios</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="三、配置跨域"><a href="#三、配置跨域" class="headerlink" title="三、配置跨域"></a>三、配置跨域</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在vue.<span class="property">config</span>.<span class="property">js</span>中输入以下代码</span><br><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">    <span class="comment">/* 部署生产环境和开发环境下的URL：可对当前环境进行区分，baseUrl 从 Vue CLI 3.3 起已弃用，要使用publicPath */</span></span><br><span class="line">    <span class="attr">publicPath</span>: process.<span class="property">env</span>.<span class="property">NODE_ENV</span> === <span class="string">&#x27;production&#x27;</span> ? <span class="string">&#x27;./&#x27;</span> : <span class="string">&#x27;/&#x27;</span>,</span><br><span class="line">    <span class="comment">/* 输出文件目录：在npm run build时，生成文件的目录名称 */</span></span><br><span class="line">    <span class="attr">outputDir</span>: <span class="string">&#x27;dist&#x27;</span>,</span><br><span class="line">    <span class="comment">/* 放置生成的静态资源 (js、css、img、fonts) 的 (相对于 outputDir 的) 目录 */</span></span><br><span class="line">    <span class="attr">assetsDir</span>: <span class="string">&quot;assets&quot;</span>,</span><br><span class="line">    <span class="comment">/* 是否在构建生产包时生成 sourceMap 文件，false将提高构建速度 */</span></span><br><span class="line">    <span class="attr">productionSourceMap</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="comment">/* 默认情况下，生成的静态资源在它们的文件名中包含了 hash 以便更好的控制缓存，你可以通过将这个选项设为 false 来关闭文件名哈希。(false的时候就是让原来的文件名不改变) */</span></span><br><span class="line">    <span class="attr">filenameHashing</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="comment">/* 代码保存时进行eslint检测 */</span></span><br><span class="line">    <span class="attr">lintOnSave</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="comment">/* webpack-dev-server 相关配置 */</span></span><br><span class="line">    <span class="attr">devServer</span>: &#123;</span><br><span class="line">      <span class="comment">/* 自动打开浏览器 */</span></span><br><span class="line">      <span class="attr">open</span>: <span class="literal">false</span>,</span><br><span class="line">      <span class="attr">port</span>: <span class="number">8080</span>, <span class="comment">//本地端口号</span></span><br><span class="line">      <span class="attr">https</span>: <span class="literal">false</span>,</span><br><span class="line">      <span class="attr">hotOnly</span>: <span class="literal">false</span>,</span><br><span class="line">      <span class="comment">/* 使用代理 */</span></span><br><span class="line">      <span class="attr">proxy</span>: &#123;</span><br><span class="line">        <span class="string">&#x27;/api&#x27;</span>: &#123;</span><br><span class="line">        <span class="attr">target</span>: <span class="string">&#x27;http://47.106.241.182:8082&#x27;</span>,<span class="comment">//服务器协议、ip和端口号</span></span><br><span class="line">        <span class="attr">secure</span>: <span class="literal">false</span>,  <span class="comment">// 如果是https接口，需要配置这个参数</span></span><br><span class="line">        <span class="attr">ws</span>: <span class="literal">true</span>,<span class="comment">//是否代理websockets</span></span><br><span class="line">        <span class="attr">changeOrigin</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">pathRewrite</span>:&#123;</span><br><span class="line">          <span class="string">&#x27;^/api&#x27;</span>:<span class="string">&#x27;&#x27;</span></span><br><span class="line">      	&#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">或者在vite.<span class="property">config</span>.<span class="property">js</span>中加入以下代码</span><br><span class="line"> <span class="attr">server</span>: &#123;</span><br><span class="line">    <span class="attr">port</span>: <span class="string">&#x27;3000&#x27;</span>,</span><br><span class="line">    <span class="attr">proxy</span>: &#123;</span><br><span class="line">      <span class="string">&#x27;/api&#x27;</span>: &#123;</span><br><span class="line">        <span class="attr">target</span>: <span class="string">&#x27;http://localhost:8080/&#x27;</span>,</span><br><span class="line">        <span class="attr">changeOrigin</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">rewrite</span>: <span class="function">(<span class="params">path</span>) =&gt;</span> path.<span class="title function_">replace</span>(<span class="regexp">/^\/api/</span>, <span class="string">&#x27;&#x27;</span>) <span class="comment">// 不可以省略rewrite</span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="四、统一配置token"><a href="#四、统一配置token" class="headerlink" title="四、统一配置token"></a>四、统一配置token</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在main.<span class="property">js</span> 中加入以下代码</span><br><span class="line">axios.<span class="property">interceptors</span>.<span class="property">request</span>.<span class="title function_">use</span>(<span class="function"><span class="params">config</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="comment">// 在发送请求之前做些什么</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 判断是否存在token,如果存在将每个页面header添加token</span></span><br><span class="line">    <span class="keyword">if</span> (<span class="variable language_">sessionStorage</span>.<span class="title function_">getItem</span>(<span class="string">&quot;token&quot;</span>)) &#123;</span><br><span class="line">        <span class="comment">//  ↓↓↓注意此处要与后端设置的变量名相统一</span></span><br><span class="line">        config.<span class="property">headers</span>.<span class="property">token</span> = <span class="variable language_">sessionStorage</span>.<span class="title function_">getItem</span>(<span class="string">&quot;token&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> config</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>axios</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue-router 配置</title>
+    <url>/2023/11/29/vue/plugins/router/</url>
+    <content><![CDATA[<h3 id="一、npm安装vue-router插件"><a href="#一、npm安装vue-router插件" class="headerlink" title="一、npm安装vue-router插件"></a>一、npm安装vue-router插件</h3><pre><code>     <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在项目文件夹下的命令行输入以下命令:</span><br><span class="line">  npm install vue-router</span><br></pre></td></tr></table></figure></div>
+</code></pre>
+<h3 id="二、在vue3cli项目下的src文件夹中创建router包并配置"><a href="#二、在vue3cli项目下的src文件夹中创建router包并配置" class="headerlink" title="二、在vue3cli项目下的src文件夹中创建router包并配置"></a>二、在vue3cli项目下的src文件夹中创建router包并配置</h3><h4 id="1-创建router包"><a href="#1-创建router包" class="headerlink" title="1.创建router包"></a>1.创建router包</h4><h4 id="2-创建index-js输入以下代码基本配置"><a href="#2-创建index-js输入以下代码基本配置" class="headerlink" title="2.创建index.js输入以下代码基本配置"></a>2.创建index.js输入以下代码基本配置</h4><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> &#123; createRouter, createWebHashHistory &#125; <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> router = <span class="title function_">createRouter</span>(&#123;</span><br><span class="line">  <span class="attr">history</span>: <span class="title function_">createWebHashHistory</span>(),</span><br><span class="line">  <span class="attr">routes</span>: [</span><br><span class="line">    <span class="comment">//...</span></span><br><span class="line">  ],</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="三、main-js中引入router包中的index-js"><a href="#三、main-js中引入router包中的index-js" class="headerlink" title="三、main.js中引入router包中的index.js"></a>三、main.js中引入router包中的index.js</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">配置如下：</span><br><span class="line"><span class="keyword">import</span> &#123; createApp &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="title class_">App</span> <span class="keyword">from</span> <span class="string">&#x27;./App.vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> router <span class="keyword">from</span> <span class="string">&#x27;./route&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> app = <span class="title function_">createApp</span>(<span class="title class_">App</span>)</span><br><span class="line">app.<span class="title function_">use</span>(router)</span><br><span class="line">app.<span class="title function_">mount</span>(<span class="string">&#x27;#app&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>vue-router</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git安装</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<blockquote>
+<p>Git 安装教程</p>
+</blockquote>
+<p><a class="link"   href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" >安装链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%AE%89%E8%A3%85/Untitled.png"
+                      alt="Untitled"
+                ></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git安装</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
       </tags>
   </entry>
   <entry>
@@ -301,122 +458,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Git命令</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h3 id="1-基本命令"><a href="#1-基本命令" class="headerlink" title="1.基本命令"></a>1.基本命令</h3><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="2-初始化本地库"><a href="#2-初始化本地库" class="headerlink" title="2.初始化本地库"></a>2.初始化本地库</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 在项目目录下执行此命令</span></span><br><span class="line">git init</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%201.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="3-查看本地库状态"><a href="#3-查看本地库状态" class="headerlink" title="3.查看本地库状态"></a>3.查看本地库状态</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%202.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="4-添加到暂存区"><a href="#4-添加到暂存区" class="headerlink" title="4.添加到暂存区"></a>4.添加到暂存区</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># . 代表把所有修改文件添加到暂存区域</span></span><br><span class="line">git add .</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%203.png"
-                      alt="Untitled"
-                ></p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#查看当前状态,修改的文件都变为绿色代表添加到暂存区成功</span></span><br><span class="line">git status </span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%204.png"
-                      alt="Untitled"
-                ></p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 删除工作区文件</span></span><br><span class="line">git <span class="built_in">rm</span> --cached &lt;file&gt;</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="5-提交本地库"><a href="#5-提交本地库" class="headerlink" title="5.提交本地库"></a>5.提交本地库</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit -m <span class="string">&quot;日志信息&quot;</span> 文件名</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%205.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="6-查看日志信息"><a href="#6-查看日志信息" class="headerlink" title="6.查看日志信息"></a>6.查看日志信息</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git reflog</span><br><span class="line"><span class="comment"># 或者</span></span><br><span class="line">git <span class="built_in">log</span></span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%206.png"
-                      alt="Untitled"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%207.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="7-历史版本切换"><a href="#7-历史版本切换" class="headerlink" title="7.历史版本切换"></a>7.历史版本切换</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git reset --hard &lt;版本号&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%208.png"
-                      alt="Untitled"
-                ></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git命令</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git在集成开发环境中的使用</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git集成开发环境中的使用</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git安装</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<blockquote>
-<p>Git 安装教程</p>
-</blockquote>
-<p><a class="link"   href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" >安装链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%AE%89%E8%A3%85/Untitled.png"
-                      alt="Untitled"
-                ></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git安装</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Java-Annotation-learn</title>
     <url>/2023/11/30/launguage/java/Java-Annotation-learn/</url>
     <content><![CDATA[<blockquote>
@@ -505,6 +546,25 @@
       </tags>
   </entry>
   <entry>
+    <title>python基础学习</title>
+    <url>/2023/05/12/launguage/python/python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h2 id="1-python类型介绍"><a href="#1-python类型介绍" class="headerlink" title="1. python类型介绍"></a>1. python类型介绍</h2>
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>python基本数据类型</p>
+
+    </div>
+    <div class="notel-content">
+      <p>int<br>str<br>double</p>
+
+    </div>
+  </div>
+
+
+
+]]></content>
+  </entry>
+  <entry>
     <title>Java基础</title>
     <url>/2023/11/30/launguage/java/javabase/</url>
     <content><![CDATA[<blockquote>
@@ -543,75 +603,15 @@
       </tags>
   </entry>
   <entry>
-    <title>python基础学习</title>
-    <url>/2023/05/12/launguage/python/python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<h2 id="1-python类型介绍"><a href="#1-python类型介绍" class="headerlink" title="1. python类型介绍"></a>1. python类型介绍</h2>
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>python基本数据类型</p>
-
-    </div>
-    <div class="notel-content">
-      <p>int<br>str<br>double</p>
-
-    </div>
-  </div>
-
-
-
-]]></content>
-  </entry>
-  <entry>
-    <title>Vue3 Element-plus配置</title>
-    <url>/2023/11/29/vue/UI/elementUI/</url>
-    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
+    <title>Git在集成开发环境中的使用</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[]]></content>
       <categories>
-        <category>Element-plus</category>
+        <category>Git</category>
+        <category>Git集成开发环境中的使用</category>
       </categories>
       <tags>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue3cli axios配置</title>
-    <url>/2023/11/29/vue/plugins/axios/</url>
-    <content><![CDATA[<h3 id="一、npm-安装axios"><a href="#一、npm-安装axios" class="headerlink" title="一、npm 安装axios"></a>一、npm 安装axios</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install axios</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="二、在main-js中引入"><a href="#二、在main-js中引入" class="headerlink" title="二、在main.js中引入"></a>二、在main.js中引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在main.<span class="property">js</span>中写入一下代码</span><br><span class="line"><span class="keyword">import</span> axios <span class="keyword">from</span> <span class="string">&#x27;axios&#x27;</span>;</span><br><span class="line"> </span><br><span class="line">axios.<span class="property">defaults</span>.<span class="property">baseURL</span>=<span class="string">&#x27;接口的http前缀&#x27;</span></span><br><span class="line"><span class="title class_">Vue</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">$axios</span> = axios</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="三、配置跨域"><a href="#三、配置跨域" class="headerlink" title="三、配置跨域"></a>三、配置跨域</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在vue.<span class="property">config</span>.<span class="property">js</span>中输入以下代码</span><br><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">    <span class="comment">/* 部署生产环境和开发环境下的URL：可对当前环境进行区分，baseUrl 从 Vue CLI 3.3 起已弃用，要使用publicPath */</span></span><br><span class="line">    <span class="attr">publicPath</span>: process.<span class="property">env</span>.<span class="property">NODE_ENV</span> === <span class="string">&#x27;production&#x27;</span> ? <span class="string">&#x27;./&#x27;</span> : <span class="string">&#x27;/&#x27;</span>,</span><br><span class="line">    <span class="comment">/* 输出文件目录：在npm run build时，生成文件的目录名称 */</span></span><br><span class="line">    <span class="attr">outputDir</span>: <span class="string">&#x27;dist&#x27;</span>,</span><br><span class="line">    <span class="comment">/* 放置生成的静态资源 (js、css、img、fonts) 的 (相对于 outputDir 的) 目录 */</span></span><br><span class="line">    <span class="attr">assetsDir</span>: <span class="string">&quot;assets&quot;</span>,</span><br><span class="line">    <span class="comment">/* 是否在构建生产包时生成 sourceMap 文件，false将提高构建速度 */</span></span><br><span class="line">    <span class="attr">productionSourceMap</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="comment">/* 默认情况下，生成的静态资源在它们的文件名中包含了 hash 以便更好的控制缓存，你可以通过将这个选项设为 false 来关闭文件名哈希。(false的时候就是让原来的文件名不改变) */</span></span><br><span class="line">    <span class="attr">filenameHashing</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="comment">/* 代码保存时进行eslint检测 */</span></span><br><span class="line">    <span class="attr">lintOnSave</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="comment">/* webpack-dev-server 相关配置 */</span></span><br><span class="line">    <span class="attr">devServer</span>: &#123;</span><br><span class="line">      <span class="comment">/* 自动打开浏览器 */</span></span><br><span class="line">      <span class="attr">open</span>: <span class="literal">false</span>,</span><br><span class="line">      <span class="attr">port</span>: <span class="number">8080</span>, <span class="comment">//本地端口号</span></span><br><span class="line">      <span class="attr">https</span>: <span class="literal">false</span>,</span><br><span class="line">      <span class="attr">hotOnly</span>: <span class="literal">false</span>,</span><br><span class="line">      <span class="comment">/* 使用代理 */</span></span><br><span class="line">      <span class="attr">proxy</span>: &#123;</span><br><span class="line">        <span class="string">&#x27;/api&#x27;</span>: &#123;</span><br><span class="line">        <span class="attr">target</span>: <span class="string">&#x27;http://47.106.241.182:8082&#x27;</span>,<span class="comment">//服务器协议、ip和端口号</span></span><br><span class="line">        <span class="attr">secure</span>: <span class="literal">false</span>,  <span class="comment">// 如果是https接口，需要配置这个参数</span></span><br><span class="line">        <span class="attr">ws</span>: <span class="literal">true</span>,<span class="comment">//是否代理websockets</span></span><br><span class="line">        <span class="attr">changeOrigin</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">pathRewrite</span>:&#123;</span><br><span class="line">          <span class="string">&#x27;^/api&#x27;</span>:<span class="string">&#x27;&#x27;</span></span><br><span class="line">      	&#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">或者在vite.<span class="property">config</span>.<span class="property">js</span>中加入以下代码</span><br><span class="line"> <span class="attr">server</span>: &#123;</span><br><span class="line">    <span class="attr">port</span>: <span class="string">&#x27;3000&#x27;</span>,</span><br><span class="line">    <span class="attr">proxy</span>: &#123;</span><br><span class="line">      <span class="string">&#x27;/api&#x27;</span>: &#123;</span><br><span class="line">        <span class="attr">target</span>: <span class="string">&#x27;http://localhost:8080/&#x27;</span>,</span><br><span class="line">        <span class="attr">changeOrigin</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">rewrite</span>: <span class="function">(<span class="params">path</span>) =&gt;</span> path.<span class="title function_">replace</span>(<span class="regexp">/^\/api/</span>, <span class="string">&#x27;&#x27;</span>) <span class="comment">// 不可以省略rewrite</span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="四、统一配置token"><a href="#四、统一配置token" class="headerlink" title="四、统一配置token"></a>四、统一配置token</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在main.<span class="property">js</span> 中加入以下代码</span><br><span class="line">axios.<span class="property">interceptors</span>.<span class="property">request</span>.<span class="title function_">use</span>(<span class="function"><span class="params">config</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="comment">// 在发送请求之前做些什么</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 判断是否存在token,如果存在将每个页面header添加token</span></span><br><span class="line">    <span class="keyword">if</span> (<span class="variable language_">sessionStorage</span>.<span class="title function_">getItem</span>(<span class="string">&quot;token&quot;</span>)) &#123;</span><br><span class="line">        <span class="comment">//  ↓↓↓注意此处要与后端设置的变量名相统一</span></span><br><span class="line">        config.<span class="property">headers</span>.<span class="property">token</span> = <span class="variable language_">sessionStorage</span>.<span class="title function_">getItem</span>(<span class="string">&quot;token&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> config</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>axios</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue-router 配置</title>
-    <url>/2023/11/29/vue/plugins/router/</url>
-    <content><![CDATA[<h3 id="一、npm安装vue-router插件"><a href="#一、npm安装vue-router插件" class="headerlink" title="一、npm安装vue-router插件"></a>一、npm安装vue-router插件</h3><pre><code>     <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在项目文件夹下的命令行输入以下命令:</span><br><span class="line">  npm install vue-router</span><br></pre></td></tr></table></figure></div>
-</code></pre>
-<h3 id="二、在vue3cli项目下的src文件夹中创建router包并配置"><a href="#二、在vue3cli项目下的src文件夹中创建router包并配置" class="headerlink" title="二、在vue3cli项目下的src文件夹中创建router包并配置"></a>二、在vue3cli项目下的src文件夹中创建router包并配置</h3><h4 id="1-创建router包"><a href="#1-创建router包" class="headerlink" title="1.创建router包"></a>1.创建router包</h4><h4 id="2-创建index-js输入以下代码基本配置"><a href="#2-创建index-js输入以下代码基本配置" class="headerlink" title="2.创建index.js输入以下代码基本配置"></a>2.创建index.js输入以下代码基本配置</h4><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> &#123; createRouter, createWebHashHistory &#125; <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> router = <span class="title function_">createRouter</span>(&#123;</span><br><span class="line">  <span class="attr">history</span>: <span class="title function_">createWebHashHistory</span>(),</span><br><span class="line">  <span class="attr">routes</span>: [</span><br><span class="line">    <span class="comment">//...</span></span><br><span class="line">  ],</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></div>
-
-
-
-<h3 id="三、main-js中引入router包中的index-js"><a href="#三、main-js中引入router包中的index-js" class="headerlink" title="三、main.js中引入router包中的index.js"></a>三、main.js中引入router包中的index.js</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">配置如下：</span><br><span class="line"><span class="keyword">import</span> &#123; createApp &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="title class_">App</span> <span class="keyword">from</span> <span class="string">&#x27;./App.vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> router <span class="keyword">from</span> <span class="string">&#x27;./route&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> app = <span class="title function_">createApp</span>(<span class="title class_">App</span>)</span><br><span class="line">app.<span class="title function_">use</span>(router)</span><br><span class="line">app.<span class="title function_">mount</span>(<span class="string">&#x27;#app&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>vue-router</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
+        <tag>git教程</tag>
       </tags>
   </entry>
 </search>
