@@ -55,7 +55,7 @@
                      data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409020306519.png"
                       alt="image-20240902030612843"
                 ></p>
-<h4 id="（2）执行部署命令"><a href="#（2）执行部署命令" class="headerlink" title="（2）执行部署命令"></a>（2）执行部署命令</h4><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure></div>
+<h4 id="（2）执行部署命令"><a href="#（2）执行部署命令" class="headerlink" title="（2）执行部署命令"></a>（2）执行部署命令</h4><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean <span class="comment"># 解决缓存问题</span></span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure></div>
 
 <p><img  
                      lazyload
@@ -63,7 +63,7 @@
                      data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409020259919.png"
                       alt="image-20240902025912694"
                 ></p>
-<h3 id="测试图片"><a href="#测试图片" class="headerlink" title="测试图片"></a>测试图片</h3>]]></content>
+]]></content>
       <categories>
         <category>hexo</category>
       </categories>
