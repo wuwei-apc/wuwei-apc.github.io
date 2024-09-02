@@ -24,7 +24,7 @@ deploy:
 
 ```bash
 hexo clean # 解决缓存问题
-hexo g -d
+hexo g -d #一键部署
 ```
 
 ![image-20240902025912694](https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409020259919.png)
