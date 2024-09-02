@@ -99,8 +99,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image:
-    light: /images/bg.png # light mode
-    dark: /images/bg.png # dark mode
+    light: /images/bg1.png # light mode
+    dark: /images/bg1.png # dark mode
   # Home banner title
   title: 我的博客网站
   # Home banner subtitle
