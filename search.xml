@@ -29,7 +29,7 @@
                      data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409022247671.png"
                       alt="image-20240902224734605"
                 ></p>
-<h2 id="成功😂———————"><a href="#成功😂———————" class="headerlink" title="成功😂———————"></a>成功😂———————</h2>]]></content>
+<h2 id="成功😂"><a href="#成功😂" class="headerlink" title="成功😂"></a>成功😂</h2><h2 id="UI优化完成"><a href="#UI优化完成" class="headerlink" title="UI优化完成"></a>UI优化完成</h2>]]></content>
       <categories>
         <category>hexo</category>
       </categories>
@@ -80,6 +80,18 @@
       </tags>
   </entry>
   <entry>
+    <title>npm 设置淘宝镜像</title>
+    <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
+    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>npm configuration</category>
+      </categories>
+      <tags>
+        <tag>npm</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Vim Motion</title>
     <url>/2023/11/30/vim/vim-Motion/</url>
     <content><![CDATA[<blockquote>
@@ -117,47 +129,6 @@
       </categories>
       <tags>
         <tag>vim</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>npm 设置淘宝镜像</title>
-    <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
-    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>npm configuration</category>
-      </categories>
-      <tags>
-        <tag>npm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>安装脚手架并创建项目</title>
-    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
-    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
-<p>安装</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
-
-<blockquote>
-<p>检查版本号</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
-
-
-
-<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
-<p>创建项目</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
-
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>React</category>
-      </categories>
-      <tags>
-        <tag>react教程</tag>
       </tags>
   </entry>
   <entry>
@@ -301,6 +272,69 @@
       </tags>
   </entry>
   <entry>
+    <title>安装脚手架并创建项目</title>
+    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
+    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
+<p>安装</p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>检查版本号</p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
+<p>创建项目</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
+
+
+</blockquote>
+]]></content>
+      <categories>
+        <category>React</category>
+      </categories>
+      <tags>
+        <tag>react教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git安装</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<blockquote>
+<p>Git 安装教程</p>
+</blockquote>
+<p><a class="link"   href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" >安装链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%AE%89%E8%A3%85/Untitled.png"
+                      alt="Untitled"
+                ></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git安装</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git在集成开发环境中的使用</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git集成开发环境中的使用</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Git命令</title>
     <url>/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h3 id="1-基本命令"><a href="#1-基本命令" class="headerlink" title="1.基本命令"></a>1.基本命令</h3><p><img  
@@ -380,44 +414,6 @@
       </categories>
       <tags>
         <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java基础</title>
-    <url>/2023/11/30/launguage/java/javabase/</url>
-    <content><![CDATA[<blockquote>
-<p>Java是一门面向对象编程语言，不仅吸收了C语言的各种优点，还摒弃了C里难以理解的多继承、指针等概念，因此Java语言具有功能强大和简单易用两个特征。Java语言作为静态面向对象编程语言的代表，极好地实现了面向对象理论，允许程序员以优雅的思维方式进行复杂的编程 。</p>
-</blockquote>
-<blockquote>
-<p>Java可以编写桌面应用程序、Web应用程序、分布式系统和嵌入式系统应用程序等。</p>
-</blockquote>
-<blockquote>
-<p>Java具有特性:</p>
-</blockquote>
-<ol>
-<li> 简单性</li>
-<li> 面向对象</li>
-<li> 分布式</li>
-<li> 健壮性</li>
-<li> 安全性</li>
-<li> 平台独立与可移植性</li>
-<li> 多线程</li>
-<li> 动态性等特点</li>
-</ol>
-<blockquote>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409021214489.png"
-                      alt="image-20240902121426436"
-                ></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Java-Base</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -509,40 +505,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Git安装</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<blockquote>
-<p>Git 安装教程</p>
-</blockquote>
-<p><a class="link"   href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" >安装链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%AE%89%E8%A3%85/Untitled.png"
-                      alt="Untitled"
-                ></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git安装</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git在集成开发环境中的使用</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git集成开发环境中的使用</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>vue3cli axios配置</title>
     <url>/2023/11/29/vue/plugins/axios/</url>
     <content><![CDATA[<h3 id="一、npm-安装axios"><a href="#一、npm-安装axios" class="headerlink" title="一、npm 安装axios"></a>一、npm 安装axios</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install axios</span><br></pre></td></tr></table></figure></div>
@@ -559,6 +521,44 @@
       </categories>
       <tags>
         <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java基础</title>
+    <url>/2023/11/30/launguage/java/javabase/</url>
+    <content><![CDATA[<blockquote>
+<p>Java是一门面向对象编程语言，不仅吸收了C语言的各种优点，还摒弃了C里难以理解的多继承、指针等概念，因此Java语言具有功能强大和简单易用两个特征。Java语言作为静态面向对象编程语言的代表，极好地实现了面向对象理论，允许程序员以优雅的思维方式进行复杂的编程 。</p>
+</blockquote>
+<blockquote>
+<p>Java可以编写桌面应用程序、Web应用程序、分布式系统和嵌入式系统应用程序等。</p>
+</blockquote>
+<blockquote>
+<p>Java具有特性:</p>
+</blockquote>
+<ol>
+<li> 简单性</li>
+<li> 面向对象</li>
+<li> 分布式</li>
+<li> 健壮性</li>
+<li> 安全性</li>
+<li> 平台独立与可移植性</li>
+<li> 多线程</li>
+<li> 动态性等特点</li>
+</ol>
+<blockquote>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409021214489.png"
+                      alt="image-20240902121426436"
+                ></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Java-Base</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
