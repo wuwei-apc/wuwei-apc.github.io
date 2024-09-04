@@ -1,6 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>安装脚手架并创建项目</title>
+    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
+    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
+<p>安装</p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>检查版本号</p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
+<p>创建项目</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
+
+
+</blockquote>
+]]></content>
+      <categories>
+        <category>React</category>
+      </categories>
+      <tags>
+        <tag>react教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git使用</title>
+    <url>/2023/11/30/git/Git%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<blockquote>
+<p>Git 介绍： 分布式版本控制工具 VS 集中式版本控制工具</p>
+</blockquote>
+<blockquote>
+<p><a class="link"   href="https://git-scm.com/" >官网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>简介:</p>
+<p>Git 是一个免费的开源分布式版本控制系统，旨在快速高效地处理从小型到超大型项目的所有内容。</p>
+<p>Git 易于学习，占用空间很小，性能快如闪电。它超越了Subversion，CVS，Perforce和ClearCase等SCM工具，具有廉价的本地分支，方便的暂存区域和多个工作流程等功能。</p>
+</blockquote>
+<h2 id="1-Git工作机制"><a href="#1-Git工作机制" class="headerlink" title="1.Git工作机制"></a>1.Git工作机制</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Untitled.png"
+                      alt="Untitled"
+                ></p>
+<p><a href="/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/">Git安装</a></p>
+<p><a href="/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/">Git命令</a></p>
+<p><a href="/2023/11/30/git/gitpage/Git%E5%88%86%E6%94%AF/">Git分支</a></p>
+<p><a href="/2023/11/30//gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/">Git在集成开发环境中的使用</a></p>
+<blockquote>
+<p><strong>commit 信息分类标准：</strong></p>
+<ul>
+<li><em><strong>feat</strong></em>：新功能（feature）</li>
+<li><em><strong>fix</strong></em>：修补bug</li>
+<li><em><strong>docs</strong></em>：文档（documentation）</li>
+<li><em><strong>style</strong></em>： 格式（不影响代码运行的变动）</li>
+<li><em><strong>refactor</strong></em>：重构（即不是新增功能，也不是修改bug的代码变&gt;    动）</li>
+<li><em><strong>test</strong></em>：增加测试</li>
+<li><em><strong>chore</strong></em>：构建过程或辅助工具的变动**</li>
+</ul>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git使用</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>部署Blog(Hexo)</title>
     <url>/2023/11/29/deploy/</url>
     <content><![CDATA[<blockquote>
@@ -78,74 +149,15 @@
       </tags>
   </entry>
   <entry>
-    <title>安装脚手架并创建项目</title>
-    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
-    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
-<p>安装</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
-
-<blockquote>
-<p>检查版本号</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
-
-
-
-<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
-<p>创建项目</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
-
-
-</blockquote>
+    <title>npm 设置淘宝镜像</title>
+    <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
+    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></div>
 ]]></content>
       <categories>
-        <category>React</category>
+        <category>npm configuration</category>
       </categories>
       <tags>
-        <tag>react教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git使用</title>
-    <url>/2023/11/30/git/Git%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<blockquote>
-<p>Git 介绍： 分布式版本控制工具 VS 集中式版本控制工具</p>
-</blockquote>
-<blockquote>
-<p><a class="link"   href="https://git-scm.com/" >官网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>简介:</p>
-<p>Git 是一个免费的开源分布式版本控制系统，旨在快速高效地处理从小型到超大型项目的所有内容。</p>
-<p>Git 易于学习，占用空间很小，性能快如闪电。它超越了Subversion，CVS，Perforce和ClearCase等SCM工具，具有廉价的本地分支，方便的暂存区域和多个工作流程等功能。</p>
-</blockquote>
-<h2 id="1-Git工作机制"><a href="#1-Git工作机制" class="headerlink" title="1.Git工作机制"></a>1.Git工作机制</h2><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Untitled.png"
-                      alt="Untitled"
-                ></p>
-<p><a href="/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/">Git安装</a></p>
-<p><a href="/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/">Git命令</a></p>
-<p><a href="/2023/11/30/git/gitpage/Git%E5%88%86%E6%94%AF/">Git分支</a></p>
-<p><a href="/2023/11/30//gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/">Git在集成开发环境中的使用</a></p>
-<blockquote>
-<p><strong>commit 信息分类标准：</strong></p>
-<ul>
-<li><em><strong>feat</strong></em>：新功能（feature）</li>
-<li><em><strong>fix</strong></em>：修补bug</li>
-<li><em><strong>docs</strong></em>：文档（documentation）</li>
-<li><em><strong>style</strong></em>： 格式（不影响代码运行的变动）</li>
-<li><em><strong>refactor</strong></em>：重构（即不是新增功能，也不是修改bug的代码变&gt;    动）</li>
-<li><em><strong>test</strong></em>：增加测试</li>
-<li><em><strong>chore</strong></em>：构建过程或辅助工具的变动**</li>
-</ul>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git使用</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
+        <tag>npm</tag>
       </tags>
   </entry>
   <entry>
@@ -289,15 +301,85 @@
       </tags>
   </entry>
   <entry>
-    <title>npm 设置淘宝镜像</title>
-    <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
-    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></div>
+    <title>Git命令</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h3 id="1-基本命令"><a href="#1-基本命令" class="headerlink" title="1.基本命令"></a>1.基本命令</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="2-初始化本地库"><a href="#2-初始化本地库" class="headerlink" title="2.初始化本地库"></a>2.初始化本地库</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 在项目目录下执行此命令</span></span><br><span class="line">git init</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%201.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="3-查看本地库状态"><a href="#3-查看本地库状态" class="headerlink" title="3.查看本地库状态"></a>3.查看本地库状态</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%202.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="4-添加到暂存区"><a href="#4-添加到暂存区" class="headerlink" title="4.添加到暂存区"></a>4.添加到暂存区</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># . 代表把所有修改文件添加到暂存区域</span></span><br><span class="line">git add .</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%203.png"
+                      alt="Untitled"
+                ></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#查看当前状态,修改的文件都变为绿色代表添加到暂存区成功</span></span><br><span class="line">git status </span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%204.png"
+                      alt="Untitled"
+                ></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 删除工作区文件</span></span><br><span class="line">git <span class="built_in">rm</span> --cached &lt;file&gt;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="5-提交本地库"><a href="#5-提交本地库" class="headerlink" title="5.提交本地库"></a>5.提交本地库</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit -m <span class="string">&quot;日志信息&quot;</span> 文件名</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%205.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="6-查看日志信息"><a href="#6-查看日志信息" class="headerlink" title="6.查看日志信息"></a>6.查看日志信息</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git reflog</span><br><span class="line"><span class="comment"># 或者</span></span><br><span class="line">git <span class="built_in">log</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%206.png"
+                      alt="Untitled"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%207.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="7-历史版本切换"><a href="#7-历史版本切换" class="headerlink" title="7.历史版本切换"></a>7.历史版本切换</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git reset --hard &lt;版本号&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%208.png"
+                      alt="Untitled"
+                ></p>
 ]]></content>
       <categories>
-        <category>npm configuration</category>
+        <category>Git</category>
+        <category>Git命令</category>
       </categories>
       <tags>
-        <tag>npm</tag>
+        <tag>git教程</tag>
       </tags>
   </entry>
   <entry>
@@ -332,6 +414,40 @@
       </categories>
       <tags>
         <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python基础学习</title>
+    <url>/2023/05/12/launguage/python/python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h2 id="1-python类型介绍"><a href="#1-python类型介绍" class="headerlink" title="1. python类型介绍"></a>1. python类型介绍</h2>
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>python基本数据类型</p>
+
+    </div>
+    <div class="notel-content">
+      <p>int<br>str<br>double</p>
+
+    </div>
+  </div>
+
+
+
+]]></content>
+  </entry>
+  <entry>
+    <title>Vue3 Element-plus配置</title>
+    <url>/2023/11/29/vue/UI/elementUI/</url>
+    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>Element-plus</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
       </tags>
   </entry>
   <entry>
@@ -461,103 +577,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Git命令</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h3 id="1-基本命令"><a href="#1-基本命令" class="headerlink" title="1.基本命令"></a>1.基本命令</h3><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="2-初始化本地库"><a href="#2-初始化本地库" class="headerlink" title="2.初始化本地库"></a>2.初始化本地库</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 在项目目录下执行此命令</span></span><br><span class="line">git init</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%201.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="3-查看本地库状态"><a href="#3-查看本地库状态" class="headerlink" title="3.查看本地库状态"></a>3.查看本地库状态</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%202.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="4-添加到暂存区"><a href="#4-添加到暂存区" class="headerlink" title="4.添加到暂存区"></a>4.添加到暂存区</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># . 代表把所有修改文件添加到暂存区域</span></span><br><span class="line">git add .</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%203.png"
-                      alt="Untitled"
-                ></p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#查看当前状态,修改的文件都变为绿色代表添加到暂存区成功</span></span><br><span class="line">git status </span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%204.png"
-                      alt="Untitled"
-                ></p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 删除工作区文件</span></span><br><span class="line">git <span class="built_in">rm</span> --cached &lt;file&gt;</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="5-提交本地库"><a href="#5-提交本地库" class="headerlink" title="5.提交本地库"></a>5.提交本地库</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit -m <span class="string">&quot;日志信息&quot;</span> 文件名</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%205.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="6-查看日志信息"><a href="#6-查看日志信息" class="headerlink" title="6.查看日志信息"></a>6.查看日志信息</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git reflog</span><br><span class="line"><span class="comment"># 或者</span></span><br><span class="line">git <span class="built_in">log</span></span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%206.png"
-                      alt="Untitled"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%207.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="7-历史版本切换"><a href="#7-历史版本切换" class="headerlink" title="7.历史版本切换"></a>7.历史版本切换</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git reset --hard &lt;版本号&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%208.png"
-                      alt="Untitled"
-                ></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git命令</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Vue3 Element-plus配置</title>
-    <url>/2023/11/29/vue/UI/elementUI/</url>
-    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>Element-plus</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>vue3cli axios配置</title>
     <url>/2023/11/29/vue/plugins/axios/</url>
     <content><![CDATA[<h3 id="一、npm-安装axios"><a href="#一、npm-安装axios" class="headerlink" title="一、npm 安装axios"></a>一、npm 安装axios</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install axios</span><br></pre></td></tr></table></figure></div>
@@ -594,24 +613,5 @@
       <tags>
         <tag>前端</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>python基础学习</title>
-    <url>/2023/05/12/launguage/python/python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<h2 id="1-python类型介绍"><a href="#1-python类型介绍" class="headerlink" title="1. python类型介绍"></a>1. python类型介绍</h2>
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>python基本数据类型</p>
-
-    </div>
-    <div class="notel-content">
-      <p>int<br>str<br>double</p>
-
-    </div>
-  </div>
-
-
-
-]]></content>
   </entry>
 </search>
