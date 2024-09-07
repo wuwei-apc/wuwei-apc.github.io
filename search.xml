@@ -30,9 +30,9 @@
       </tags>
   </entry>
   <entry>
-    <title>部署Blog(Hexo)</title>
+    <title>安装Hexo</title>
     <url>/2023/11/29/hexo/install/</url>
-    <content><![CDATA[<h1 id="hexo-安装"><a href="#hexo-安装" class="headerlink" title="hexo 安装"></a>hexo 安装</h1><blockquote>
+    <content><![CDATA[<h1 id="Hexo-安装"><a href="#Hexo-安装" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h1><blockquote>
 <p>前提下载Nodejs </p>
 <ul>
 <li><a class="link"   href="https://nodejs.cn/" >node中文网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
