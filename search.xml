@@ -38,6 +38,35 @@
       </tags>
   </entry>
   <entry>
+    <title>安装脚手架并创建项目</title>
+    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
+    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
+<p>安装</p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>检查版本号</p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
+<p>创建项目</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
+
+
+</blockquote>
+]]></content>
+      <categories>
+        <category>React</category>
+      </categories>
+      <tags>
+        <tag>react教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Vim Motion</title>
     <url>/2023/11/30/vim/vim-Motion/</url>
     <content><![CDATA[<blockquote>
@@ -78,6 +107,56 @@
       </tags>
   </entry>
   <entry>
+    <title>安装Hexo</title>
+    <url>/2023/11/29/hexo/install/</url>
+    <content><![CDATA[<h1 id="Hexo-安装"><a href="#Hexo-安装" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h1><blockquote>
+<p>前提下载Nodejs </p>
+<ul>
+<li><a class="link"   href="https://nodejs.cn/" >node中文网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://nodejs.org/" >node官方网站 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+<p><strong>Hexo</strong></p>
+<ul>
+<li><p><a class="link"   href="https://hexo.io/zh-cn/" >Hexo中文网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</li>
+<li><p><a class="link"   href="https://hexo.io/" >官网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</li>
+</ul>
+<p>版本限制</p>
+<blockquote>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409071454630.png"
+                      alt="image-20240907145429312"
+                ></p>
+</blockquote>
+</blockquote>
+<h2 id="1-安装命令"><a href="#1-安装命令" class="headerlink" title="1. 安装命令"></a>1. 安装命令</h2><h4 id="1、全局安装hexo-cli"><a href="#1、全局安装hexo-cli" class="headerlink" title="1、全局安装hexo-cli"></a>1、全局安装hexo-cli</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="2、局部安装hexo"><a href="#2、局部安装hexo" class="headerlink" title="2、局部安装hexo"></a>2、局部安装hexo</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm install heo</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo intstall deploy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>npm 设置淘宝镜像</title>
+    <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
+    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">已放弃使用 npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">最新镜像源</span></span><br><span class="line">npm config set registry https://registry.npmmirror.com</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>npm configuration</category>
+      </categories>
+      <tags>
+        <tag>npm</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Git使用</title>
     <url>/2023/11/30/git/Git%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<blockquote>
@@ -114,281 +193,6 @@
       <categories>
         <category>Git</category>
         <category>Git使用</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>npm 设置淘宝镜像</title>
-    <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
-    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">已放弃使用 npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">最新镜像源</span></span><br><span class="line">npm config set registry https://registry.npmmirror.com</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>npm configuration</category>
-      </categories>
-      <tags>
-        <tag>npm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git分支</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%88%86%E6%94%AF/</url>
-    <content><![CDATA[<h3 id="1-查看分支"><a href="#1-查看分支" class="headerlink" title="1.查看分支"></a>1.查看分支</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git branch -v</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="2-创建分支"><a href="#2-创建分支" class="headerlink" title="2.创建分支"></a>2.创建分支</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git branch 分支名</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%201.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="3-切换分支"><a href="#3-切换分支" class="headerlink" title="3.切换分支"></a>3.切换分支</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git checkout 分支名</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%202.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="4-合并分支"><a href="#4-合并分支" class="headerlink" title="4.合并分支"></a>4.合并分支</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git merge 欲合并分支</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%203.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="5-合并（冲突）分支"><a href="#5-合并（冲突）分支" class="headerlink" title="5.合并（冲突）分支"></a>5.合并（冲突）分支</h3><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%204.png"
-                      alt="Untitled"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%205.png"
-                      alt="Untitled"
-                ></p>
-<p><strong>手动打开冲突文件修改冲突</strong></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%206.png"
-                      alt="Untitled"
-                ></p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#修改好冲突文件后加入暂存区</span></span><br><span class="line">git add 冲突文件</span><br><span class="line">git commit -m <span class="string">&quot;&lt;日志&gt;&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%207.png"
-                      alt="Untitled"
-                ></p>
-<h2 id="6-本地分支同步到github"><a href="#6-本地分支同步到github" class="headerlink" title="6.本地分支同步到github"></a>6.本地分支同步到github</h2><blockquote>
-<p><strong>场景</strong>:</p>
-<p>有时候我们开发需要开一个分支,这样可以有效的并行开发.</p>
-<p>开分支有两种方式:</p>
-<ul>
-<li>一种是在远程开好分支,本地直接拉下来;</li>
-<li>一种是本地开好分支,推送到远程.</li>
-</ul>
-</blockquote>
-<h3 id="1-远程先开好分支然后拉到本地"><a href="#1-远程先开好分支然后拉到本地" class="headerlink" title="1.远程先开好分支然后拉到本地"></a>1.<strong><strong>远程先开好分支然后拉到本地</strong></strong></h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git fetch origin <span class="comment"># 同步远程分支</span></span><br><span class="line">git checkout -b 本地分支 origin/远程分支名 <span class="comment"># 关联远程分支</span></span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%208.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="2-本地先开好分支然后推送到远程"><a href="#2-本地先开好分支然后推送到远程" class="headerlink" title="2.本地先开好分支然后推送到远程"></a>2.<strong><strong>本地先开好分支然后推送到远程</strong></strong></h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git checkout -b 分支名</span><br><span class="line">git push origin 新建分支名:同步到远程的分支名</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%209.png"
-                      alt="Untitled"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2010.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="3-git-pull拉取远程分支到本地"><a href="#3-git-pull拉取远程分支到本地" class="headerlink" title="3.git pull拉取远程分支到本地"></a>3.<strong><strong>git pull拉取远程分支到本地</strong></strong></h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git pull &lt;远程主机名&gt; &lt;远程分支名&gt;:&lt;本地分支名&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2011.png"
-                      alt="Untitled"
-                ></p>
-<h2 id="7-删除远程分支"><a href="#7-删除远程分支" class="headerlink" title="7.删除远程分支"></a>7.删除远程分支</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin --delete Chapater6 可以删除远程分支Chapater6 （好像也可以用 git push origin -D Chapater6）</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2012.png"
-                      alt="Untitled"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2013.png"
-                      alt="Untitled"
-                ></p>
-<h2 id="8-查看远程分支"><a href="#8-查看远程分支" class="headerlink" title="8.查看远程分支"></a>8.<strong><strong>查看远程分支</strong></strong></h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git branch -a</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2014.png"
-                      alt="Untitled"
-                ></p>
-<h2 id="9-删除本地分支"><a href="#9-删除本地分支" class="headerlink" title="9.删除本地分支"></a>9.删除本地分支</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git branch -d 分支名</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2015.png"
-                      alt="Untitled"
-                ></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git分支</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>安装脚手架并创建项目</title>
-    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
-    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
-<p>安装</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
-
-<blockquote>
-<p>检查版本号</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
-
-
-
-<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
-<p>创建项目</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
-
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>React</category>
-      </categories>
-      <tags>
-        <tag>react教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git命令</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h3 id="1-基本命令"><a href="#1-基本命令" class="headerlink" title="1.基本命令"></a>1.基本命令</h3><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="2-初始化本地库"><a href="#2-初始化本地库" class="headerlink" title="2.初始化本地库"></a>2.初始化本地库</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 在项目目录下执行此命令</span></span><br><span class="line">git init</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%201.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="3-查看本地库状态"><a href="#3-查看本地库状态" class="headerlink" title="3.查看本地库状态"></a>3.查看本地库状态</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%202.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="4-添加到暂存区"><a href="#4-添加到暂存区" class="headerlink" title="4.添加到暂存区"></a>4.添加到暂存区</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># . 代表把所有修改文件添加到暂存区域</span></span><br><span class="line">git add .</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%203.png"
-                      alt="Untitled"
-                ></p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#查看当前状态,修改的文件都变为绿色代表添加到暂存区成功</span></span><br><span class="line">git status </span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%204.png"
-                      alt="Untitled"
-                ></p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 删除工作区文件</span></span><br><span class="line">git <span class="built_in">rm</span> --cached &lt;file&gt;</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="5-提交本地库"><a href="#5-提交本地库" class="headerlink" title="5.提交本地库"></a>5.提交本地库</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit -m <span class="string">&quot;日志信息&quot;</span> 文件名</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%205.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="6-查看日志信息"><a href="#6-查看日志信息" class="headerlink" title="6.查看日志信息"></a>6.查看日志信息</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git reflog</span><br><span class="line"><span class="comment"># 或者</span></span><br><span class="line">git <span class="built_in">log</span></span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%206.png"
-                      alt="Untitled"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%207.png"
-                      alt="Untitled"
-                ></p>
-<h3 id="7-历史版本切换"><a href="#7-历史版本切换" class="headerlink" title="7.历史版本切换"></a>7.历史版本切换</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git reset --hard &lt;版本号&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%208.png"
-                      alt="Untitled"
-                ></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git命令</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git在集成开发环境中的使用</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git集成开发环境中的使用</category>
       </categories>
       <tags>
         <tag>git教程</tag>
@@ -540,28 +344,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Git安装</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<blockquote>
-<p>Git 安装教程</p>
-</blockquote>
-<p><a class="link"   href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" >安装链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Git%E5%AE%89%E8%A3%85/Untitled.png"
-                      alt="Untitled"
-                ></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git安装</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Vue3 Element-plus配置</title>
     <url>/2023/11/29/vue/UI/elementUI/</url>
     <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
@@ -612,6 +394,262 @@
       </categories>
       <tags>
         <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git分支</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%88%86%E6%94%AF/</url>
+    <content><![CDATA[<h3 id="1-查看分支"><a href="#1-查看分支" class="headerlink" title="1.查看分支"></a>1.查看分支</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git branch -v</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="2-创建分支"><a href="#2-创建分支" class="headerlink" title="2.创建分支"></a>2.创建分支</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git branch 分支名</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%201.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="3-切换分支"><a href="#3-切换分支" class="headerlink" title="3.切换分支"></a>3.切换分支</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git checkout 分支名</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%202.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="4-合并分支"><a href="#4-合并分支" class="headerlink" title="4.合并分支"></a>4.合并分支</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git merge 欲合并分支</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%203.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="5-合并（冲突）分支"><a href="#5-合并（冲突）分支" class="headerlink" title="5.合并（冲突）分支"></a>5.合并（冲突）分支</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%204.png"
+                      alt="Untitled"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%205.png"
+                      alt="Untitled"
+                ></p>
+<p><strong>手动打开冲突文件修改冲突</strong></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%206.png"
+                      alt="Untitled"
+                ></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#修改好冲突文件后加入暂存区</span></span><br><span class="line">git add 冲突文件</span><br><span class="line">git commit -m <span class="string">&quot;&lt;日志&gt;&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%207.png"
+                      alt="Untitled"
+                ></p>
+<h2 id="6-本地分支同步到github"><a href="#6-本地分支同步到github" class="headerlink" title="6.本地分支同步到github"></a>6.本地分支同步到github</h2><blockquote>
+<p><strong>场景</strong>:</p>
+<p>有时候我们开发需要开一个分支,这样可以有效的并行开发.</p>
+<p>开分支有两种方式:</p>
+<ul>
+<li>一种是在远程开好分支,本地直接拉下来;</li>
+<li>一种是本地开好分支,推送到远程.</li>
+</ul>
+</blockquote>
+<h3 id="1-远程先开好分支然后拉到本地"><a href="#1-远程先开好分支然后拉到本地" class="headerlink" title="1.远程先开好分支然后拉到本地"></a>1.<strong><strong>远程先开好分支然后拉到本地</strong></strong></h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git fetch origin <span class="comment"># 同步远程分支</span></span><br><span class="line">git checkout -b 本地分支 origin/远程分支名 <span class="comment"># 关联远程分支</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%208.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="2-本地先开好分支然后推送到远程"><a href="#2-本地先开好分支然后推送到远程" class="headerlink" title="2.本地先开好分支然后推送到远程"></a>2.<strong><strong>本地先开好分支然后推送到远程</strong></strong></h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git checkout -b 分支名</span><br><span class="line">git push origin 新建分支名:同步到远程的分支名</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%209.png"
+                      alt="Untitled"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2010.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="3-git-pull拉取远程分支到本地"><a href="#3-git-pull拉取远程分支到本地" class="headerlink" title="3.git pull拉取远程分支到本地"></a>3.<strong><strong>git pull拉取远程分支到本地</strong></strong></h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git pull &lt;远程主机名&gt; &lt;远程分支名&gt;:&lt;本地分支名&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2011.png"
+                      alt="Untitled"
+                ></p>
+<h2 id="7-删除远程分支"><a href="#7-删除远程分支" class="headerlink" title="7.删除远程分支"></a>7.删除远程分支</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin --delete Chapater6 可以删除远程分支Chapater6 （好像也可以用 git push origin -D Chapater6）</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2012.png"
+                      alt="Untitled"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2013.png"
+                      alt="Untitled"
+                ></p>
+<h2 id="8-查看远程分支"><a href="#8-查看远程分支" class="headerlink" title="8.查看远程分支"></a>8.<strong><strong>查看远程分支</strong></strong></h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git branch -a</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2014.png"
+                      alt="Untitled"
+                ></p>
+<h2 id="9-删除本地分支"><a href="#9-删除本地分支" class="headerlink" title="9.删除本地分支"></a>9.删除本地分支</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git branch -d 分支名</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%88%86%E6%94%AF/Untitled%2015.png"
+                      alt="Untitled"
+                ></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git分支</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git命令</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h3 id="1-基本命令"><a href="#1-基本命令" class="headerlink" title="1.基本命令"></a>1.基本命令</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="2-初始化本地库"><a href="#2-初始化本地库" class="headerlink" title="2.初始化本地库"></a>2.初始化本地库</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 在项目目录下执行此命令</span></span><br><span class="line">git init</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%201.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="3-查看本地库状态"><a href="#3-查看本地库状态" class="headerlink" title="3.查看本地库状态"></a>3.查看本地库状态</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%202.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="4-添加到暂存区"><a href="#4-添加到暂存区" class="headerlink" title="4.添加到暂存区"></a>4.添加到暂存区</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># . 代表把所有修改文件添加到暂存区域</span></span><br><span class="line">git add .</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%203.png"
+                      alt="Untitled"
+                ></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#查看当前状态,修改的文件都变为绿色代表添加到暂存区成功</span></span><br><span class="line">git status </span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%204.png"
+                      alt="Untitled"
+                ></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 删除工作区文件</span></span><br><span class="line">git <span class="built_in">rm</span> --cached &lt;file&gt;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="5-提交本地库"><a href="#5-提交本地库" class="headerlink" title="5.提交本地库"></a>5.提交本地库</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit -m <span class="string">&quot;日志信息&quot;</span> 文件名</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%205.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="6-查看日志信息"><a href="#6-查看日志信息" class="headerlink" title="6.查看日志信息"></a>6.查看日志信息</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git reflog</span><br><span class="line"><span class="comment"># 或者</span></span><br><span class="line">git <span class="built_in">log</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%206.png"
+                      alt="Untitled"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%207.png"
+                      alt="Untitled"
+                ></p>
+<h3 id="7-历史版本切换"><a href="#7-历史版本切换" class="headerlink" title="7.历史版本切换"></a>7.历史版本切换</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git reset --hard &lt;版本号&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%91%BD%E4%BB%A4/Untitled%208.png"
+                      alt="Untitled"
+                ></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git命令</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git在集成开发环境中的使用</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git集成开发环境中的使用</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git安装</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<blockquote>
+<p>Git 安装教程</p>
+</blockquote>
+<p><a class="link"   href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" >安装链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Git%E5%AE%89%E8%A3%85/Untitled.png"
+                      alt="Untitled"
+                ></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git安装</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
       </tags>
   </entry>
 </search>
