@@ -16,7 +16,6 @@ deploy:
   type: git
   repository:  # 仓库地址
   branch:  # 分支
-  # 同步测试
 ```
 ![image-20240902030612843](https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409020306519.png)
 
@@ -28,4 +27,20 @@ hexo g -d #一键部署
 ```
 
 ![image-20240902025912694](https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409020259919.png)
+
+## 启动自动化脚本部署
+
+```shell
+# 执行 app.exe
+填写信息
+# `ctrl+s`触发
+```
+
+![image-20240902224734605](https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409022247671.png)
+
+## 成功😂
+
+
+
+
 
