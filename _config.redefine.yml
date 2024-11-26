@@ -168,7 +168,7 @@ navbar:
       path: https://github.com/
       icon: fa-brands fa-github
     learn:
-      path: https://zpcnet.cn/
+      path: https://www.zpcnet.cn/
       icon: fa-regular fa-book
     Friends: #取名随意
       icon: fa-solid fa-link #图标

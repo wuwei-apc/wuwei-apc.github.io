@@ -34,6 +34,6 @@ npm install -g hexo-cli
 #### 2、局部安装hexo
 
 ```shell
-npm install heo
+npm install hexo
 ```
 

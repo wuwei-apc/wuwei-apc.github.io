@@ -1,7 +1,7 @@
 # hexo
 hexo
 > 我的个人博客
-> 测试
+>           fix: add myTranslate site url
 
 ## 安装
 ``` bash
