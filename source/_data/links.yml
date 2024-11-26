@@ -1,15 +1,15 @@
 - links_category: python
   has_thumbnail: true
-  list: 
+  list:
     - name: python官网
       link: https://www.python.org/
       description: python官网
       avatar: https://www.python.org/static/img/python-logo@2x.png
       thumbnail: https://www.python.org/static/img/python-logo@2x.png # has_thumbnail 为 true 时才需要
- 
+
 - links_category: Java
   has_thumbnail: false
-  list: 
+  list:
     - name: Java官网
       link: https://www.java.com/
       description: Java官网
@@ -18,3 +18,7 @@
       link: https://spring.io/
       description: Spring官网
       avatar: https://ts3.cn.mm.bing.net/th?id=ODLS.54b6b6fa-876c-4f89-8f16-a66b4a52532c&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2
+    - name: SpringCloudAlibaba官网
+      link: https://spring.io/projects/spring-cloud-alibaba
+      description: SpringCloudAlibaba官网
+      avatar: https://static.hzdlstudy.com/upload/0/yzl/common/2022082414/9d8b773808ff6af60cb8e9fa6487af4c_png/pc/large.png
