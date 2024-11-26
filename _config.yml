@@ -107,9 +107,9 @@ theme: redefine
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  - type: git
-    repo: git@www.zpcnet.top:/root/mysite/repo/my-hexo-blog.git
-    branch: master # zpcnet
+  # - type: git
+  #   repo: git@www.zpcnet.top:/root/mysite/repo/my-hexo-blog.git
+  #   branch: master # zpcnet
   - type: git
     repo: git@events.zpcnet.top:/var/hexo/repo/blog.git
     branch: master # newzpcnet
