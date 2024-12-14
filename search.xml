@@ -1,6 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>部署Blog(Hexo)</title>
+    <url>/2023/11/29/deploy/</url>
+    <content><![CDATA[<blockquote>
+<p><a class="link"   href="https://redefine-docs.ohevan.com/footer#%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4" >配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<h3 id="1-一键部署"><a href="#1-一键部署" class="headerlink" title="1.一键部署"></a>1.一键部署</h3><h4 id="（1）在-config-yml中配置github仓库和分支"><a href="#（1）在-config-yml中配置github仓库和分支" class="headerlink" title="（1）在_config.yml中配置github仓库和分支"></a>（1）在_config.yml中配置github仓库和分支</h4><div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span>  <span class="comment"># 仓库地址</span></span><br><span class="line">  <span class="attr">branch:</span>  <span class="comment"># 分支</span></span><br></pre></td></tr></table></figure></div>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409020306519.png"
+                      alt="image-20240902030612843"
+                ></p>
+<h4 id="（2）执行部署命令"><a href="#（2）执行部署命令" class="headerlink" title="（2）执行部署命令"></a>（2）执行部署命令</h4><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean <span class="comment"># 解决缓存问题</span></span><br><span class="line">hexo g -d <span class="comment">#一键部署</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409020259919.png"
+                      alt="image-20240902025912694"
+                ></p>
+<h2 id="启动自动化脚本部署"><a href="#启动自动化脚本部署" class="headerlink" title="启动自动化脚本部署"></a>启动自动化脚本部署</h2><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">执行 app.exe</span></span><br><span class="line">填写信息</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">`ctrl+s`触发</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409022247671.png"
+                      alt="image-20240902224734605"
+                ></p>
+<h2 id="成功😂"><a href="#成功😂" class="headerlink" title="成功😂"></a>成功😂</h2>]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>部署</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git使用</title>
+    <url>/2023/11/30/git/Git%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<blockquote>
+<p>Git 介绍： 分布式版本控制工具 VS 集中式版本控制工具</p>
+</blockquote>
+<blockquote>
+<p><a class="link"   href="https://git-scm.com/" >官网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>简介:</p>
+<p>Git 是一个免费的开源分布式版本控制系统，旨在快速高效地处理从小型到超大型项目的所有内容。</p>
+<p>Git 易于学习，占用空间很小，性能快如闪电。它超越了Subversion，CVS，Perforce和ClearCase等SCM工具，具有廉价的本地分支，方便的暂存区域和多个工作流程等功能。</p>
+</blockquote>
+<h2 id="1-Git工作机制"><a href="#1-Git工作机制" class="headerlink" title="1.Git工作机制"></a>1.Git工作机制</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Untitled.png"
+                      alt="Untitled"
+                ></p>
+<p><a href="/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/">Git安装</a></p>
+<p><a href="/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/">Git命令</a></p>
+<p><a href="/2023/11/30/git/gitpage/Git%E5%88%86%E6%94%AF/">Git分支</a></p>
+<p><a href="/2023/11/30//gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/">Git在集成开发环境中的使用</a></p>
+<blockquote>
+<p><strong>commit 信息分类标准：</strong></p>
+<ul>
+<li><em><strong>feat</strong></em>：新功能（feature）</li>
+<li><em><strong>fix</strong></em>：修补bug</li>
+<li><em><strong>docs</strong></em>：文档（documentation）</li>
+<li><em><strong>style</strong></em>： 格式（不影响代码运行的变动）</li>
+<li><em><strong>refactor</strong></em>：重构（即不是新增功能，也不是修改bug的代码变&gt;    动）</li>
+<li><em><strong>test</strong></em>：增加测试</li>
+<li><em><strong>chore</strong></em>：构建过程或辅助工具的变动**</li>
+</ul>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git使用</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安装Hexo</title>
+    <url>/2023/11/29/hexo/install/</url>
+    <content><![CDATA[<h1 id="Hexo-安装"><a href="#Hexo-安装" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h1><blockquote>
+<p>前提下载Nodejs </p>
+<ul>
+<li><a class="link"   href="https://nodejs.cn/" >node中文网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://nodejs.org/" >node官方网站 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+<p><strong>Hexo</strong></p>
+<ul>
+<li><p><a class="link"   href="https://hexo.io/zh-cn/" >Hexo中文网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</li>
+<li><p><a class="link"   href="https://hexo.io/" >官网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</li>
+</ul>
+<p>版本限制</p>
+<blockquote>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409071454630.png"
+                      alt="image-20240907145429312"
+                ></p>
+</blockquote>
+</blockquote>
+<h2 id="1-安装命令"><a href="#1-安装命令" class="headerlink" title="1. 安装命令"></a>1. 安装命令</h2><h4 id="1、全局安装hexo-cli"><a href="#1、全局安装hexo-cli" class="headerlink" title="1、全局安装hexo-cli"></a>1、全局安装hexo-cli</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="2、局部安装hexo"><a href="#2、局部安装hexo" class="headerlink" title="2、局部安装hexo"></a>2、局部安装hexo</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo intstall deploy</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>TypeScript快速学习</title>
     <url>/2024/12/13/TypeScript/Base/</url>
     <content><![CDATA[<h2 id="一、-TypeScript简介"><a href="#一、-TypeScript简介" class="headerlink" title="一、 TypeScript简介"></a>一、 TypeScript简介</h2><blockquote>
@@ -163,82 +280,44 @@
       </tags>
   </entry>
   <entry>
-    <title>部署Blog(Hexo)</title>
-    <url>/2023/11/29/deploy/</url>
-    <content><![CDATA[<blockquote>
-<p><a class="link"   href="https://redefine-docs.ohevan.com/footer#%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4" >配置 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+    <title>安装脚手架并创建项目</title>
+    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
+    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
+<p>安装</p>
 </blockquote>
-<h3 id="1-一键部署"><a href="#1-一键部署" class="headerlink" title="1.一键部署"></a>1.一键部署</h3><h4 id="（1）在-config-yml中配置github仓库和分支"><a href="#（1）在-config-yml中配置github仓库和分支" class="headerlink" title="（1）在_config.yml中配置github仓库和分支"></a>（1）在_config.yml中配置github仓库和分支</h4><div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span>  <span class="comment"># 仓库地址</span></span><br><span class="line">  <span class="attr">branch:</span>  <span class="comment"># 分支</span></span><br></pre></td></tr></table></figure></div>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409020306519.png"
-                      alt="image-20240902030612843"
-                ></p>
-<h4 id="（2）执行部署命令"><a href="#（2）执行部署命令" class="headerlink" title="（2）执行部署命令"></a>（2）执行部署命令</h4><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean <span class="comment"># 解决缓存问题</span></span><br><span class="line">hexo g -d <span class="comment">#一键部署</span></span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
 
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409020259919.png"
-                      alt="image-20240902025912694"
-                ></p>
-<h2 id="启动自动化脚本部署"><a href="#启动自动化脚本部署" class="headerlink" title="启动自动化脚本部署"></a>启动自动化脚本部署</h2><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">执行 app.exe</span></span><br><span class="line">填写信息</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">`ctrl+s`触发</span></span><br></pre></td></tr></table></figure></div>
+<blockquote>
+<p>检查版本号</p>
+</blockquote>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
 
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409022247671.png"
-                      alt="image-20240902224734605"
-                ></p>
-<h2 id="成功😂"><a href="#成功😂" class="headerlink" title="成功😂"></a>成功😂</h2>]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>部署</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git使用</title>
-    <url>/2023/11/30/git/Git%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<blockquote>
-<p>Git 介绍： 分布式版本控制工具 VS 集中式版本控制工具</p>
-</blockquote>
-<blockquote>
-<p><a class="link"   href="https://git-scm.com/" >官网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>简介:</p>
-<p>Git 是一个免费的开源分布式版本控制系统，旨在快速高效地处理从小型到超大型项目的所有内容。</p>
-<p>Git 易于学习，占用空间很小，性能快如闪电。它超越了Subversion，CVS，Perforce和ClearCase等SCM工具，具有廉价的本地分支，方便的暂存区域和多个工作流程等功能。</p>
-</blockquote>
-<h2 id="1-Git工作机制"><a href="#1-Git工作机制" class="headerlink" title="1.Git工作机制"></a>1.Git工作机制</h2><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/Untitled.png"
-                      alt="Untitled"
-                ></p>
-<p><a href="/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/">Git安装</a></p>
-<p><a href="/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/">Git命令</a></p>
-<p><a href="/2023/11/30/git/gitpage/Git%E5%88%86%E6%94%AF/">Git分支</a></p>
-<p><a href="/2023/11/30//gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/">Git在集成开发环境中的使用</a></p>
-<blockquote>
-<p><strong>commit 信息分类标准：</strong></p>
-<ul>
-<li><em><strong>feat</strong></em>：新功能（feature）</li>
-<li><em><strong>fix</strong></em>：修补bug</li>
-<li><em><strong>docs</strong></em>：文档（documentation）</li>
-<li><em><strong>style</strong></em>： 格式（不影响代码运行的变动）</li>
-<li><em><strong>refactor</strong></em>：重构（即不是新增功能，也不是修改bug的代码变&gt;    动）</li>
-<li><em><strong>test</strong></em>：增加测试</li>
-<li><em><strong>chore</strong></em>：构建过程或辅助工具的变动**</li>
-</ul>
+
+
+<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
+<p>创建项目</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
+
+
 </blockquote>
 ]]></content>
       <categories>
-        <category>Git</category>
-        <category>Git使用</category>
+        <category>React</category>
       </categories>
       <tags>
-        <tag>git教程</tag>
+        <tag>react教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>npm 设置淘宝镜像</title>
+    <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
+    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">已放弃使用 npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">最新镜像源</span></span><br><span class="line">npm config set registry https://registry.npmmirror.com</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>npm configuration</category>
+      </categories>
+      <tags>
+        <tag>npm</tag>
       </tags>
   </entry>
   <entry>
@@ -279,73 +358,6 @@
       </categories>
       <tags>
         <tag>vim</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>安装脚手架并创建项目</title>
-    <url>/2023/12/10/react/%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6/</url>
-    <content><![CDATA[<h2 id="1-全局安装脚手架"><a href="#1-全局安装脚手架" class="headerlink" title="1.全局安装脚手架"></a>1.全局安装脚手架</h2><blockquote>
-<p>安装</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 全局安装脚手架</span></span><br><span class="line"></span><br><span class="line">npm i create-react-app -g</span><br></pre></td></tr></table></figure></div>
-
-<blockquote>
-<p>检查版本号</p>
-</blockquote>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app --version</span><br></pre></td></tr></table></figure></div>
-
-
-
-<h3 id="2-创建项目"><a href="#2-创建项目" class="headerlink" title="2.创建项目"></a>2.创建项目</h3><blockquote>
-<p>创建项目</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">create-react-app 项目名称</span><br></pre></td></tr></table></figure></div>
-
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>React</category>
-      </categories>
-      <tags>
-        <tag>react教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>安装Hexo</title>
-    <url>/2023/11/29/hexo/install/</url>
-    <content><![CDATA[<h1 id="Hexo-安装"><a href="#Hexo-安装" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h1><blockquote>
-<p>前提下载Nodejs </p>
-<ul>
-<li><a class="link"   href="https://nodejs.cn/" >node中文网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://nodejs.org/" >node官方网站 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-<p><strong>Hexo</strong></p>
-<ul>
-<li><p><a class="link"   href="https://hexo.io/zh-cn/" >Hexo中文网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</li>
-<li><p><a class="link"   href="https://hexo.io/" >官网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</li>
-</ul>
-<p>版本限制</p>
-<blockquote>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409071454630.png"
-                      alt="image-20240907145429312"
-                ></p>
-</blockquote>
-</blockquote>
-<h2 id="1-安装命令"><a href="#1-安装命令" class="headerlink" title="1. 安装命令"></a>1. 安装命令</h2><h4 id="1、全局安装hexo-cli"><a href="#1、全局安装hexo-cli" class="headerlink" title="1、全局安装hexo-cli"></a>1、全局安装hexo-cli</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="2、局部安装hexo"><a href="#2、局部安装hexo" class="headerlink" title="2、局部安装hexo"></a>2、局部安装hexo</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">测试案例💡💡🔴🔴</span></span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo intstall deploy</tag>
       </tags>
   </entry>
   <entry>
@@ -489,18 +501,6 @@
       </tags>
   </entry>
   <entry>
-    <title>npm 设置淘宝镜像</title>
-    <url>/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/</url>
-    <content><![CDATA[<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">已放弃使用 npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">最新镜像源</span></span><br><span class="line">npm config set registry https://registry.npmmirror.com</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>npm configuration</category>
-      </categories>
-      <tags>
-        <tag>npm</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Git命令</title>
     <url>/2023/11/30/git/gitpage/Git%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h3 id="1-基本命令"><a href="#1-基本命令" class="headerlink" title="1.基本命令"></a>1.基本命令</h3><p><img  
@@ -583,18 +583,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Git在集成开发环境中的使用</title>
-    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git集成开发环境中的使用</category>
-      </categories>
-      <tags>
-        <tag>git教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Git安装</title>
     <url>/2023/11/30/git/gitpage/Git%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<blockquote>
@@ -617,23 +605,16 @@
       </tags>
   </entry>
   <entry>
-    <title>python基础学习</title>
-    <url>/2023/05/12/launguage/python/python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<h2 id="1-python类型介绍"><a href="#1-python类型介绍" class="headerlink" title="1. python类型介绍"></a>1. python类型介绍</h2>
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>python基本数据类型</p>
-
-    </div>
-    <div class="notel-content">
-      <p>int<br>str<br>double</p>
-
-    </div>
-  </div>
-
-
-
-]]></content>
+    <title>Git在集成开发环境中的使用</title>
+    <url>/2023/11/30/git/gitpage/Git%E5%9C%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git集成开发环境中的使用</category>
+      </categories>
+      <tags>
+        <tag>git教程</tag>
+      </tags>
   </entry>
   <entry>
     <title>Java-Annotation-learn</title>
@@ -762,6 +743,40 @@
       </tags>
   </entry>
   <entry>
+    <title>python基础学习</title>
+    <url>/2023/05/12/launguage/python/python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h2 id="1-python类型介绍"><a href="#1-python类型介绍" class="headerlink" title="1. python类型介绍"></a>1. python类型介绍</h2>
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>python基本数据类型</p>
+
+    </div>
+    <div class="notel-content">
+      <p>int<br>str<br>double</p>
+
+    </div>
+  </div>
+
+
+
+]]></content>
+  </entry>
+  <entry>
+    <title>Vue3 Element-plus配置</title>
+    <url>/2023/11/29/vue/UI/elementUI/</url>
+    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>Element-plus</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>vue3cli axios配置</title>
     <url>/2023/11/29/vue/plugins/axios/</url>
     <content><![CDATA[<h3 id="一、npm-安装axios"><a href="#一、npm-安装axios" class="headerlink" title="一、npm 安装axios"></a>一、npm 安装axios</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install axios</span><br></pre></td></tr></table></figure></div>
@@ -775,21 +790,6 @@
 ]]></content>
       <categories>
         <category>axios</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Vue3 Element-plus配置</title>
-    <url>/2023/11/29/vue/UI/elementUI/</url>
-    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="一、npm-安装element-plus"><a href="#一、npm-安装element-plus" class="headerlink" title="一、npm 安装element-plus"></a>一、npm 安装element-plus</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">在vue3cli 项目更目录下的命令行中输入以下代码</span><br><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="二、main-js中全局引入"><a href="#二、main-js中全局引入" class="headerlink" title="二、main.js中全局引入"></a>二、main.js中全局引入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line">在mian.<span class="property">js</span> 中加入以下代码</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">ElementPlus</span> <span class="keyword">from</span> <span class="string">&#x27;element-plus&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-plus/dist/index.css&#x27;</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">ElementPlus</span>)</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>Element-plus</category>
       </categories>
       <tags>
         <tag>前端</tag>
