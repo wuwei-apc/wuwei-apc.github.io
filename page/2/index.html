@@ -14,8 +14,6 @@
         
         
         
-            <link rel="preconnect" href="https://registry.npmmirror.com" crossorigin>
-        
     
     <!--- Seo Part-->
     
@@ -51,7 +49,7 @@
         
     </title>
 
-    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/fonts/Chillax/chillax.css">
+    <link rel="stylesheet" href="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}">
 
     <!--- Inject Part-->
     
@@ -61,11 +59,11 @@
 
 
     
-        <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/css/build/tailwind.css">
+        <link rel="stylesheet" href="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}">
     
 
-    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/fonts/GeistMono/geist-mono.css">
-    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/fonts/Geist/geist.css">
+    <link rel="stylesheet" href="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}">
+    <link rel="stylesheet" href="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}">
     <!--- Font Part-->
     
     
@@ -84,10 +82,10 @@
   </script>
     
     <!--- Fontawesome Part-->
-    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/fontawesome/fontawesome.min.css">
-    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/fontawesome/brands.min.css">
-    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/fontawesome/solid.min.css">
-    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/fontawesome/regular.min.css">
+    <link rel="stylesheet" href="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}">
+    <link rel="stylesheet" href="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}">
+    <link rel="stylesheet" href="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}">
+    <link rel="stylesheet" href="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}">
     
     
     
@@ -576,6 +574,93 @@
 
                 
                     <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
+                        <a href="/2023/11/29/deploy/">
+                            <img src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409021145034.jpg" alt="部署Blog(Hexo)" class="w-full h-full object-cover dark:brightness-75 transition-all" />
+                        </a>
+                    </div>
+                
+                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
+                    <h3 class="home-article-title">
+                        <a href="/2023/11/29/deploy/">
+                            部署Blog(Hexo)
+                        </a>
+                    </h3>
+
+                    <div class="home-article-content markdown-body">
+                        
+                            
+                            
+配置
+
+1.一键部署（1）在_config.yml中配置github仓库和分支1234deploy:  type: git  repository:  # 仓库地址  branch:  # 分支
+
+（2）执行部署命令12hexo clean # 解决缓存问题hexo g -d #一键部署
+
+
+启动自动化脚本部署123# 执行 app.exe填写信息# `ctrl+s`触发
+
+
+成功😂
+                        
+                    </div>
+
+                    <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Wed Nov 29 2023 00:00:00 GMT+0800">
+                
+                    2023-11-29
+                
+            </span>
+        </span>
+        
+            <span class="home-article-category">
+                <i class="fa-solid fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/hexo/">hexo</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+        
+        
+            <span class="home-article-tag">
+                <i class="fa-solid fa-tags"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/tags/%E9%83%A8%E7%BD%B2/">部署</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            </span>
+        
+    </div>
+
+    <a href="/2023/11/29/deploy/">阅读全文<span class="seo-reader-text">部署Blog(Hexo)</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                
+                    
+                
+
+                
+                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
                         <a href="/2023/11/29/hexo/install/">
                             <img src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409021145034.jpg" alt="安装Hexo" class="w-full h-full object-cover dark:brightness-75 transition-all" />
                         </a>
@@ -674,93 +759,6 @@ Hexo中文网
 
                 
                     <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
-                        <a href="/2023/11/29/deploy/">
-                            <img src="https://mygithubcdn.educatedtest.eu.org/gh/mycodeoen/MyPicture@main/blog/202409021145034.jpg" alt="部署Blog(Hexo)" class="w-full h-full object-cover dark:brightness-75 transition-all" />
-                        </a>
-                    </div>
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
-                    <h3 class="home-article-title">
-                        <a href="/2023/11/29/deploy/">
-                            部署Blog(Hexo)
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            
-配置
-
-1.一键部署（1）在_config.yml中配置github仓库和分支1234deploy:  type: git  repository:  # 仓库地址  branch:  # 分支
-
-（2）执行部署命令12hexo clean # 解决缓存问题hexo g -d #一键部署
-
-
-启动自动化脚本部署123# 执行 app.exe填写信息# `ctrl+s`触发
-
-
-成功😂
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Wed Nov 29 2023 00:00:00 GMT+0800">
-                
-                    2023-11-29
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/categories/hexo/">hexo</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/tags/%E9%83%A8%E7%BD%B2/">部署</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/2023/11/29/deploy/">阅读全文<span class="seo-reader-text">部署Blog(Hexo)</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-                    
-                
-
-                
-                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
                         <a href="/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/">
                             <img src="/images/bg1.png" alt="npm 设置淘宝镜像" class="w-full h-full object-cover dark:brightness-75 transition-all" />
                         </a>
@@ -823,84 +821,6 @@ Hexo中文网
     </div>
 
     <a href="/2023/11/29/vue/npm%20%E8%AE%BE%E7%BD%AE%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F/">阅读全文<span class="seo-reader-text">npm 设置淘宝镜像</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-                    
-                
-
-                
-                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
-                        <a href="/2023/11/29/vue/plugins/axios/">
-                            <img src="/images/bg1.png" alt="vue3cli axios配置" class="w-full h-full object-cover dark:brightness-75 transition-all" />
-                        </a>
-                    </div>
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
-                    <h3 class="home-article-title">
-                        <a href="/2023/11/29/vue/plugins/axios/">
-                            vue3cli axios配置
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            一、npm 安装axios12在vue3cli 项目更目录下的命令行中输入以下代码npm install axios
-
-二、在main.js中引入12345在main.js中写入一下代码import axios from &#x27;axios&#x27;; axios.defaults.baseURL=&#x27;接口的http前缀&#x27;Vue.prototype.$axios = ...
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Wed Nov 29 2023 00:00:00 GMT+0800">
-                
-                    2023-11-29
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/categories/axios/">axios</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/tags/%E5%89%8D%E7%AB%AF/">前端</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/2023/11/29/vue/plugins/axios/">阅读全文<span class="seo-reader-text">vue3cli axios配置</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
 </div>
 
                 </div>
@@ -979,6 +899,84 @@ Hexo中文网
     </div>
 
     <a href="/2023/11/29/vue/UI/elementUI/">阅读全文<span class="seo-reader-text">Vue3 Element-plus配置</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                
+                    
+                
+
+                
+                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
+                        <a href="/2023/11/29/vue/plugins/axios/">
+                            <img src="/images/bg1.png" alt="vue3cli axios配置" class="w-full h-full object-cover dark:brightness-75 transition-all" />
+                        </a>
+                    </div>
+                
+                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
+                    <h3 class="home-article-title">
+                        <a href="/2023/11/29/vue/plugins/axios/">
+                            vue3cli axios配置
+                        </a>
+                    </h3>
+
+                    <div class="home-article-content markdown-body">
+                        
+                            
+                            一、npm 安装axios12在vue3cli 项目更目录下的命令行中输入以下代码npm install axios
+
+二、在main.js中引入12345在main.js中写入一下代码import axios from &#x27;axios&#x27;; axios.defaults.baseURL=&#x27;接口的http前缀&#x27;Vue.prototype.$axios = ...
+                        
+                    </div>
+
+                    <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Wed Nov 29 2023 00:00:00 GMT+0800">
+                
+                    2023-11-29
+                
+            </span>
+        </span>
+        
+            <span class="home-article-category">
+                <i class="fa-solid fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/axios/">axios</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+        
+        
+            <span class="home-article-tag">
+                <i class="fa-solid fa-tags"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/tags/%E5%89%8D%E7%AB%AF/">前端</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            </span>
+        
+    </div>
+
+    <a href="/2023/11/29/vue/plugins/axios/">阅读全文<span class="seo-reader-text">vue3cli axios配置</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
 </div>
 
                 </div>
@@ -1295,7 +1293,7 @@ Hexo中文网
 </main>
 
 
-<script  src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/libs/Swup.min.js" ></script><script  src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/libs/SwupSlideTheme.min.js" ></script><script  src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/libs/SwupScriptsPlugin.min.js" ></script><script  src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/libs/SwupProgressPlugin.min.js" ></script><script  src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/libs/SwupScrollPlugin.min.js" ></script><script  src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/libs/SwupPreloadPlugin.min.js" ></script>
+<script  src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script><script  src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script><script  src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script><script  src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script><script  src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script><script  src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script>
 <script>
     const swup = new Swup({
         plugins: [
@@ -1318,46 +1316,46 @@ Hexo中文网
 
 
 
-	<script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/tools/imageViewer.js" ></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/utils.js" ></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/main.js" ></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/layouts/navbarShrink.js" ></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/tools/scrollTopBottom.js" ></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/tools/lightDarkSwitch.js" ></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/layouts/categoryList.js" ></script>
+	<script type="module" src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script><script type="module" src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script><script type="module" src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script><script type="module" src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script><script type="module" src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script><script type="module" src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script><script type="module" src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script>
 
 
-    <script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/tools/localSearch.js" ></script>
-
-
-
-    <script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/tools/codeBlock.js" ></script>
+    <script type="module" src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script>
 
 
 
-    <script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/layouts/lazyload.js" ></script>
+    <script type="module" src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script>
 
 
 
-    <script  src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/tools/runtime.js" ></script>
-    <script  src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/libs/odometer.min.js" ></script>
-    <link rel="stylesheet" href="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/assets/odometer-theme-minimal.css">
+    <script type="module" src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script>
 
 
 
-  <script  src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/libs/Typed.min.js" ></script>
-  <script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/plugins/typed.js" ></script>
+    <script  src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script>
+    <script  src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script>
+    <link rel="stylesheet" href="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}">
 
 
 
+  <script  src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script>
+  <script type="module" src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script>
 
 
 
 
-    <script  src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/libs/anime.min.js" ></script>
+
+
+
+    <script  src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" ></script>
 
 
 
 
-    <script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/tools/tocToggle.js" data-swup-reload-script></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/layouts/toc.js" data-swup-reload-script></script><script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/plugins/tabs.js" data-swup-reload-script></script>
+    <script type="module" src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" data-swup-reload-script></script><script type="module" src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" data-swup-reload-script></script><script type="module" src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" data-swup-reload-script></script>
 
 
-<script  src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/libs/moment-with-locales.min.js" data-swup-reload-script></script>
-<script type="module" src="https://registry.npmmirror.com/hexo-theme-redefine/2.8.2/files/source/js/build/layouts/essays.js" data-swup-reload-script></script>
+<script  src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" data-swup-reload-script></script>
+<script type="module" src="https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}" data-swup-reload-script></script>
 
 
 
