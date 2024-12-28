@@ -410,7 +410,8 @@ page_templates:
 # CDN >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 cdn:
   # Whether to enable CDN
-  enable: true
+  enable: false
   # CDN Provider
-  provider: aliyun # aliyun, jsdelivr, unpkg, personal
+  provider: custom # aliyun, jsdelivr, unpkg, personal
+  # custom_url: https://mygithubcdn.educatedtest.eu.org/hexo-theme-redefine/${version}/source/${path}
 # CDN <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
